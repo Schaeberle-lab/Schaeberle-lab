@@ -1,14 +1,12 @@
 ---
-title: "Allan Lab - Home"
+title: "Schäberle Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "Schäberle Lab at University of Giessen"
 sitemap: false
 permalink: /
 ---
 
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
-
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
+We are a dynamic research group at [JLU Giessen]([https://www.physik.lmu.de/en/index.html](https://www.uni-giessen.de/de/fbz/fb09/institute/iib/nsf)) and at the [Fraunhofer IME]([https://www.ime.fraunhofer.de/en/Research_Divisions/bioresources/NaturalProductDepartment.html]). 
 
 We have two overarching goals: first, 
 **to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
