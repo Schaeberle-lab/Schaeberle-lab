@@ -1,0 +1,150 @@
+# ============================================================
+# _data/publist.yml
+# Schäberle Lab – Natural Product Research, JLU Giessen
+# ============================================================
+# highlight: 1  →  featured on home page with image & description
+# highlight: 0  →  listed on publications page only
+# image: filename in /images/pubpic/ (use "dummy.png" if none yet)
+# ============================================================
+
+# ── 2026 ─────────────────────────────────────────────────────
+
+- title: "Design of dsRNA lipid nanoparticle formulations for RNAi-mediated pest control"
+  image: dummy.png
+  description: ""
+  authors: "Geisler P, Knorr E, Steiniger F, Levin A, Hartwig C, Schäberle TF, Vilcinskas A, Hellmann C"
+  link:
+    url: "#"
+    display: "Scientific Reports (2026, accepted)"
+  highlight: 0
+
+- title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
+  image: dummy.png
+  description: "We characterised the mechanism of action of Altenusin and developed an optimised production process for this promising fungal scaffold."
+  authors: "Reyes Castillo N, Spohn M*, Zumkeller CM, Marner M, Liu Y, Patras MA, Kersten C, Magari F, Grünweller A, Schäberle TF*"
+  link:
+    url: "#"
+    display: "RSC Advances (2026, accepted)"
+  highlight: 0
+
+- title: "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
+  image: dummy.png
+  description: ""
+  authors: "Susanto F, Riyanti, Syakuri H, Nursid M, Schäberle TF, Mettal U, Choi J-S*, Meinita MDN*"
+  link:
+    url: "https://doi.org/10.3390/medicina62010218"
+    display: "Medicina, 2026, 62, 218"
+  highlight: 0
+
+# ── 2025 ─────────────────────────────────────────────────────
+
+- title: "Molecular Insights into How the Motions of the β-Barrel and POTRA Domains of BamA Are Coupled for Efficient Function"
+  image: bama2025.png
+  description: "Structural and functional study of the essential bacterial outer membrane protein assembly machinery (BAM complex), a key antibiotic target."
+  authors: "Csoma N, Machin JM, Whitehouse JM, ..., Schäberle TF, ..., Collet JF*"
+  link:
+    url: "https://doi.org/10.1038/s41467-025-63897-y"
+    display: "Nature Communications, 2025, 16, 8832"
+  highlight: 1
+
+- title: "A genetically tractable branch of environmental Pedobacter from the phylum Bacteroidota represents a hotspot for natural product discovery"
+  image: pedobacter2025.png
+  description: "We identified Pedobacter strains as a rich source of natural products and established them as a genetically accessible chassis for biosynthetic studies."
+  authors: "Liu Y§, Linares-Otoya L§, Mihajlovic S, ..., Zumkeller CM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1038/s41598-025-03955-z"
+    display: "Scientific Reports, 2025, 20106"
+  highlight: 1
+
+- title: "Expanding the Range of Darobactin Derivatives by Amber Stop Codon Suppression To Introduce Non-canonical Amino Acids"
+  image: darobactin2025.png
+  description: "We expanded the chemical diversity of the novel antibiotic darobactin by introducing non-canonical amino acids via amber stop codon suppression."
+  authors: "Kramer JK, Wuisan ZG, Mettal U, Marner M, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acsomega.4c10307"
+    display: "ACS Omega, 2025, 10, 18356–18363"
+  highlight: 1
+
+# ── 2024 ─────────────────────────────────────────────────────
+
+- title: "Outer membrane protein assembly mediated by BAM-SurA complexes"
+  image: dummy.png
+  description: ""
+  authors: "Fenn KL, Horne JE, Crossley JA, Böhringer N, ..., Schäberle TF, Calabrese AN, Radford SE*, Ranson NA*"
+  link:
+    url: "https://doi.org/10.1038/s41467-024-51358-x"
+    display: "Nature Communications, 2024, 15, 7612"
+  highlight: 0
+
+- title: "Physicochemical interaction between osmotic stress and a bacterial secondary metabolite promotes plant disease"
+  image: natcomm2024.png
+  description: "We showed that a bacterial natural product synergises with osmotic stress to promote plant disease, revealing a new ecological function for specialised metabolites."
+  authors: "Getzke F, Wang L, Chesneau G, Böhringer N, ..., Schäberle TF*, Hacquard S*"
+  link:
+    url: "https://doi.org/10.1038/s41467-024-48517-5"
+    display: "Nature Communications, 2024, 15, 4438"
+  highlight: 1
+
+# ── 2023 ─────────────────────────────────────────────────────
+
+- title: "Genome- and Metabolome-Guided Discovery of Marine BamA Inhibitors Revealed a Dedicated Darobactin Halogenase Involved in their Biosynthesis"
+  image: cellchembioldaro.png
+  description: "Using genome and metabolome mining, we discovered new marine-derived inhibitors of the BamA protein and characterised the halogenase responsible for their biosynthesis."
+  authors: "Böhringer N, Kramer JC, de la Mora E, ..., Mettal U*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.chembiol.2023.06.011"
+    display: "Cell Chemical Biology, 2023"
+  highlight: 1
+
+- title: "Co-functioning of bacterial exometabolites drives root microbiota establishment"
+  image: dummy.png
+  description: ""
+  authors: "Getzke F#, Hassani A#, Crüsemann M, ..., Schäberle TF, Hacquard S*, Schulze-Lefert P*"
+  link:
+    url: "https://doi.org/10.1073/pnas.2221508120"
+    display: "PNAS, 2023, 120(15), e2221508120"
+  highlight: 0
+
+# ── 2022 ─────────────────────────────────────────────────────
+
+- title: "Bioactive natural products from Bacteroidetes"
+  image: natrepprod2022.png
+  description: "Comprehensive review of natural products biosynthesised by the underexplored Bacteroidetes phylum, including antibiotic and antifungal compounds."
+  authors: "Brinkmann S, Spohn MS, Schäberle TF"
+  link:
+    url: "https://doi.org/10.1039/D1NP00072A"
+    display: "Natural Product Reports, 2022, 39, 1045–1065"
+  highlight: 1
+
+# ── 2021 ─────────────────────────────────────────────────────
+
+- title: "Identification of the Minimal Darobactin A Biosynthetic Gene Cluster and Optimization of its Heterologous Expression"
+  image: dummy.png
+  description: ""
+  authors: "Wuisan ZG, Kresna ID, Böhringer N, Lewis K, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.ymben.2021.04.007"
+    display: "Metabolic Engineering, 2021, 66, 123–136"
+  highlight: 0
+
+# ── 2019 (landmark) ──────────────────────────────────────────
+
+- title: "A new antibiotic selectively kills Gram-negative pathogens"
+  image: nature2019.png
+  description: "Discovery and characterisation of darobactin, a pioneering antibiotic that selectively kills Gram-negative pathogens including drug-resistant strains. Published in Nature."
+  authors: "Imai Y, Meyer KJ, Iinishi A, ..., Böhringer N, Wuisan ZG, ..., Schäberle TF, D'Onofrio A, Lewis K"
+  link:
+    url: "https://doi.org/10.1038/s41586-019-1791-1"
+    display: "Nature, 2019, 576, 459–464"
+  highlight: 1
+
+# ── 2015 (landmark) ──────────────────────────────────────────
+
+- title: "A novel antibiotic kills pathogens without detectable resistance"
+  image: dummy.png
+  description: "Co-discovery of teixobactin, a breakthrough antibiotic that kills pathogens without generating detectable resistance. Published in Nature."
+  authors: "Ling LL, Schneider T, Peoples AJ, ..., Schäberle TF, ..., Lewis K*"
+  link:
+    url: "https://doi.org/10.1038/nature14098"
+    display: "Nature, 2015, 517, 455–459"
+  highlight: 1
