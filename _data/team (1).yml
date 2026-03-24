@@ -1,0 +1,212 @@
+# ============================================================
+# _data/team.yml
+# Schäberle Lab – Natural Product Research, JLU Giessen
+# ============================================================
+# HOW TO USE:
+#   - photo: filename only (e.g. "till.jpg") — upload to /images/teampic/
+#   - number_educ: how many education lines you fill in (0, 1 or 2)
+#   - highlight: set to 1 to feature prominently on the home page
+# ============================================================
+
+- name: Prof. Dr. Till F. Schäberle
+  photo: till.jpg
+  info: "Principal Investigator"
+  description: "Head of the Natural Product Research group at JLU Giessen and Fraunhofer IME. Research focus on discovery of new natural products, antibiotic biosynthesis, and synthetic biology."
+  email: Till.Schaeberle@agrar.uni-giessen.de
+  number_educ: 1
+  education1: "Professor, Justus-Liebig-Universität Giessen"
+  highlight: 1
+
+# ── Postdoctoral Research Associates ──────────────────────────
+
+- name: Dr. Yang Liu
+  photo: yang.jpg
+  info: "Postdoctoral Researcher"
+  description: "Research on marine-derived natural products and bacterial specialized metabolites."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Nils Böhringer
+  photo: nils.jpg
+  info: "Postdoctoral Researcher"
+  description: "Focus on darobactin biosynthesis and BAM complex inhibitors. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Zerlina G. Wuisan
+  photo: zerlina.jpg
+  info: "Postdoctoral Researcher"
+  description: "Biosynthesis and heterologous expression of antimicrobial compounds. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Michael Marner
+  photo: michael.jpg
+  info: "Postdoctoral Researcher"
+  description: "Assay development and screening at Fraunhofer IME. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Maria A. Patras
+  photo: maria.jpg
+  info: "Postdoctoral Researcher"
+  description: "Chemical analytics at Fraunhofer IME. Specialisation in metabolomics and LC-HRMS."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Connor B. Smieja
+  photo: connor.jpg
+  info: "Postdoctoral Researcher"
+  description: "Natural product chemistry and biological activity profiling."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Celine Mara Zumkeller
+  photo: celine.jpg
+  info: "Postdoctoral Researcher"
+  description: "Genome mining and discovery of natural products from Bacteroidota strains."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Marius S. Spohn
+  photo: marius.jpg
+  info: "Group Leader at Fraunhofer IME – Natural Product Department"
+  description: "Leads the natural product discovery pipeline at Fraunhofer IME."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Project Scientist ─────────────────────────────────────────
+
+- name: M.Sc. Winda A. Soerjawinata
+  photo: winda.jpg
+  info: "Project Scientist"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Graduate Students (PhDs) ──────────────────────────────────
+
+- name: M.Sc. Flaviana C. Susanto
+  photo: flaviana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Marine metabolomics and antibacterial potential of seaweeds."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Pascal-Marcel Geisler
+  photo: pascal.jpg
+  info: "Graduate Student (PhD)"
+  description: "Project in collaboration with Dr. Christoph Hellmann (Fraunhofer IME) on RNAi-mediated pest control."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Nicolas Reyes Castillo
+  photo: nicolas.jpg
+  info: "Graduate Student (PhD)"
+  description: "Mechanistic profiling and production of fungal natural products, including tyrosinase inhibitors."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Felix Mühlemeyer
+  photo: felix.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Joana A. Bauer-Klotz
+  photo: joana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Project: ProBioControl (Fraunhofer IME)."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Xufan Lian
+  photo: xufan.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Chaoyi Hu
+  photo: chaoyi.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Alexander C. Kinner
+  photo: alex.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Annabel Metje
+  photo: annabel.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Master Students ───────────────────────────────────────────
+
+- name: B.Sc. Najmul Alam
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Ribina Mundeth Abdul Kareem
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Jomol Jose
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Roshni Chetri
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Administration ────────────────────────────────────────────
+
+- name: Alexandra Bender
+  photo: alexandra.jpg
+  info: "Office Management"
+  description: "Administrative support for the Natural Product Research group."
+  email: ""
+  number_educ: 0
+  highlight: 0
