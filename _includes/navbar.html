@@ -1,0 +1,65 @@
+---
+title: "Navigation setup – _includes/navbar.html"
+---
+
+<!--
+  COPY THIS INTO: _includes/navbar.html
+  This replaces the default navigation bar of the Allan Lab template.
+  It adds the three new tabs: Instrumentation, Contact, Openings.
+-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+    <!-- Brand / Logo -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_lab.png"
+             style="height:30px; margin-top:-5px" alt="Schäberle Lab">
+      </a>
+    </div>
+
+    <!-- Menu items -->
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li {% if page.permalink == "/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+        </li>
+
+        <li {% if page.permalink == "/team/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/team">Team</a>
+        </li>
+
+        <li {% if page.permalink == "/research/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/research">Research</a>
+        </li>
+
+        <li {% if page.permalink == "/publications/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
+        </li>
+
+        <li {% if page.permalink == "/instrumentation/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/instrumentation">Instrumentation</a>
+        </li>
+
+        <li {% if page.permalink == "/openings/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/openings">Openings</a>
+        </li>
+
+        <li {% if page.permalink == "/contact/" %} class="active" {% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
