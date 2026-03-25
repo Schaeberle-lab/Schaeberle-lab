@@ -1,0 +1,1164 @@
+# ============================================================
+# _data/publist.yml
+# Schäberle Lab – Natural Product Research, JLU Giessen
+# ALL publications with year field included
+# highlight: 1  → featured on home page with image & description
+# highlight: 0  → listed on publications page only
+# image: filename in /images/pubpic/ (use "dummy.png" if none yet)
+# ============================================================
+
+# ── 2026 ─────────────────────────────────────────────────────
+
+- title: "Tryptophan-Driven Metabolomic Shift in Acidobacteriaceae Reveals Phytohormones and Antifungal Metabolites"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Zumkeller CM, Hartwig C, Lanzalonga W, Patras MA, Liu Y, Marner M, Mihajlovic S, Spohn MS*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1101/2025.10.02.680145"
+    display: "Preprint, bioRxiv (2026)"
+  highlight: 0
+
+- title: "Nanoliter-scale selection of optimized bioengineered peptide antibiotics that rescue mice with bacterial lung infection"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Böhringer N, Wuisan ZG, Marner M, Kresna ID, Mettal U, Schmitt S, Reiter S, Liu Y, Brinkrolf K, Rupp O, Schwengers O, Findeisen J, Herold S, Matt U*, Schäberle TF*"
+  link:
+    url: "https://biorxiv.org/cgi/content/short/2024.05.30.596569v1"
+    display: "Preprint, bioRxiv (2026)"
+  highlight: 0
+
+- title: "Design of dsRNA lipid nanoparticle formulations for RNAi-mediated pest control"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Geisler P, Knorr E, Steiniger F, Levin A, Hartwig C, Schäberle TF, Vilcinskas A, Hellmann C*"
+  link:
+    url: "#"
+    display: "Scientific Reports (2026, accepted)"
+  highlight: 0
+
+- title: "Biodiversity affects the exometabolomes of four benthic functional groups in coral reefs"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Engelhardt KE, Vetter J, Wiederkehr F, Hartwig C, Klinkenbuß D, Sunagawa S, Schäberle TF, Ziegler M*"
+  link:
+    url: "https://doi.org/10.21203/rs.3.rs-5083584/v1"
+    display: "Coral Reefs (2026, accepted)"
+  highlight: 0
+
+- title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
+  year: 2026
+  image: dummy.png
+  description: "Characterised the mechanism of action of Altenusin and developed optimised production for this promising fungal tyrosinase inhibitor scaffold."
+  authors: "Reyes Castillo N, Spohn M*, Zumkeller CM, Marner M, Liu Y, Patras MA, Kersten C, Magari F, Grünweller A, Schäberle TF*"
+  link:
+    url: "#"
+    display: "RSC Advances (2026, accepted)"
+  highlight: 0
+
+- title: "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Susanto F, Riyanti, Syakuri H, Nursid M, Schäberle TF, Mettal U, Choi J-S*, Meinita MDN*"
+  link:
+    url: "https://doi.org/10.3390/medicina62010218"
+    display: "Medicina, 2026, 62, 218"
+  highlight: 0
+
+- title: "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
+  year: 2026
+  image: dummy.png
+  description: ""
+  authors: "Susanto F, Wuisan ZG, Spohn M, Schäberle TF*, Marner M*"
+  link:
+    url: "https://doi.org/10.1128/spectrum.02868-25"
+    display: "Microbiology Spectrum (2026, online first)"
+  highlight: 0
+
+# ── 2025 ─────────────────────────────────────────────────────
+
+- title: "Bioactive Compounds Profiling of Agarophytes based on LC-HRMS Metabolomic and Molecular Networking Approach for Nutraceutical and Therapeutic Application"
+  year: 2025
+  image: dummy.png
+  description: ""
+  authors: "Meinita MDN, Riyanti*, Sanjayasari D, Riviani, Harwanto D, Jiso A, Schäberle TF, Mettal U, Moon I-S, Choi J-S*"
+  link:
+    url: "https://doi.org/10.3390/foods14234042"
+    display: "Foods, 2025, 14(23), 4042"
+  highlight: 0
+
+- title: "Carbon-source Effects on Growth and Secondary Metabolism in the Marine Bacteroidota Tenacibaculum mesophilum and Fulvivirga kasyanovii"
+  year: 2025
+  image: dummy.png
+  description: ""
+  authors: "Linares-Otoya L*, Linares-Otoya V, Galliani-Huamanchumo I, Carrion-Zavaleta T, Condor-Goytizolo J, Schäberle TF, Ganoza-Yupanqui M, Campos-Florian J*"
+  link:
+    url: "https://doi.org/10.3390/md23100394"
+    display: "Marine Drugs, 2025, 23, 394"
+  highlight: 0
+
+- title: "Molecular Insights into How the Motions of the β-Barrel and POTRA Domains of BamA Are Coupled for Efficient Function"
+  year: 2025
+  image: bama2025.png
+  description: "Structural and functional study of the essential bacterial BAM complex, a validated antibiotic target. Collaboration with the Radford, Ranson, and Collet groups."
+  authors: "Csoma N, Machin JM, Whitehouse JM, Rodríguez-Alonso R, Olejnik M, Cahill AK, Cho SH, Schäberle TF, Iorga BI, Ranson NA, Radford SE*, Calabrese AN*, Collet JF*"
+  link:
+    url: "https://doi.org/10.1038/s41467-025-63897-y"
+    display: "Nature Communications, 2025, 16, 8832"
+  highlight: 1
+
+- title: "Linear peptides from the venom of large marsh horsefly (Tabanus autumnalis) larvae facilitate prey capture and defense"
+  year: 2025
+  image: dummy.png
+  description: ""
+  authors: "Dersch L*, Bohlken O, Krämer J, Schulte L, Hardes K, Marner M, Schäberle TF, Vilcinskas A, Lüddecke T*"
+  link:
+    url: "https://doi.org/10.1016/j.ibmb.2025.104349"
+    display: "Insect Biochemistry and Molecular Biology, 2025, 182, 104349"
+  highlight: 0
+
+- title: "A genetically tractable branch of environmental Pedobacter from the phylum Bacteroidota represents a hotspot for natural product discovery"
+  year: 2025
+  image: pedobacter2025.png
+  description: "We identified Pedobacter strains as a rich, genetically accessible source of novel natural products within the understudied Bacteroidota phylum."
+  authors: "Liu Y§, Linares-Otoya L§, Mihajlovic S, Abdeldayem HM, Semmler S, Beltz MC, Vences M, Spohn M, Zumkeller CM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1038/s41598-025-03955-z"
+    display: "Scientific Reports, 2025, 20106"
+  highlight: 1
+
+- title: "Expanding the Range of Darobactin Derivatives by Amber Stop Codon Suppression To Introduce Non-canonical Amino Acids"
+  year: 2025
+  image: darobactin2025.png
+  description: "Chemical diversity of the novel antibiotic darobactin expanded by introducing non-canonical amino acids via amber stop codon suppression."
+  authors: "Kramer JK, Wuisan ZG, Mettal U, Marner M, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acsomega.4c10307"
+    display: "ACS Omega, 2025, 10, 18356–18363"
+  highlight: 1
+
+- title: "Harnessing the metabolites from the marine sponge Melophlus sarasinorum for the discovery of eco-friendly antifoulants"
+  year: 2025
+  image: dummy.png
+  description: ""
+  authors: "Balansa W*, Riyanti, Patras MA, Balansa KH, Hanif N, Rieuwpassa FJ, Hill M, Schäberle TF"
+  link:
+    url: "https://doi.org/10.13057/biodiv/d260411"
+    display: "Biodiversitas, 2025, 26, 1589–1605"
+  highlight: 0
+
+- title: "Molecular networking reveals indole diterpenoids from the marine-derived fungus Penicillium sp. N4-3"
+  year: 2025
+  image: dummy.png
+  description: ""
+  authors: "Chen M*, Hao BC, Li S, Li-Kui Z, Yao-Yao Z, Cai-Juan Z, Xiao-Jian Z, Schäberle TF, Wang C*, Liu Y*"
+  link:
+    url: "https://doi.org/10.1007/s42995-024-00274-6"
+    display: "Marine Life Science & Technology, 2025"
+  highlight: 0
+
+# ── 2024 ─────────────────────────────────────────────────────
+
+- title: "Radical-mediated nucleophilic peptide crosslinking in dynobactin biosynthesis"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Nguyen BX, Gurusinga FF, Mettal U, Schäberle TF, Yokoyama K*"
+  link:
+    url: "https://doi.org/10.1021/jacs.4c10425"
+    display: "JACS, 2024, 146(46), 31715–31732"
+  highlight: 0
+
+- title: "Outer membrane protein assembly mediated by BAM-SurA complexes"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Fenn KL, Horne JE, Crossley JA, Böhringer N, Horne RJ, Schäberle TF, Calabrese AN, Radford SE*, Ranson NA*"
+  link:
+    url: "https://doi.org/10.1038/s41467-024-51358-x"
+    display: "Nature Communications, 2024, 15, 7612"
+  highlight: 0
+
+- title: "Determining the pharmacological potential and biological role of linear pseudoscorpion toxins via functional profiling"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Erkoc P, Schiffmann S, Ulshöfer T, Henke M, Marner M, Krämer J, Predel R, Schäberle TF, Hurka S, Dersch L, Vilcinskas A, Fürst R*, Lüddecke T*"
+  link:
+    url: "https://doi.org/10.1016/j.isci.2024.110209"
+    display: "iScience, 2024, 110209"
+  highlight: 0
+
+- title: "5'-Methoxyarmillane, a bioactive sesquiterpenoid aryl ester from the fungus Armillaria ostoyae"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Orban A, Eichberg J, Marner M, Breuer S, Patras M, Mettal U, Schäberle TF, Rühl M*"
+  link:
+    url: "https://doi.org/10.1002/cbic.202400168"
+    display: "ChemBioChem, 2024, e202400168"
+  highlight: 0
+
+- title: "Physicochemical interaction between osmotic stress and a bacterial secondary metabolite promotes plant disease"
+  year: 2024
+  image: natcomm2024.png
+  description: "A bacterial natural product synergises with osmotic stress to promote plant disease, revealing a new ecological function for specialised metabolites."
+  authors: "Getzke F, Wang L, Chesneau G, Böhringer N, Mesny F, Denissen N, Wesseler H, Tijesuni Adisa P, Marner M, Schulze-Lefert P, Schäberle TF*, Hacquard S*"
+  link:
+    url: "https://doi.org/10.1038/s41467-024-48517-5"
+    display: "Nature Communications, 2024, 15, 4438"
+  highlight: 1
+
+- title: "Draft Genome Sequence of Joostella sp. PAP.153, Isolated from a Marine Sponge of Papua, Indonesia"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Riyanti#, Zumkeller CM#, Spohn M, Mihajlovic S, Schwengers O, Goesmann A, Riviani R, Nur Meinita MD, Budi Hastuti DW, Prihatiningsih I, Dewi R, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1128/mra.01297-23"
+    display: "Microbiology Resource Announcements, 2024"
+  highlight: 0
+
+- title: "Design, synthesis and antimycobacterial activity of imidazo[1,5-a]quinolines and their zinc-complexes"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Marner M#, Kulhanek N#, Eichberg J, Hardes K, Dal Molin M, Rybniker J, Kirchner M, Schäberle TF, Göttlich R*"
+  link:
+    url: "https://doi.org/10.1039/d4md00086b"
+    display: "RSC Medicinal Chemistry, 2024"
+  highlight: 0
+
+- title: "Draft Genome Sequences of 21 Pedobacter strains isolated from amphibian specimens"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Zumkeller CM, Bletz M, Rakotoarison A, Sabino-Pinto J, Reiter S, Spohn M, Schwengers O, Goesmann A, Vences M, Mihajlovic S, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1128/mra.01185-23"
+    display: "Microbiology Resource Announcements, 2024, 13(4), e0118523"
+  highlight: 0
+
+- title: "Sponge-Based Ecofriendly Antifouling: Field Study on Nets, Molecular Docking with Agelasine Alkaloids"
+  year: 2024
+  image: dummy.png
+  description: ""
+  authors: "Balansa W*, Riyanti, Manurung UN, Tomasoa AM, Hanif N, Rieuwpassa FJ, Schäberle TF"
+  link:
+    url: "#"
+    display: "Tropical Journal of Natural Product Research, 2024, 8(1), 5913–5924"
+  highlight: 0
+
+# ── 2023 ─────────────────────────────────────────────────────
+
+- title: "Functional analysis in vitro and in vivo of biosynthetic genes by heterologous expression in E. coli"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Kramer JC, Böhringer N, Mettal U*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.xpro.2023.102531"
+    display: "STAR Protocols, 2023, 4(3), 102531"
+  highlight: 0
+
+- title: "Talaromyces purpureogenus strains from Apis mellifera bee bread inhibit the growth of Paenibacillus spp. in vitro"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Vocadlova K, Lüddecke T, Patras MA, Marner M, Hartwig C, Benes K, Matha V, Mraz P, Schäberle TF, Vilcinskas A*"
+  link:
+    url: "https://doi.org/10.3390/microorganisms11082067"
+    display: "Microorganisms, 2023, 11(8), 2067"
+  highlight: 0
+
+- title: "Genome- and Metabolome-Guided Discovery of Marine BamA Inhibitors Revealed a Dedicated Darobactin Halogenase Involved in their Biosynthesis"
+  year: 2023
+  image: cellchembioldaro.png
+  description: "Genome and metabolome mining identified new marine-derived BamA inhibitors and characterised the halogenase DarH responsible for their biosynthesis."
+  authors: "Böhringer N, Kramer JC, de la Mora E, Padva L, Wuisan ZG, Liu Y, Kurz M, Marner M, Nguyen H, Amara P, Yokoyama K, Nicolet Y, Mettal U*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.chembiol.2023.06.011"
+    display: "Cell Chemical Biology, 2023"
+  highlight: 1
+
+- title: "Darobactin B stabilises a lateral-closed conformation of the BAM complex in intact E. coli cells"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Haysom SF, Machin J, Horne JE, Fenn K, Ma Y, El Mkami H, Böhringer N, Schäberle TF, Ranson NA, Radford SE*, Pliotas C*"
+  link:
+    url: "https://doi.org/10.1002/anie.202218783"
+    display: "Angewandte Chemie International Edition, 2023"
+  highlight: 0
+
+- title: "Co-functioning of bacterial exometabolites drives root microbiota establishment"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Getzke F#, Hassani A#, Crüsemann M, Malisic M, Zhang P, Ishigaki Y, Böhringer N, Jiménez Fernández A, Wang L, Ordon J, Ma KW, Wesseler H, Miyauchi S, Garrido-Oter R, Shirasu K, Schäberle TF, Hacquard S*, Schulze-Lefert P*"
+  link:
+    url: "https://doi.org/10.1073/pnas.2221508120"
+    display: "PNAS, 2023, 120(15), e2221508120"
+  highlight: 0
+
+- title: "Draft Genome Sequences of Algoriphagus sp. PAP.12 and Roseivirga sp. PAP.19, Isolated from Marine Samples of Papua, Indonesia"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Riyanti#, Zumkeller CM#, Spohn M, Mihajlovic S, Schwengers O, Goesmann A, Choironie NA, Schäberle TF*, Harwoko H*"
+  link:
+    url: "https://doi.org/10.1128/mra.01264-22"
+    display: "Microbiology Resource Announcements, 2023"
+  highlight: 0
+
+- title: "Draft Genome Sequences of Sinomicrobium sp. PAP.21, Isolated from a Coast Sample of Papua, Indonesia"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Riyanti#, Zumkeller CM#, Spohn M, Mihajlovic S, Schwengers O, Goesmann A, Riviani R, Meinita MDN, Schäberle TF*, Harwoko H*"
+  link:
+    url: "https://doi.org/10.1128/mra.01268-22"
+    display: "Microbiology Resource Announcements, 2023"
+  highlight: 0
+
+- title: "Is a Modified Actin the Key to Toxin Resistance in the Nudibranch Chromodoris? A Biochemical and Molecular Approach"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Hertzer C*, Undap NIJ, Papu A, Bhandari DR, Aatz S, Kehraus S, Kaligis F, Bara R, Schäberle TF, Wägele H, König GM"
+  link:
+    url: "https://doi.org/10.3390/d15020304"
+    display: "Diversity, 2023, 15, 304"
+  highlight: 0
+
+- title: "Antimicrobial activity of novel darobactin analogs against multi-drug-resistant Pseudomonas aeruginosa from cystic fibrosis patients"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Marner M, Kolberg L, Horst J, Böhringer N, Hübner J, Kresna ID, Liu Y, Mettal U, Wang L, Meyer-Bühn M, Mihajlovic S, Kappler M, Schäberle TF*, von Both U*"
+  link:
+    url: "https://doi.org/10.1128/spectrum.04437-22"
+    display: "Microbiology Spectrum, 2023"
+  highlight: 0
+
+- title: "Production of antimicrobial compounds by homologous and heterologous expression"
+  year: 2023
+  image: dummy.png
+  description: ""
+  authors: "Kresna ID, Wuisan ZG, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1007/978-1-0716-2855-3_4"
+    display: "Methods in Molecular Biology, 2023, 2601, 55–73"
+  highlight: 0
+
+# ── 2022 ─────────────────────────────────────────────────────
+
+- title: "Seven New Alkaloids Isolated from Marine Flavobacterium Tenacibaculum discolor sv11"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Wang L, Marner M, Mettal U, Liu Y*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/md20100620"
+    display: "Marine Drugs, 2022, 20(10), 620"
+  highlight: 0
+
+- title: "Characterization of DarE as a Radical SAM Oxygenase for the Ether Crosslinking in Darobactin Biosynthesis"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Nguyen H, Kresna ID, Böhringer N, Ruel J, de la Mora E, Kramer JC, Lewis K, Nicolet Y*, Schäberle TF*, Yokoyama K*"
+  link:
+    url: "https://doi.org/10.1021/jacs.2c05565"
+    display: "JACS, 2022"
+  highlight: 0
+
+- title: "Isolation, characterization, and bioactivity profiling of oxazoline containing madurastatin siderophores from Actinomadura sp."
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Bill MK, Kleiner Y, Flügel JL, Kurz M, Spohn MS, Marner M, Mihajlovic S, Vilcinskas A, Schäberle TF, Hammann PE, Patras MA*, Schuler SMM*"
+  link:
+    url: "https://doi.org/10.1038/s41429-022-00557-z"
+    display: "Antibiotics, 2022"
+  highlight: 0
+
+- title: "Discovery and Biosynthesis of Antimicrobial Phenethylamine Alkaloids from the Marine Flavobacterium Tenacibaculum discolor sv11"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Wang L, Linares-Otoya V, Liu Y*, Mettal U, Marner M, Armas-Mantilla L, Willbold S, Kurtan T, Linares-Otoya L*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acs.jnatprod.1c01173"
+    display: "Journal of Natural Products, 2022"
+  highlight: 0
+
+- title: "Genomic and chemical decryption of the Bacteroidetes phylum for its potential to biosynthesize natural products"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Brinkmann S, Kurz M, Patras MA, Hartwig C, Marner M, Leis B, Billion A, Kleiner Y, Bauer A, Toti L, Pöverlein C, Hammann PE, Vilcinskas A, Glaeser J, Spohn MS*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1128/spectrum.02479-21"
+    display: "Microbiology Spectrum, 2022"
+  highlight: 0
+
+- title: "Trichoderma-derived pentapeptides from the infected nest mycobiome of the subterranean termite Coptotermes testaceus"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Oberpaul M, Spohn M, Brinkmann S, Mihajlovic S, Marner M, Patras MA, Toti L, Kurz M, Hammann PE, Vilcinskas A, Glaeser J*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1002/cbic.202100698"
+    display: "ChemBioChem, 2022"
+  highlight: 0
+
+- title: "Bioactive natural products from Bacteroidetes"
+  year: 2022
+  image: natrepprod2022.png
+  description: "Comprehensive review of natural products from the understudied Bacteroidetes phylum, covering antibiotics, antifungals, and other bioactive scaffolds."
+  authors: "Brinkmann S, Spohn MS, Schäberle TF"
+  link:
+    url: "https://doi.org/10.1039/D1NP00072A"
+    display: "Natural Product Reports, 2022, 39, 1045–1065"
+  highlight: 1
+
+- title: "Identification, Characterization and Synthesis of Natural Parasitic Cysteine Protease Inhibitors – More Potent Falcitidin Analogs"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Brinkmann S#, Semmler S#, Kersten C, Patras MA, Kurz M, Fuchs N, Hammerschmidt SJ, Legac J, Hammann PE, Vilcinskas A, Rosenthal PJ, Schirmeister T, Bauer A*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acschembio.1c00861"
+    display: "ACS Chemical Biology, 2022"
+  highlight: 0
+
+- title: "Discovery of Marine Natural Products as Promising Antibiotics against Pseudomonas aeruginosa"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Li H#, Maimaitiming M#, Zhou Y, Li H, Wang P, Liu Y, Schäberle TF, Liu Z*, Wang C-Y*"
+  link:
+    url: "https://doi.org/10.3390/md20030192"
+    display: "Marine Drugs, 2022, 20, 192"
+  highlight: 0
+
+- title: "Genome Mining-Guided Discovery and Characterization of the PKS-NRPS-Hybrid Polyoxyperuin produced by a Marine-Derived Streptomycete"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Kresna ID, Wuisan ZG, Pohl JM, Mettal U*, Linares-Otoya V, Gand M, Marner M, Linares-Otoya L, Böhringer N, Vilcinskas A, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acs.jnatprod.1c01018"
+    display: "Journal of Natural Products, 2022"
+  highlight: 0
+
+- title: "Antidiabetic Profiling of Veramycins, Polyketides Accessible by Biosynthesis, Chemical Synthesis, and Precursor-Directed Modification"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Dardić D, Böhringer N, Plaza A, Zubeil F, Pohl J, Sommer S, Padva L, Becker J, Patras MA, Bill M, Kurz M, Toti L, Görgens SW, Schuler SMM, Billion A, Schwengers O, Wohlfart P, Goesmann A, Tennagels N, Vilcinskas A, Hammann PE, Schäberle TF*, Bauer A*"
+  link:
+    url: "https://doi.org/10.1039/D1QO01652K"
+    display: "Organic Chemistry Frontiers, 2022"
+  highlight: 0
+
+- title: "Antimicrobial, Insecticidal and Cytotoxic Activity of Linear Venom Peptides from the Pseudoscorpion Chelifer cancroides"
+  year: 2022
+  image: dummy.png
+  description: ""
+  authors: "Krämer J, Lüddecke T, Marner M, Maiworm E, Eichberg J, Hardes K, Schäberle TF, Vilcinskas A, Predel R*"
+  link:
+    url: "https://doi.org/10.3390/toxins14010058"
+    display: "Toxins, 2022, 14, 58"
+  highlight: 0
+
+# ── 2021 ─────────────────────────────────────────────────────
+
+- title: "Mutasynthetic production and antimicrobial characterisation of Darobactin analogs"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Böhringer N#, Green R#, Liu Y, Mettal U, Marner M, Modaresi SM, Jakob RP, Wuisan ZG, Maier T, Iinishi A, Hiller S, Lewis K*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1128/spectrum.01535-21"
+    display: "Microbiology Spectrum, 2021, 9(3), e01535-21"
+  highlight: 0
+
+- title: "Two-step generation of monodisperse agarose-solidified double emulsions (w/w/o) excluding an inner oil barrier"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Brinkmann S, Oberpaul M, Glaeser J*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.mex.2021.101565"
+    display: "MethodsX, 2021, 8, 101565"
+  highlight: 0
+
+- title: "Evaluation of the Floyocidin scaffold as an anti-tuberculosis hit series"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Kleiner Y, Pöverlein C, Klädtke J, Kurz M, König H, Becker J, Mihajlovic S, Zubeil F, Marner M, Vilcinskas A, Schäberle TF, Hammann PE, Schuler SMM*, Bauer A*"
+  link:
+    url: "https://doi.org/10.1002/cmdc.202100644"
+    display: "ChemMedChem, 2021"
+  highlight: 0
+
+- title: "Novel glycerophospholipid, lipo- and N-acyl amino acids from Bacteroidetes: Isolation, structure elucidation and bioactivity"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Bill MK#, Brinkmann S#, Oberpaul M, Patras MA, Leis B, Marner M, Maitre MP, Hammann PE, Vilcinskas A, Schuler SMM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/molecules26175195"
+    display: "Molecules, 2021, 26, 5195"
+  highlight: 0
+
+- title: "Natural sesquiterpene quinones activate the DNA damage response and trigger cell death in p53-wildtype and mutant colorectal cancer"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Jiso A, Demuth P, Bachowsky M, Haas M, Seiwert N, Heylmann D, Rasenberger B, Christmann M, Dietrich L, Brunner T, Riyanti, Schäberle TF, Plubrukarn A, Fahrer J*"
+  link:
+    url: "https://doi.org/10.3390/cancers13133282"
+    display: "Cancers, 2021, 13, 3282"
+  highlight: 0
+
+- title: "Combination of high-throughput Microfluidics- and FACS technologies to leverage the numbers game in natural product discovery"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Oberpaul M#, Brinkmann S#, Marner M, Mihajlovic S, Leis B, Patras MA, Hartwig C, Vilcinskas A, Hammann PE, Schäberle TF*, Spohn M*, Glaeser J*"
+  link:
+    url: "https://doi.org/10.1111/1751-7915.13872"
+    display: "Microbial Biotechnology, 2021"
+  highlight: 0
+
+- title: "Elevated expression of toxin TisB protects persister cells against ciprofloxacin but enhances susceptibility to mitomycin C"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Edelmann D, Leinberger FH, Schmid NE, Oberpaul M, Schäberle TF, Berghoff BA*"
+  link:
+    url: "https://doi.org/10.3390/microorganisms9050943"
+    display: "Microorganisms, 2021, 9(5), 943"
+  highlight: 0
+
+- title: "Identification of the Minimal Darobactin A Biosynthetic Gene Cluster and Optimization of its Heterologous Expression"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Wuisan ZG, Kresna ID, Böhringer N, Lewis K, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1016/j.ymben.2021.04.007"
+    display: "Metabolic Engineering, 2021, 66, 123–136"
+  highlight: 0
+
+- title: "A Series of Meroterpenoids with Rearranged Skeletons from an Endophytic Fungus Penicillium sp. GDGJ-285"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Mo T, Huang X, Zhang W, Schäberle TF, Qin JK, Zhou D, Qin X, Xu Z, Li B, Li J, Yang RY*"
+  link:
+    url: "https://doi.org/10.1039/D1QO00173F"
+    display: "Organic Chemistry Frontiers, 2021, 8, 2232–2241"
+  highlight: 0
+
+- title: "In vitro Characterization of Chlorophenolic Building Block Formation in Ambigol Biosynthesis"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Kresna ID, Linares Otoya L, Milzarek TM, Duell E, Mir Moseni M, Mettal U, König GM, Gulder TAM, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1039/D0OB02372H"
+    display: "Organic & Biomolecular Chemistry, 2021, 19, 2302–2311"
+  highlight: 0
+
+- title: "Heterologous expression of pseudouridimycin and description of the corresponding minimal biosynthetic gene cluster"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Böhringer N, Patras MA, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/molecules26020510"
+    display: "Molecules, 2021, 26, 510"
+  highlight: 0
+
+- title: "Post-transcriptional deregulation of the tisB/istR-1 toxin-antitoxin system promotes SOS-independent persister formation in Escherichia coli"
+  year: 2021
+  image: dummy.png
+  description: ""
+  authors: "Edelmann D, Oberpaul M, Schäberle TF, Berghoff BA*"
+  link:
+    url: "https://doi.org/10.1111/1758-2229.12919"
+    display: "Environmental Microbiology Reports, 2021, 13, 159–168"
+  highlight: 0
+
+# ── 2020 ─────────────────────────────────────────────────────
+
+- title: "Sustainable Low-Volume Analysis of Environmental Samples by Semi-automated Prioritization of Extracts for Natural Product Research (SeaPEPR)"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Riyanti#, Marner M#, Hartwig C, Patras M, Wodi SIM, Riewupassa FJ, Ijong FG, Balansa W*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/md18120649"
+    display: "Marine Drugs, 2020, 18, 649"
+  highlight: 0
+
+- title: "Three new andrastin derivatives from the endophytic fungus Penicillium vulpinum"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Qin Y, Huang X, Liu X, Mo T, Xu Z, Li B, Qin X, Li J, Schäberle TF, Yang R*"
+  link:
+    url: "https://doi.org/10.1080/14786419.2020.1853725"
+    display: "Natural Product Research, 2020"
+  highlight: 0
+
+- title: "High-Throughput Cultivation for the Selective Isolation of Acidobacteria From Termite Nests"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Oberpaul M, Zumkeller C, Spohn M, Mihajlovic S, Leis B, Plarre R, McMahon DP, Hammann P, Schäberle TF*, Glaeser J*, Vilcinskas A*"
+  link:
+    url: "https://doi.org/10.3389/fmicb.2020.597628"
+    display: "Frontiers in Microbiology, 2020, 11, 597628"
+  highlight: 0
+
+- title: "Selection of sponge-associated bacteria with high potential for the production of antibacterial compounds"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Riyanti, Balansa W, Liu Y, Sharma A, Mihajlovic S, Hartwig C, Leis B, Frans I, Wägele H, König GM, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1038/s41598-020-76256-2"
+    display: "Scientific Reports, 2020, 10, 19614"
+  highlight: 0
+
+- title: "Metabolomics-guided discovery of new cyclic lipopeptides from Pseudomonas sp. with anti-Gram-negative activity"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Marner M*, Patras M, Kurz M, Zubeil F, Förster F, Schuler S, Bauer A, Hammann P, Vilcinskas A, Schäberle TF, Glaeser J"
+  link:
+    url: "https://doi.org/10.1021/acs.jnatprod.0c00263"
+    display: "Journal of Natural Products, 2020"
+  highlight: 0
+
+- title: "Identification, Cloning, Expression and Functional Interrogation of the Biosynthetic Pathway of the Polychlorinated Triphenyls Ambigol A–C from Fischerella ambigua 108b"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Duell E, Milzarek TM, El Omari M, Linares Otoya LJ, Schäberle TF, König GM, Gulder TAM*"
+  link:
+    url: "https://doi.org/10.1039/D0QO00707B"
+    display: "Organic Chemistry Frontiers, 2020"
+  highlight: 0
+
+- title: "Antibacterial Scalarane from Doriprismatica stellata Nudibranchs, Egg Ribbons, and their Dietary Sponge Spongia cf. agaricina"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Hertzer C, Kehraus S, Böhringer N, Kaligis F, Bara R, Erpenbeck D, Schäberle TF, Wägele H, König GM*"
+  link:
+    url: "https://doi.org/10.3762/bjoc.16.132"
+    display: "Beilstein Journal of Organic Chemistry, 2020, 16, 1596–1605"
+  highlight: 0
+
+- title: "A New Citrinin Derivative from the Indonesian Marine Sponge-Associated Fungus Penicillium citrinum"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Sabdaningsih A*, Liu Y*, Mettal U, Heep J, Riyanti, Wang L, Cristianawati O, Nuryadi H, Sibero MT, Marner M, Radjasa OK, Sabdono A, Trianto A, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/md18040227"
+    display: "Marine Drugs, 2020, 18(4), 227"
+  highlight: 0
+
+- title: "Halogenation-guided chemical screening provides insight into tjipanazole biosynthesis by Fischerella ambigua"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Chilczuk T, Schäberle TF, Vahdati S, Mettal U, El Omari M, Enke H, Wiese M, König GM, Niedermeyer THJ*"
+  link:
+    url: "https://doi.org/10.1002/cbic.202000025"
+    display: "ChemBioChem, 2020, 21, 2170–2177"
+  highlight: 0
+
+- title: "Quintaquinone, a Merosesquiterpene from the Yellow Sponge Verongula cf. rigida Esper"
+  year: 2020
+  image: dummy.png
+  description: ""
+  authors: "Jiso A, Kittiwisut S, Chantakul R, Yuenyongsawad S, Putchakarn S, Schäberle TF, Temkitthaworn P, Ingkaninan K, Chaithirayanon K, Plubrukarn A*"
+  link:
+    url: "https://doi.org/10.1021/acs.jnatprod.9b00886"
+    display: "Journal of Natural Products, 2020, 83(2), 532–536"
+  highlight: 0
+
+# ── 2019 ─────────────────────────────────────────────────────
+
+- title: "A new antibiotic selectively kills Gram-negative pathogens"
+  year: 2019
+  image: nature2019.png
+  description: "Discovery of darobactin, a landmark antibiotic that selectively kills Gram-negative pathogens by targeting the essential outer membrane assembly factor BamA. Published in Nature."
+  authors: "Imai Y, Meyer KJ, Iinishi A, Favre-Godal Q, Green R, Manuse S, Caboni M, Mori M, Niles S, Ghiglieri M, Honrao C, Ma X, Guo J, Makriyannis A, Linares-Otoya L, Böhringer N, Wuisan ZG, Kaur H, Wu R, Mateus A, Typas A, Savitski MM, Espinoza JL, O'Rourke A, Nelson KE, Hiller S, Noinaj N, Schäberle TF, D'Onofrio A, Lewis K"
+  link:
+    url: "https://doi.org/10.1038/s41586-019-1791-1"
+    display: "Nature, 2019, 576(7787), 459–464"
+  highlight: 1
+
+- title: "First survey of heterobranch sea slugs from the island Sangihe, North Sulawesi, Indonesia"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Undap NIJ, Papu A, Schillo D, Gruber Ijong F, Kaligis F, Lepar M, Hertzer C, Böhringer N, König GM, Schäberle TF, Wägele H"
+  link:
+    url: "#"
+    display: "Diversity, 2019, 11(9), 170"
+  highlight: 0
+
+- title: "Description of a new Moridilla species from North Sulawesi, Indonesia"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Schillo D, Wipfler B, Undap NIJ, Papu A, Böhringer N, Eisenbarth JH, Kaligis F, Bara R, Schäberle TF, König GM, Wägele H"
+  link:
+    url: "https://doi.org/10.11646/zootaxa.4652.2.3"
+    display: "Zootaxa, 2019, 4652(2), 265–295"
+  highlight: 0
+
+- title: "New eremophilane-type sesquiterpenes and maleimide-bearing compounds from Carpesium abrotanoides L."
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Wang L, Jin G, Tian L, Ebrahim W, Höfert SP, Janiak C, Chen JF, Guo ZY, Schäberle TF, Liu Z, Proksch P, Zou K"
+  link:
+    url: "https://doi.org/10.1016/j.fitote.2019.104294"
+    display: "Fitoterapia, 2019"
+  highlight: 0
+
+- title: "Antibiotic-producing beneficial bacteria in the gut of the burying beetle Nicrophorus vespilloides"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Heise P, Liu Y, Degenkolb T, Vogel H, Schäberle TF, Vilcinskas A*"
+  link:
+    url: "https://doi.org/10.3389/fmicb.2019.01178"
+    display: "Frontiers in Microbiology, 2019, 10, 1178"
+  highlight: 0
+
+- title: "Complete Genome Sequence of the Corallopyronin A producing Myxobacterium Corallococcus coralloides B035"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Bouhired S, Rupp O, Blom J, Schäberle TF, Schiefer A, Kehraus S, Pfarr K, Goesmann A, Hoerauf A, König GM"
+  link:
+    url: "https://doi.org/10.1128/MRA.00050-19"
+    display: "Microbiology Resource Announcements, 2019, 8"
+  highlight: 0
+
+- title: "Tunicate-Associated Bacteria Show a Great Potential for the Discovery of Antimicrobial Compounds"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Ayuningrum D, Liu Y, Riyanti, Sibero MT, Kristiana R, Asagabaldan MA, Wuisan ZG, Trianto A, Radjasa OK, Sabdono A, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1371/journal.pone.0213797"
+    display: "PLoS ONE, 2019, 14, e0213797"
+  highlight: 0
+
+- title: "A New Sesquiterpenoid Aminoquinone from an Indonesian Marine Sponge"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Balansa W, Mettal U, Wuisan ZG, Plubrukarn A, Ijong F, Liu Y*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/md17030158"
+    display: "Marine Drugs, 2019, 17, 158"
+  highlight: 0
+
+- title: "Draft Genome Sequence of the Marine Bacterium Labrenzia sp. 011, a Potential Protective Agent of Mollusks"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Moghaddam JA, Dávila A, Alanjary M, Blom J, König GM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/data4010033"
+    display: "Data, 2019, 4, 33"
+  highlight: 0
+
+- title: "Biosynthetic Basis for Structural Diversity of Aminophenylpyrrole-Derived Alkaloids"
+  year: 2019
+  image: dummy.png
+  description: ""
+  authors: "Linares-Otoya L, Liu Y, Linares-Otoya V, Armas-Mantilla L, Crüsemann M, Ganoza-Yupanqui ML, Campos-Florian J, König GM, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1021/acschembio.8b00993"
+    display: "ACS Chemical Biology, 2019"
+  highlight: 0
+
+# ── 2018 ─────────────────────────────────────────────────────
+
+- title: "Marine Heterobranchia (Gastropoda, Mollusca) in Bunaken National Park, North Sulawesi, Indonesia"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Eisenbarth JH, Undap N, Papu A, Schillo D, Dialao J, Reumschuessel S, Kaligis F, Bara F, Schäberle TF, König GM, Yonow N, Wägele H*"
+  link:
+    url: "#"
+    display: "Diversity, 2018, 10, 127"
+  highlight: 0
+
+- title: "Soil Bacteria Isolated from Tunisian Arid Areas Show Promising Antimicrobial Activities against Gram-Negatives"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Nasfi Z, Busch H, Kehraus S, Linares-Otoya L, König GM, Schäberle TF*, Bachoual R"
+  link:
+    url: "#"
+    display: "Frontiers in Microbiology, 2018, 9, 2742"
+  highlight: 0
+
+- title: "Comparative Genomic and Metabolomic Analysis of Marine Myxobacteria reveals High Potential for Biosynthesis of Specialized Metabolites"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Moghaddam JA, Crüsemann M, Alanjary M, Harms H, Dávila A, Blom J, Ziemert N, König GM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1038/s41598-018-34954-y"
+    display: "Scientific Reports, 2018, 8, 16600"
+  highlight: 0
+
+- title: "Antimicrobial Dialkylresorcins from Marine-Derived Microorganisms: Insights into Their Mode of Action and Putative Ecological Relevance"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Harms H, Kloeckner A, Schrör J, Josten M, Kehraus S, Crüsemann M, Hanke W, Schneider T, Schäberle TF*, König GM*"
+  link:
+    url: "https://doi.org/10.1055/a-0653-7451"
+    display: "Planta Medica, 2018"
+  highlight: 0
+
+- title: "Draft Genome of the Marine Myxobacterial Strains Enhygromyxa salina SWB005 and SWB007"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Moghaddam JA, Poehlein A, Harms H, Alanjari M, Daniel R, König GM, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Genome Announcements, 2018, 6, e00324-18"
+  highlight: 0
+
+- title: "Draft Genome Sequence of Bacillus sp. M21, Isolated from the Arid Area of Matmata, Tunisia"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Nasfi Z, Poehlein A, Harms H, Goralski E, Fisch KM, Daniel R, König GM, Schäberle TF*, Bachoual R"
+  link:
+    url: "#"
+    display: "Genome Announcements, 2018, 6, e00323-18"
+  highlight: 0
+
+- title: "Orientia tsutsugamushi is highly susceptible to the RNA polymerase switch region inhibitor Corallopyronin A in vitro and in vivo"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Kock F, Hauptmann M, Osterloh A, Schäberle TF, Poppert S, Frickmann H, Pfarr K, Schiefer A, Roth M, König GM, Hoerauf A, Fleischer B, Keller C*"
+  link:
+    url: "https://doi.org/10.1128/AAC.01732-17"
+    display: "Antimicrobial Agents and Chemotherapy, 2018"
+  highlight: 0
+
+- title: "Second survey of heterobranch sea slugs from Bunaken National Park, North Sulawesi, Indonesia"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Kaligis F, Eisenbarth JH, Schillo D, Dialao J, Schäberle TF, Böhringer N, Bara R, Reumschüssel S, König GM, Wägele H*"
+  link:
+    url: "https://doi.org/10.1186/s41200-018-0136-3"
+    display: "Marine Biodiversity Records, 2018"
+  highlight: 0
+
+- title: "Heterologous expression, biosynthetic studies and ecological function of the selective Gq-signaling-inhibitor FR900359"
+  year: 2018
+  image: dummy.png
+  description: ""
+  authors: "Crüsemann M, Reher R, Schamari I, Brachmann AO, Ohbayashi T, Kuschak M, Carbo-Pinto M, Reuter T, Kehraus S, Hallab A, Schäberle TF, Fleischmann B, Kostenis E, Wenzel D, Müller C, Kikuchi Y, Piel J, Carlier A, Eberl L, König GM*"
+  link:
+    url: "https://doi.org/10.1002/anie.201707996"
+    display: "Angewandte Chemie International Edition, 2018, 57, 836–840"
+  highlight: 0
+
+# ── 2017 ─────────────────────────────────────────────────────
+
+- title: "The Potential of Indonesian Gastropods found around Bunaken Island for Production of Bioactive Compounds"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Fisch KM, Hertzer C, Böhringer N, Wuisan ZG, Schillo D, Bara R, Kaligis F, Wägele H, König GM*, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.3390/md15120384"
+    display: "Marine Drugs, 2017, 15, 384"
+  highlight: 0
+
+- title: "Draft Genome Sequence of Burkholderia contaminans 293K04B, an Endosymbiont of the Sponge-Derived Fungus Stachylidium bicolor"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Fisch KM, Silva Pereira C, Genilloud O, Almeida C, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Genome Announcements, 2017, 5(45)"
+  highlight: 0
+
+- title: "Diversity and Antimicrobial Potential of Predatory Bacteria from the Peruvian Coastline"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Linares-Otoya L, Linares-Otoya V, Armas-Mantilla L, Blanco-Olano C, Crüsemann M, Ganoza-Yupanqui ML, Campos-Florian J, König GM*, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Marine Drugs, 2017, 15, 308"
+  highlight: 0
+
+- title: "Identification and heterologous expression of the kocurin biosynthetic gene cluster"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Linares-Otoya L, Linares-Otoya V, Armas-Mantilla L, Blanco-Olano C, Crüsemann M, Ganoza-Yupanqui ML, Campos-Florian J, König GM, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1099/mic.0.000538"
+    display: "Microbiology, 2017"
+  highlight: 0
+
+- title: "Draft Genome Sequence of Zobellia sp. Strain OII3, Isolated from the Coastal Zone of the Baltic Sea"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Harms H, Poehlein A, Thuermer A, König GM*, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Genome Announcements, 2017, 5(36)"
+  highlight: 0
+
+- title: "Antimicrobial Potential of Bacteria Associated with Marine Sea Slugs from North Sulawesi, Indonesia"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Böhringer N, Fisch KM, Schillo D, Bara R, Hertzer C, Grein F, Eisenbarth JH, Kaligis F, Schneider T, Wägele H, König GM*, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Frontiers in Microbiology, 2017, 8, 1092"
+  highlight: 0
+
+- title: "Phileucin – A Cyclic Dipeptide Similar to Phevalin (Aureusimine B) from Streptomyces coelicolor M1146"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Böhringer N, Gütschow M, König GM*, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Natural Product Communications, 2017, 12, 107–109"
+  highlight: 0
+
+- title: "Production of antimicrobial compounds by fermentation"
+  year: 2017
+  image: dummy.png
+  description: ""
+  authors: "Harms H, König GM, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Methods in Molecular Biology, 2017, 1520, 49–61"
+  highlight: 0
+
+# ── 2016 ─────────────────────────────────────────────────────
+
+- title: "Discovery of a Mosaic-Like Biosynthetic Assembly Line with a Decarboxylative Off-Loading Mechanism through a Combination of Genome Mining and Imaging"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Mir Mohseni M, Höver T, Barra L, Kaiser M, Dorrestein PC, Dickschat JS, Schäberle TF*"
+  link:
+    url: "https://doi.org/10.1002/anie.201606655"
+    display: "Angewandte Chemie International Edition, 2016, 55, 13611–13614"
+  highlight: 0
+
+- title: "Toolbox for Antibiotics Discovery from Microorganisms"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Fisch KM, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Archiv der Pharmazie, 2016, 349, 683–691"
+  highlight: 0
+
+- title: "Marine-derived myxobacteria of the suborder Nannocystineae: An underexplored source of structurally intriguing and biologically active metabolites"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Dávila A, Hufendiek P, Crüsemann M, Schäberle TF, König GM*"
+  link:
+    url: "#"
+    display: "Beilstein Journal of Organic Chemistry, 2016, 12, 969–984"
+  highlight: 0
+
+- title: "Biosynthesis of α-pyrones"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF*"
+  link:
+    url: "#"
+    display: "Beilstein Journal of Organic Chemistry, 2016, 12, 571–588"
+  highlight: 0
+
+- title: "Different strategies of osmoadaptation in the closely related marine myxobacteria Enhygromyxa salina SWB007 and Plesiocystis pacifica SIR-1"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Moghaddam JA, Böhringer N, Burdziak A, Kunte HJ, Galinski EA, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Microbiology, 2016"
+  highlight: 0
+
+- title: "Genome reduction and synthesis of secondary metabolites in Candidatus Burkholderia crenata, the obligate leaf nodule symbiont of Ardisia crenata Sims"
+  year: 2016
+  image: dummy.png
+  description: ""
+  authors: "Carlier A, Fehr L, Pinto M, Schäberle TF, Reher R, Dessein S, König GM, Eberl L"
+  link:
+    url: "#"
+    display: "Environmental Microbiology, 2016, 18, 2507–2522"
+  highlight: 0
+
+# ── 2015 ─────────────────────────────────────────────────────
+
+- title: "Insights into Structure Activity Relationships of Bacterial RNA Polymerase Inhibiting Corallopyronin Derivatives"
+  year: 2015
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF, Schmitz A, Zocher G, Schiefer A, Kehraus S, Neu E, Roth M, Vassylyev DG, Stehle T, Bierbaum G, Hoerauf A, Pfarr K, König GM*"
+  link:
+    url: "https://doi.org/10.1021/acs.jnatprod.5b00175"
+    display: "Journal of Natural Products, 2015, 78, 2505–2509"
+  highlight: 0
+
+- title: "Structural basis of head to head polyketide fusion by CorB"
+  year: 2015
+  image: dummy.png
+  description: ""
+  authors: "Zocher G, Vilstrup J, Heine D, Hallab A, Goralski E, Hertweck C, Stahl M, Schäberle TF*, Stehle T*"
+  link:
+    url: "#"
+    display: "Chemical Science, 2015, 6, 6525–6536"
+  highlight: 0
+
+- title: "Xylanases – From Microbial Origin to Industrial Application"
+  year: 2015
+  image: dummy.png
+  description: ""
+  authors: "Kalim B, Böhringer N, Ali N, Schäberle TF*"
+  link:
+    url: "#"
+    display: "Biotechnology & Biochemistry Journal, 2015"
+  highlight: 0
+
+- title: "A novel antibiotic kills pathogens without detectable resistance"
+  year: 2015
+  image: nature2015.png
+  description: "Co-discovery of teixobactin, a breakthrough antibiotic that kills pathogens without generating detectable resistance by binding to conserved lipid II precursors. Published in Nature."
+  authors: "Ling LL, Schneider T, Peoples AJ, Spoering AL, Engels I, Conlon BP, Mueller A, Schäberle TF, Hughes DE, Epstein S, Jones M, Lazarides L, Steadman VA, Cohen DR, Felix CR, Fetterman KA, Millett WP, Nitti AG, Zullo AM, Chen C, Lewis K*"
+  link:
+    url: "https://doi.org/10.1038/nature14098"
+    display: "Nature, 2015, 517, 455–459"
+  highlight: 1
+
+# ── 2014 ─────────────────────────────────────────────────────
+
+- title: "Antibiotics from myxobacteria"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF*, Lohr F, Schmitz A, König GM"
+  link:
+    url: "https://doi.org/10.1039/C4NP00011K"
+    display: "Natural Product Reports, 2014, 31, 953–972"
+  highlight: 0
+
+- title: "Overcoming the current deadlock in antibiotic research"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF*, Hack IM"
+  link:
+    url: "https://doi.org/10.1016/j.tim.2014.01.003"
+    display: "Trends in Microbiology, 2014, 22, 165–167"
+  highlight: 0
+
+- title: "Does it matter, what you eat? Barcoding of sequestered chloroplasts in photosynthetic and non-photosynthetic sacoglossan sea slugs"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Christa G*, Händeler K, Schäberle TF, König GM, Wägele H"
+  link:
+    url: "#"
+    display: "Frontiers in Zoology, 2014, 11, 15"
+  highlight: 0
+
+- title: "Insights into the biosynthesis of Phenylnannolon A"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Bouhired SM, Crüsemann M, Almeida C, Weber T, Piel J, Schäberle TF, König GM*"
+  link:
+    url: "#"
+    display: "ChemBioChem, 2014, 15, 757–765"
+  highlight: 0
+
+- title: "Corallorazines from the Myxobacterium Corallococcus coralloides"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schmitz A, Kehraus S, Neu E, Almeida C, Roth M, Schäberle TF, König GM*"
+  link:
+    url: "#"
+    display: "Journal of Natural Products, 2014, 77, 159–163"
+  highlight: 0
+
+- title: "Function of the Loading Module in CorI and of the O-Methyltransferase CorH in Vinyl Carbamate Biosynthesis of the Antibiotic Corallopyronin A"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF*, Mir Mohseni M, Lohr F, Schmitz A, König GM"
+  link:
+    url: "https://doi.org/10.1128/AAC.01694-13"
+    display: "Antimicrobial Agents and Chemotherapy, 2014, 58, 950–956"
+  highlight: 0
+
+- title: "Enhanced production of undecylprodigiosin in Streptomyces coelicolor M145 by co-cultivation with Corallococcus coralloides B035"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF*, Orland A, König GM"
+  link:
+    url: "#"
+    display: "Biotechnology Letters, 2014, 36, 641–648"
+  highlight: 0
+
+- title: "Corallopyronin A – a promising antibiotic for treatment of filariasis"
+  year: 2014
+  image: dummy.png
+  description: ""
+  authors: "Schäberle TF, Schiefer A, Schmitz A, König GM, Hoerauf A, Pfarr K*"
+  link:
+    url: "#"
+    display: "International Journal of Medical Microbiology, 2014, 304, 72–78"
+  highlight: 0
