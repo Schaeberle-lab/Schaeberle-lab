@@ -11,9 +11,13 @@ permalink: /team/
 **We are looking for new PhD students, Postdocs, and Master students to join the team**
 [(see openings)]({{ '/vacancies/' | relative_url }}) **!**
 
-Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-researchers), [PhD Students](#phd-students), [Master Students](#master-students), [Administration](#administration), [Alumni](#alumni).
+Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-researchers), [PhD Students](#phd-students), [Master Students](#master-students), [Administrative Support](#administrative-support), [Alumni](#alumni).
 
 {% assign leader = site.data.team_members | where: "group", "leadership" %}
+{% assign postdocs = site.data.team_members | where: "group", "postdoc" %}
+{% assign phds = site.data.team_members | where: "group", "phd" %}
+{% assign masters = site.data.team_members | where: "group", "master" %}
+{% assign admin = site.data.team_members | where: "group", "admin" %}
 
 ## Group Leader
 
@@ -26,10 +30,8 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
   <div style="flex:1;">
     <h3 style="margin-top:0;">{{ member.name }}</h3>
     <p><strong>{{ member.info }}</strong></p>
-    <p>{{ member.description }}</p>
-    {% if member.email != "" %}
-      <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+    {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
 
     {% if member.number_educ >= 1 %}<p>{{ member.education1 }}</p>{% endif %}
     {% if member.number_educ >= 2 %}<p>{{ member.education2 }}</p>{% endif %}
@@ -40,11 +42,6 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
 </div>
 {% endfor %}
 
-{% assign postdocs = site.data.team_members | where: "group", "postdoc" %}
-{% assign phds = site.data.team_members | where: "group", "phd" %}
-{% assign masters = site.data.team_members | where: "group", "master" %}
-{% assign admin = site.data.team_members | where: "group", "admin" %}
-
 ## Postdoctoral Researchers
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
@@ -54,7 +51,7 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
     <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
     <h4>{{ member.name }}</h4>
     <p><strong>{{ member.info }}</strong></p>
-    <p>{{ member.description }}</p>
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
     {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
@@ -69,7 +66,7 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
     <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
     <h4>{{ member.name }}</h4>
     <p><strong>{{ member.info }}</strong></p>
-    <p>{{ member.description }}</p>
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
     {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
@@ -84,13 +81,13 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
     <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
     <h4>{{ member.name }}</h4>
     <p><strong>{{ member.info }}</strong></p>
-    <p>{{ member.description }}</p>
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
     {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
 </div>
 
-## Administration
+## Administrative Support
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
 {% for member in admin %}
@@ -99,7 +96,7 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
     <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
     <h4>{{ member.name }}</h4>
     <p><strong>{{ member.info }}</strong></p>
-    <p>{{ member.description }}</p>
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
     {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
@@ -109,7 +106,28 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
 
 {% for member in site.data.alumni_members %}
 ### {{ member.name }}
+
 {{ member.duration }}  
 Role: {{ member.info }}
+
+{% if member.number_educ >= 1 %}
+  * {{ member.education1 | markdownify }}
+{% endif %}
+{% if member.number_educ >= 2 %}
+  * {{ member.education2 | markdownify }}
+{% endif %}
+{% if member.number_educ >= 3 %}
+  * {{ member.education3 | markdownify }}
+{% endif %}
+{% if member.number_educ >= 4 %}
+  * {{ member.education4 | markdownify }}
+{% endif %}
+{% if member.number_educ >= 5 %}
+  * {{ member.education5 | markdownify }}
+{% endif %}
+
+{% if member.email != "" %}
+Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+{% endif %}
 
 {% endfor %}
