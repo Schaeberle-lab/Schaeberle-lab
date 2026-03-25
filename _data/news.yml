@@ -1,0 +1,617 @@
+# ============================================================
+# _data/news.yml  –  Schäberle Lab, JLU Giessen
+# ============================================================
+# FIELDS:
+#   date      : ISO date (YYYY-MM-DD), year only (YYYY), or "timeless"
+#   headline  : Short title shown in the news list
+#   body      : Extended description (optional)
+#   category  : publication | award | funding | people | media |
+#               conference | outreach | lab
+#   link      : external URL (optional, leave "" if none)
+#   link_text : display label for the link (optional)
+#   pinned    : true = always show on home page
+# ============================================================
+# First 10 non-pinned entries appear on the home page.
+# All entries appear on the full News page.
+# Sorted: most recent first.
+# ============================================================
+
+# ── Pinned ───────────────────────────────────────────────────
+
+- date: "timeless"
+  headline: "Captain Antibiotics – educational video by our master students"
+  body: "Students from the master module 'Antibiotics – Past, Present and Future' created this video to explain how antibiotics work to a general audience."
+  category: outreach
+  link: "https://www.uni-giessen.de/de/fbz/fb09/institute/iib/nsf/neu/captainantibiotics.m4v"
+  link_text: "Watch Captain Antibiotics"
+  pinned: true
+
+# ── 2024 ─────────────────────────────────────────────────────
+
+- date: "2024-02-20"
+  headline: "BAM! project selected for DATIpilot Innovation Sprint funding"
+  body: "Our project BAM! was selected for funding by the new DATIpilot format for an Innovation Sprint."
+  category: funding
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2023 ─────────────────────────────────────────────────────
+
+- date: "2023-10-29"
+  headline: "Deutsche Umweltpreis 2023 in Lübeck"
+  body: "Prof. Gabi König and Till attended the Deutsche Umweltpreis 2023 in Lübeck with their respective DBU fellows Wiebke and Joana."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2023-03-17"
+  headline: "Poster prize at the AMR conference in Basel"
+  body: "Congratulations to the group member who won the poster prize at the AMR conference in Basel."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2022 ─────────────────────────────────────────────────────
+
+- date: "2022-11-14"
+  headline: "Raphael Reher's inaugural lecture in Marburg"
+  body: "Raphael Reher had his inaugural lecture in Marburg – a reunion of former Bonn colleagues."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2022-09-09"
+  headline: "Poster prize for Zerlina at VAAM Workshop on Bacteria Producing Natural Products"
+  body: "Congratulations to Dr. Zerlina Wuisan for winning the poster prize at the VAAM Workshop 'Biology of Bacteria Producing Natural Products'."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2022-06-02"
+  headline: "DZIF Annual Meeting in Stuttgart"
+  body: "The Giessen team attended the DZIF Meeting in Stuttgart."
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2021 ─────────────────────────────────────────────────────
+
+- date: "2021-12-22"
+  headline: "Christmas market outing in Giessen (2G+ rules)"
+  body: "The group visited the Weihnachtsmarkt in Giessen, Corona-conform under 2G+ rules."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2021-01-15"
+  headline: "New 700 MHz cryoprobe NMR granted for JLU Giessen"
+  body: "The DFG Großgeräteantrag from Prof. Schreiner (Organic Chemistry) received a very positive evaluation. The accompanying EFRE application was also granted. JLU Giessen will receive a new superconductive 700 MHz cryo probe NMR."
+  category: funding
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2021-01-01"
+  headline: "Three PhD defences in 2021 – congratulations to Zerlina, Riyanti and Nils!"
+  body: "A milestone year for the group: Zerlina Wuisan, Riyanti, and Nils Böhringer all successfully defended their doctoral theses."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2020 ─────────────────────────────────────────────────────
+
+- date: "2020-12-21"
+  headline: "Group moves into the new IFZ building – digital Christmas party"
+  body: "We moved into the new building on campus and celebrated with a digital X-Mas Party."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2020-11-12"
+  headline: "Two new papers on antibiotic-producing bacteria published"
+  body: "Riyanti's paper on sponge-associated bacteria and Markus Oberpaul's paper on Acidobacteria from termite nests are both online."
+  category: publication
+  link: "https://rdcu.be/caG9d"
+  link_text: "Riyanti et al. – Scientific Reports 2020"
+  pinned: false
+
+- date: "2020-01-20"
+  headline: "Group brunch at the IFZ"
+  body: "A relaxed group brunch at the IFZ to kick off 2020."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2019 ─────────────────────────────────────────────────────
+
+- date: "2019-11-20"
+  headline: "Nature paper: darobactin – a new antibiotic that selectively kills Gram-negative pathogens"
+  body: "Our landmark discovery of darobactin is published in Nature. Press coverage included FAZ, 1730live, and international media."
+  category: publication
+  link: "https://www.nature.com/articles/s41586-019-1791-1"
+  link_text: "Nature 576, 459–464 (2019)"
+  pinned: false
+
+- date: "2019-10-28"
+  headline: "Luis, Nils and Till teach Advanced Genetics at Universidad Nacional de Trujillo, Peru"
+  body: ""
+  category: outreach
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-08-15"
+  headline: "New publications: Lei Wang's paper and description of Moridilla jobeli"
+  body: "Lei Wang's paper on eremophilane sesquiterpenes is online. In honour of our dive guide, a new nudibranch species Moridilla jobeli was also described."
+  category: publication
+  link: "https://doi.org/10.11646/zootaxa.4652.2.3"
+  link_text: "Zootaxa 2019 – Moridilla jobeli"
+  pinned: false
+
+- date: "2019-08-06"
+  headline: "1st Natural Product Retreat in Weidenhausen"
+  body: "The group held its first annual Natural Product Retreat in Weidenhausen."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-08-05"
+  headline: "Sat1 TV report on Nicrophorus antibiotic research"
+  body: "Sat1 aired a news feature about our research on antibiotic-producing bacteria in the burying beetle Nicrophorus vespilloides."
+  category: media
+  link: "https://www.1730live.de/antibiotika-aus-dem-totengraeberkaefer/"
+  link_text: "Watch the Sat1 report"
+  pinned: false
+
+- date: "2019-08-01"
+  headline: "Farewell to visiting researchers Apisada and Terecita"
+  body: "Our guests Apisada Jiso (Prince of Songkla University, Thailand) and Teresita Carrión Zavaleta (Trujillo, Peru) return home."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-07-12"
+  headline: "Visit and seminar by Prof. Chang-Yun Wang"
+  body: "We thank Prof. Chang-Yun Wang for his presentation to the group."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-06-02"
+  headline: "Farewell to research fellows Anin and Lizbeth"
+  body: "Our guests Aninditia Sabdaningsih (Diponegoro University) and Lizbeth Armas Mantilla (Trujillo) head back home after their research stays."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-03-27"
+  headline: "Till wins Culture Challenge pitch in Berlin – BMBF seed funding"
+  body: "Till participated in the Culture Challenge in Berlin. His team's project pitch (7 min) was selected as one of the three winners, enabling a BMBF seed funding application."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2019-01-16"
+  headline: "First paper of 2019: Aminophenylpyrrole Alkaloid Biosynthesis in ACS Chemical Biology"
+  body: "'Biosynthetic Basis for Structural Diversity of Aminophenylpyrrole-Derived Alkaloids' is published."
+  category: publication
+  link: "https://pubs.acs.org/doi/10.1021/acschembio.8b00993"
+  link_text: "ACS Chem. Biol. 2019"
+  pinned: false
+
+# ── 2018 ─────────────────────────────────────────────────────
+
+- date: "2018-11-28"
+  headline: "Luis and Till present at Universidad Nacional de Trujillo, Peru"
+  body: ""
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-11-09"
+  headline: "Jamshid's Scientific Reports paper on marine myxobacteria genomics published"
+  body: "Congratulations to Jamshid Moghaddam on his new publication."
+  category: publication
+  link: "https://www.nature.com/articles/s41598-018-34954-y"
+  link_text: "Scientific Reports 2018"
+  pinned: false
+
+- date: "2018-11-07"
+  headline: "Workshop on Sponge and Coral Microbiomes in Brussels"
+  body: "Till attended the workshop 'Advanced Techniques To Study And Exploit The Sponge And Coral Microbiomes' in Brussels."
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-06-06"
+  headline: "Welcome Ute Mettal – new postdoc; farewell to Diah"
+  body: "BBQ to welcome our new postdoc Ute Mettal and to say goodbye to Diah Ayuningrum."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-05-30"
+  headline: "Farewell dinner for Abha and Monse at the river Lahn"
+  body: "Goodbye dinner for Abha Sharma and Monse, hoping to see them again soon."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-05-17"
+  headline: "Joint meeting of the Li and Schäberle natural product groups in Marburg"
+  body: ""
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-05-05"
+  headline: "Collection dives in Thailand – visit to Anuchit Plubrukarn (Prince of Songkla University)"
+  body: "Field collection trip to Thailand for marine natural product sampling."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-03-01"
+  headline: "Welcome Zina Nasfi from University of Gabès, Tunisia"
+  body: "Zina Nasfi joins the lab for 6 months as a research fellow."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2018-02-01"
+  headline: "Corallopyronin A highly active against Tsutsugamushi fever – DZIF press release"
+  body: "A new study shows that Corallopyronin A is highly effective against Orientia tsutsugamushi, the causative agent of Tsutsugamushi fever."
+  category: publication
+  link: "https://doi.org/10.1128/AAC.01732-17"
+  link_text: "Antimicrob. Agents Chemother. 2018"
+  pinned: false
+
+# ── 2017 ─────────────────────────────────────────────────────
+
+- date: "2017-12-21"
+  headline: "Visit from Tunisian colleague Rafik Bachoual"
+  body: "Rafik Bachoual from University of Gabès, Tunisia visited the lab for one week. Farewell dinner at Hawwerkasten."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-12-14"
+  headline: "Indonesian Ministry delegation evaluates fellowship holders"
+  body: "A delegation of the Ministry of Research, Technology and Higher Education of Indonesia visited the group and evaluated the progress of their fellowship holders."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-12-11"
+  headline: "Group breakfast at the Dachcafe"
+  body: ""
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-12-08"
+  headline: "Welcome Abha Sharma – joins the lab for 6 months"
+  body: ""
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-12-07"
+  headline: "Four new publications on marine natural products and biosynthesis"
+  body: "New papers: Indonesian heterobranchs bioactive compounds (Marine Drugs), FR900359 heterologous expression (Angew. Chem.), predatory bacteria from Peru (Marine Drugs), and kocurin biosynthetic gene cluster (Microbiology)."
+  category: publication
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-10-09"
+  headline: "Welcome Dr. Henrik Harms – new postdoc for chemical analytics"
+  body: ""
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-09-28"
+  headline: "Group attends VAAM Workshop in Tübingen"
+  body: ""
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-09-23"
+  headline: "Return from University of Gabès, Tunisia"
+  body: "Philipp and Till returned from their collaboration trip to Uni Gabès."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-08-15"
+  headline: "Welcome Yang Liu!"
+  body: "Yang Liu joins the Schäberle Lab."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-08-04"
+  headline: "Group attends DAAD meeting for Indonesian fellows in Bonn"
+  body: ""
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-08-01"
+  headline: "Welcome Dr. Walter Balansa – DAAD Fellow from Indonesia"
+  body: "Walter Balansa from POLNUSTAR joins the group for 6 months as a DAAD fellow."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-05-01"
+  headline: "Group moves to JLU Giessen – new labs at the IFZ"
+  body: "Parts of the group move to the Justus-Liebig-Universität Giessen and start setting up new laboratories at the IFZ."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-04-01"
+  headline: "Till appointed Professor at JLU Giessen"
+  body: "Till F. Schäberle is appointed as Professor for Natural Product Research with Focus on Insect Biotechnology at the Justus-Liebig-Universität Giessen."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2017-03-15"
+  headline: "Solar-powered Slug project makes it to the final five"
+  body: "The Solar-powered Slug project reached the final five in the competition. Watch the video!"
+  category: outreach
+  link: "https://youtu.be/UA7YdtayqlQ"
+  link_text: "Watch the video"
+  pinned: false
+
+# ── 2016 ─────────────────────────────────────────────────────
+
+- date: "2016-12-01"
+  headline: "Beilstein thematic series 'Natural products in synthesis and biosynthesis II' complete"
+  body: "The series edited by Jeroen S. Dickschat is complete, including two reviews from our Bonn institute."
+  category: publication
+  link: "http://www.beilstein-journals.org/bjoc/browse/singleSeries.htm?tpn=0&sn=57&m=y"
+  link_text: "View the Beilstein series"
+  pinned: false
+
+- date: "2016-10-17"
+  headline: "Welcome Zerlina Wuisan and Riyanti – two new PhD students"
+  body: "New semester starts with two new PhD students joining the group."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-09-26"
+  headline: "New paper in Angewandte Chemie: Mosaic-Like Biosynthetic Assembly Line"
+  body: "'Discovery of a Mosaic-Like Biosynthetic Assembly Line with a Decarboxylative Off-Loading Mechanism through a Combination of Genome Mining and Imaging' published in Angew. Chem. Int. Ed."
+  category: publication
+  link: "https://doi.org/10.1002/anie.201606655"
+  link_text: "Angew. Chem. Int. Ed. 2016"
+  pinned: false
+
+- date: "2016-08-15"
+  headline: "Field trip in North Sulawesi – new collaboration with POLNUSTAR"
+  body: "Back from fieldwork in North Sulawesi. New collaboration with POLNUSTAR, Zoological Research Museum Alexander Koenig, and University of Bonn."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-04-12"
+  headline: "Field trip to Peru for collaboration project with Universidad Nacional de Trujillo"
+  body: ""
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-04-05"
+  headline: "EuroMarine Workshop in Naples"
+  body: ""
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-02-26"
+  headline: "Irseer Naturstofftage 2016 in snowy Irsee"
+  body: "Prof. König, Till and Raphael participated at the Irseer Naturstofftage 2016."
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-02-04"
+  headline: "Carnival!"
+  body: ""
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2016-02-01"
+  headline: "Welcome Dr. Katja Fisch – new senior postdoc"
+  body: "Katja Fisch joins the group as a senior postdoc to strengthen the Indobio team."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+# ── 2015 ─────────────────────────────────────────────────────
+
+- date: "2015-11-19"
+  headline: "Group at the DZIF and DGI joint annual meeting"
+  body: ""
+  category: conference
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-11-01"
+  headline: "Welcome Max Crüsemann for a lab visit"
+  body: "Max Crüsemann joined the group for a few weeks to implement new methods in the lab."
+  category: people
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-10-02"
+  headline: "New paper: Corallopyronin SAR study in Journal of Natural Products"
+  body: "'Insights into Structure–Activity Relationships of Bacterial RNA Polymerase Inhibiting Corallopyronin Derivatives' is online."
+  category: publication
+  link: "https://doi.org/10.1021/acs.jnatprod.5b00175"
+  link_text: "J. Nat. Prod. 2015"
+  pinned: false
+
+- date: "2015-08-24"
+  headline: "Safe return from field trip in North Sulawesi"
+  body: "All scientists from AG Schäberle, AG König, AG Wägele and Indonesian partners from UNSRAT returned safely from the North Sulawesi field trip."
+  category: lab
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-08-06"
+  headline: "New paper: CorB head-to-head polyketide fusion in Chemical Science"
+  body: "'Structural basis of head to head polyketide fusion by CorB' published in Chemical Science."
+  category: publication
+  link: "https://doi.org/10.1039/c5sc02488a"
+  link_text: "Chem. Sci. 2015"
+  pinned: false
+
+- date: "2015-06-29"
+  headline: "Peru sampling campaign launched for myxobacterial natural products project"
+  body: "We started the project 'Caracterización genética de las especies mixobacteriales' with field sampling in Peru."
+  category: funding
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-04-22"
+  headline: "Innovationspreis 2015 der BioRegionen won with CorA filariasis patent"
+  body: "We won the Innovationspreis 2015 der BioRegionen with our corallopyronin A patent for the treatment of filariasis (Dirofilariasis and Human filariasis)."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-04-09"
+  headline: "Deutsche Welle article on antibiotic sea slug research"
+  body: "Online article by Deutsche Welle on the BMBF press release about the initiative for discovering natural compounds from Indonesia for drug development."
+  category: media
+  link: "http://www.dw.de/schnecke-bek%C3%A4mpft-multiresistente-keime/a-18372012"
+  link_text: "Read on Deutsche Welle"
+  pinned: false
+
+- date: "2015-04-08"
+  headline: "BMBF press release on the Indonesia natural products initiative"
+  body: "The German Federal Ministry of Education and Research issued a press release about the initiative 'Identifikation und Nutzung in Indonesien natürlich vorkommender Substanzen für die Arzneimittelentwicklung'."
+  category: media
+  link: "http://www.bmbf.de/press/3770.php"
+  link_text: "BMBF press release"
+  pinned: false
+
+- date: "2015-01-30"
+  headline: "Till gives NDR radio interview about teixobactin"
+  body: "Till gave a radio interview about the landmark teixobactin discovery on NDR Info (in German)."
+  category: media
+  link: "http://www.ndr.de/info/Resistenzen-passe-Ein-neues-Antibiotikum,audio231192.html"
+  link_text: "Listen on NDR (German)"
+  pinned: false
+
+- date: "2015-01-23"
+  headline: "RTL television films teixobactin TV special"
+  body: "German television RTL is shooting a special feature on the teixobactin discovery."
+  category: media
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2015-01-07"
+  headline: "Teixobactin paper published in Nature – worldwide attention"
+  body: "The teixobactin paper is available in Nature. The article has generated major international attention."
+  category: publication
+  link: "https://doi.org/10.1038/nature14098"
+  link_text: "Nature 517, 455–459 (2015)"
+  pinned: false
+
+# ── 2014 ─────────────────────────────────────────────────────
+
+- date: "2014-12-01"
+  headline: "Three-year cooperation project with Trujillo (Peru) and Campinas (Brazil) granted"
+  body: "Luis and Till were granted a three-year cooperation project with the University of Trujillo (Peru) and the University of Campinas (Brazil)."
+  category: funding
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2014-11-18"
+  headline: "Till featured in 3sat nano science show"
+  body: "Till can be watched in the 3sat nano programme (broadcast 2014-11-18, 18:30)."
+  category: media
+  link: "http://www.3sat.de/mediathek/index.php?mode=play&obj=47597"
+  link_text: "Watch on 3sat"
+  pinned: false
+
+- date: "2014-10-04"
+  headline: "Poster prize at VAAM Workshop in Dresden"
+  body: "We won the poster prize at the international VAAM workshop 'Biology of natural product-producing microorganisms' in Dresden."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2014-05-22"
+  headline: "CorA patent selected as finalist for ZukunftErfindenNRW competition"
+  body: "Our corallopyronin A patent was selected for the final 3 of 'ZukunftErfindenNRW: Der HochschulWettbewerb'."
+  category: award
+  link: ""
+  link_text: ""
+  pinned: false
+
+- date: "2014-04-07"
+  headline: "Trends in Microbiology paper on antibiotic deadlock widely covered by press"
+  body: "'Overcoming the current deadlock in antibiotic research' (Schäberle & Hack, Trends Microbiol. 2014) was mentioned in many press releases from Uni Bonn and has a video abstract."
+  category: publication
+  link: "https://doi.org/10.1016/j.tim.2014.01.003"
+  link_text: "Trends Microbiol. 2014"
+  pinned: false
