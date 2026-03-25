@@ -45,62 +45,47 @@ Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-
 
 ## Postdoctoral Researchers
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
-{% for member in postdocs %}
-  {% assign photo_path = '/images/teampic/' | append: member.photo %}
-  <div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; background:white;">
-    <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
-    <h4>{{ member.name }}</h4>
-    <p><strong>{{ member.info }}</strong></p>
-    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-    {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
-  </div>
-{% endfor %}
+{% assign photo_path = '/images/teampic/' | append: member.photo %}
+<div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; margin-bottom:20px;">
+  <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:220px; border-radius:10px; display:block; margin-bottom:12px;">
+  <h4>{{ member.name }}</h4>
+  <p><strong>{{ member.info }}</strong></p>
+  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+  {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
 </div>
 
 ## PhD Students
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
-{% for member in phds %}
-  {% assign photo_path = '/images/teampic/' | append: member.photo %}
-  <div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; background:white;">
-    <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
-    <h4>{{ member.name }}</h4>
-    <p><strong>{{ member.info }}</strong></p>
-    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-    {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
-  </div>
-{% endfor %}
+{% assign photo_path = '/images/teampic/' | append: member.photo %}
+<div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; margin-bottom:20px;">
+  <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:220px; border-radius:10px; display:block; margin-bottom:12px;">
+  <h4>{{ member.name }}</h4>
+  <p><strong>{{ member.info }}</strong></p>
+  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+  {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
 </div>
 
 ## Master Students
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
-{% for member in masters %}
-  {% assign photo_path = '/images/teampic/' | append: member.photo %}
-  <div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; background:white;">
-    <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
-    <h4>{{ member.name }}</h4>
-    <p><strong>{{ member.info }}</strong></p>
-    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-    {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
-  </div>
-{% endfor %}
+{% assign photo_path = '/images/teampic/' | append: member.photo %}
+<div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; margin-bottom:20px;">
+  <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:220px; border-radius:10px; display:block; margin-bottom:12px;">
+  <h4>{{ member.name }}</h4>
+  <p><strong>{{ member.info }}</strong></p>
+  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+  {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
 </div>
 
 ## Administrative Support
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:24px 0;">
-{% for member in admin %}
-  {% assign photo_path = '/images/teampic/' | append: member.photo %}
-  <div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; background:white;">
-    <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:100%; max-width:220px; border-radius:10px; display:block; margin:0 auto 14px auto;">
-    <h4>{{ member.name }}</h4>
-    <p><strong>{{ member.info }}</strong></p>
-    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-    {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
-  </div>
-{% endfor %}
+{% assign photo_path = '/images/teampic/' | append: member.photo %}
+<div style="border:1px solid #e1e1e1; border-radius:12px; padding:18px; margin-bottom:20px;">
+  <img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="width:220px; border-radius:10px; display:block; margin-bottom:12px;">
+  <h4>{{ member.name }}</h4>
+  <p><strong>{{ member.info }}</strong></p>
+  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+  {% if member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
 </div>
 
 ## Alumni
