@@ -54,19 +54,18 @@ permalink: /publications/
 ## Full List of publications
 
 {% assign pubs_by_year = site.data.publist | group_by: "year" | sort: "name" | reverse %}
+{% assign counter = 0 %}
 
 {% for year in pubs_by_year %}
-### {{ year.name }}
-
-<ul>
-  {% assign pubs_sorted = year.items %}
-  {% for publi in pubs_sorted %}
-    <li>
-      <strong>{{ publi.title }}</strong><br>
+<h3>{{ year.name }}</h3>
+<ul style="list-style: none; padding-left: 0;">
+  {% for publi in year.items %}
+    {% assign counter = counter | plus: 1 %}
+    <li style="margin-bottom: 1rem;">
+      <strong>{{ counter }}. {{ publi.title }}</strong><br>
       {{ publi.authors }}<br>
       <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
     </li>
-    <br>
   {% endfor %}
 </ul>
 {% endfor %}
