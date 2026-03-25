@@ -1,148 +1,212 @@
-- name: Milan P Allan
-  photo: Milan1.jpg
-  info: Professor
-  email: milan.allan@gmail.com
-  number_educ: 5
-  education1: Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
-  education2: PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
-  education3: Postdoc Cornell
-  education4: <a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
-  education5: <a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+# ============================================================
+# _data/team.yml
+# Schäberle Lab – Natural Product Research, JLU Giessen
+# ============================================================
+# HOW TO USE:
+#   - photo: filename only (e.g. "till.jpg") — upload to /images/teampic/
+#   - number_educ: how many education lines you fill in (0, 1 or 2)
+#   - highlight: set to 1 to feature prominently on the home page
+# ============================================================
 
-- name: Jiasen Niu
-  photo: Jiasen.png
-  info: Leader Leiden Branch, started Oct 2020
-  email: niu@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
-  education2: BSc Jilin University
-
-- name: Yudai Sato
-  photo: Sato.jpeg
-  info: Postdoc, started September 2023
-  email: jwlee0421@postech.ac.kr
-  number_educ: 2
-  education1: PhD with [Yukio Hasegawa](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/hasegawa_group_en.html) at the University of Tokyo
-  education2: Master, University of Tokyo
-
-- name: Thomas Gozlinski
-  photo: Thomas.jpg
-  info: Akademischer Rat, since November 2023
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD, KIT, with [Wulf Wulfhekel](https://www.int.kit.edu/1941_701.php)
-  education2: MSc KIT
-
-- name: Premakumar Yanda
-  photo: Yanda.png
-  info: Postdoc, since March 2025
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD, JNCASR, with A. Sundaresan
-  education2: MSc, Andhra University
-
-- name: Stefan Rudel
-  photo: Stefan.png
-  info: Postdoc, shared with [Kloß lab](https://kloss.cup.uni-muenchen.de/dr-simon-kloss/)
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 3
-  education1: Postdoc LMU Munich with [Wolfgang Schnick](https://www.cup.uni-muenchen.de/ac/schnick/prof-dr-w-schnick/)
-  education2: PhD TUM and University of Marburg with [Florian Kraus](https://www.uni-marburg.de/de/fb15/arbeitsgruppen/anorganische_chemie/ag-kraus)
-  education3: MSc TUM
-
-- name: Devidas TR
-  photo: Devidas.png
-  info: Postdoc
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: Postdoc Bar-Ilan with [Beena Kalisky](https://beenalab.biu.ac.il)
-  education2: PhD Homi Bhabha National Institute
-  education3: MSc National Institute of Technology - Tiruchirappalli
-
-- name: Yuval Nitzav
-  photo: Yuval.png
-  info: Postdoc
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD Technion with [Amit Kanigel](https://phsites.technion.ac.il/arpes/)
-  education2: MSc Technion
-
-- name: Amber Mozes
-  photo: Amber.png
-  info: PhD Student, started September 2021
-  email: b
-  number_educ: 2
-  education1: Master Applied Physics, TU Delft
-  education2: Casimir/Nanofront PhD fellowship
-  education3:
-  education4:
-
-- name: Maialen Ortego Larrazabal
-  photo: Maialen.png
-  info: PhD Student within a collaboration with the <a href="http://www.ingmarswart.nl">Swart Lab</a>
-  email: b
-  number_educ: 2
-  education1: Master Leiden University
-  education2: BSc, University of the Basque Country
-  education3:
-  education4:
-
-- name: Sanghun Lee 이상헌
-  photo: Sanghun.jpg
-  info: PhD Student
-  email: b
-  number_educ: 2
-  education1: Master Yonsei with [Doohee Cho](http://physicsyonsei.kr/en/people/professor?idx=48)
-  education2: BSc, Yonsei University
-  education3:
-  education4:
-
-- name: Louw Feenstra
-  photo: Louw.jpeg
-  info: PhD Student, started November 2024
-  email: b
-  number_educ: 2
-  education1: BSc, Leiden University
-  education2: MSc, LMU Munich, with [Christian Pfleiderer](https://www.professoren.tum.de/en/pfleiderer-christian)
-  education3:
-  education4:
-
-- name: Ilse Kuijf
-  photo: ilse.jpeg
-  info: Shared PhD student in the [van Nieuwenburg group](https://evert.info)
-  email: Bastiaans@Physics.LeidenUniv.nl
+- name: Prof. Dr. Till F. Schäberle
+  photo: till.jpg
+  info: "Principal Investigator"
+  description: "Head of the Natural Product Research group at JLU Giessen and Fraunhofer IME. Research focus on discovery of new natural products, antibiotic biosynthesis, and synthetic biology."
+  email: Till.Schaeberle@agrar.uni-giessen.de
   number_educ: 1
-  education1: Master Leiden University
+  education1: "Professor, Justus-Liebig-Universität Giessen"
+  highlight: 1
 
-- name: Fabian Steinmeyer
-  photo: Fabian.jpeg
-  info: PhD Student, started December 2025
-  email: b
-  number_educ: 2
-  education1: MSc Leiden University with [Kaveh Lahabi](https://lahabilab.com) and [Simon Gröblacher](https://groeblacherlab.tudelft.nl/)
-  education2: BSc Friedrich-Alexander-Universität Erlangen-Nürnberg
-  education3:
-  education4:
+# ── Postdoctoral Research Associates ──────────────────────────
 
-- name: Marios-Apollon Marangos
-  photo: apollon.png
-  info: Engineer
-  email: Bastiaans@Physics.LeidenUniv.nl
-  number_educ: 1
-  education1: Master Physics TUM, with Kiutra
-
-- name: Anna Tymofieieva
-  photo: anna.png
-  info: Admin
-  email: Bastiaans@Physics.LeidenUniv.nl
-  number_educ: 1
-  education1: Nationale Pädagogische H.-S.-Skoworoda-Universität, Charkiw
-
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
-  email: milan.allan@gmail.com
+- name: Dr. Yang Liu
+  photo: yang.jpg
+  info: "Postdoctoral Researcher"
+  description: "Research on marine-derived natural products and bacterial specialized metabolites."
+  email: ""
   number_educ: 0
-  education1:
-  education2:
-  education3:
+  highlight: 0
+
+- name: Dr. Nils Böhringer
+  photo: nils.jpg
+  info: "Postdoctoral Researcher"
+  description: "Focus on darobactin biosynthesis and BAM complex inhibitors. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Zerlina G. Wuisan
+  photo: zerlina.jpg
+  info: "Postdoctoral Researcher"
+  description: "Biosynthesis and heterologous expression of antimicrobial compounds. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Michael Marner
+  photo: michael.jpg
+  info: "Postdoctoral Researcher"
+  description: "Assay development and screening at Fraunhofer IME. Project: BAMA."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Maria A. Patras
+  photo: maria.jpg
+  info: "Postdoctoral Researcher"
+  description: "Chemical analytics at Fraunhofer IME. Specialisation in metabolomics and LC-HRMS."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Connor B. Smieja
+  photo: connor.jpg
+  info: "Postdoctoral Researcher"
+  description: "Natural product chemistry and biological activity profiling."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Celine Mara Zumkeller
+  photo: celine.jpg
+  info: "Postdoctoral Researcher"
+  description: "Genome mining and discovery of natural products from Bacteroidota strains."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: Dr. Marius S. Spohn
+  photo: marius.jpg
+  info: "Group Leader at Fraunhofer IME – Natural Product Department"
+  description: "Leads the natural product discovery pipeline at Fraunhofer IME."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Project Scientist ─────────────────────────────────────────
+
+- name: M.Sc. Winda A. Soerjawinata
+  photo: winda.jpg
+  info: "Project Scientist"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Graduate Students (PhDs) ──────────────────────────────────
+
+- name: M.Sc. Flaviana C. Susanto
+  photo: flaviana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Marine metabolomics and antibacterial potential of seaweeds."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Pascal-Marcel Geisler
+  photo: pascal.jpg
+  info: "Graduate Student (PhD)"
+  description: "Project in collaboration with Dr. Christoph Hellmann (Fraunhofer IME) on RNAi-mediated pest control."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Nicolas Reyes Castillo
+  photo: nicolas.jpg
+  info: "Graduate Student (PhD)"
+  description: "Mechanistic profiling and production of fungal natural products, including tyrosinase inhibitors."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Felix Mühlemeyer
+  photo: felix.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Joana A. Bauer-Klotz
+  photo: joana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Project: ProBioControl (Fraunhofer IME)."
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Xufan Lian
+  photo: xufan.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Chaoyi Hu
+  photo: chaoyi.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Alexander C. Kinner
+  photo: alex.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: M.Sc. Annabel Metje
+  photo: annabel.jpg
+  info: "Graduate Student (PhD)"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Master Students ───────────────────────────────────────────
+
+- name: B.Sc. Najmul Alam
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Ribina Mundeth Abdul Kareem
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Jomol Jose
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+- name: B.Sc. Roshni Chetri
+  photo: dummy.jpg
+  info: "Master Student"
+  description: ""
+  email: ""
+  number_educ: 0
+  highlight: 0
+
+# ── Administration ────────────────────────────────────────────
+
+- name: Alexandra Bender
+  photo: alexandra.jpg
+  info: "Office Management"
+  description: "Administrative support for the Natural Product Research group."
+  email: ""
+  number_educ: 0
+  highlight: 0
