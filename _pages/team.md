@@ -124,7 +124,7 @@ permalink: /team/
 }
 </style>
 
-{% assign pi_members = site.data.team_members | where_exp: "m", "m.group == 'PI' or m.group == 'pi'" %}
+{% assign pi_members = site.data.team_members | where: "group", "PI" %}
 {% assign postdocs = site.data.team_members | where: "group", "postdoc" %}
 {% assign project_scientists = site.data.team_members | where: "group", "project_scientist" %}
 {% assign phds = site.data.team_members | where: "group", "phd" %}
@@ -202,46 +202,15 @@ permalink: /team/
   {% assign photo_path = '/images/teampic/' | append: member.photo %}
   <div class="team-card">
     {% if member.photo %}
-      <img
-        class="team-photo"
-        src="{{ photo_path | relative_url }}"
-        alt="{{ member.name }}"
-        onerror="this.style.display='none';">
+      <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
-
     <h4>{{ member.name }}</h4>
     <div class="team-role">{{ member.info }}</div>
-
-    {% if member.joined %}
-      <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
-    {% endif %}
-
-    {% if member.description %}
-      <p>{{ member.description }}</p>
-    {% endif %}
-
-    {% if member.project_title %}
-      <p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>
-    {% endif %}
-
-    {% if member.role_in_group %}
-      <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
-    {% endif %}
-
-    {% if member.email != "" %}
-      <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
-
-    {% if member.number_educ and member.number_educ > 0 %}
-      <strong>Background</strong>
-      <ul class="team-edu">
-        {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-        {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-        {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-        {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-        {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
-      </ul>
-    {% endif %}
+    {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+    {% if member.project_title %}<p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
+    {% if member.role_in_group %}<p><strong>Role in group:</strong> {{ member.role_in_group }}</p>{% endif %}
+    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
 </div>
@@ -253,42 +222,14 @@ permalink: /team/
   {% assign photo_path = '/images/teampic/' | append: member.photo %}
   <div class="team-card">
     {% if member.photo %}
-      <img
-        class="team-photo"
-        src="{{ photo_path | relative_url }}"
-        alt="{{ member.name }}"
-        onerror="this.style.display='none';">
+      <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
-
     <h4>{{ member.name }}</h4>
     <div class="team-role">{{ member.info }}</div>
-
-    {% if member.joined %}
-      <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
-    {% endif %}
-
-    {% if member.description %}
-      <p>{{ member.description }}</p>
-    {% endif %}
-
-    {% if member.project_title %}
-      <p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>
-    {% endif %}
-
-    {% if member.email != "" %}
-      <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
-
-    {% if member.number_educ and member.number_educ > 0 %}
-      <strong>Background</strong>
-      <ul class="team-edu">
-        {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-        {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-        {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-        {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-        {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
-      </ul>
-    {% endif %}
+    {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+    {% if member.project_title %}<p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
+    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
 </div>
@@ -300,43 +241,14 @@ permalink: /team/
   {% assign photo_path = '/images/teampic/' | append: member.photo %}
   <div class="team-card">
     {% if member.photo %}
-      <img
-        class="team-photo"
-        src="{{ photo_path | relative_url }}"
-        alt="{{ member.name }}"
-        onerror="this.style.display='none';">
+      <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
-
     <h4>{{ member.name }}</h4>
     <div class="team-role">{{ member.info }}</div>
-
-    {% if member.joined %}
-      <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
-    {% endif %}
-
-    {% if member.description %}
-      <p>{{ member.description }}</p>
-    {% endif %}
-
-    {% if member.project_title %}
-      <p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>
-    {% endif %}
-
-    {% if member.email != "" %}
-      <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
-
-    {% if member.number_educ and member.number_educ > 0 %}
-      <strong>Background</strong>
-      <ul class="team-edu">
-        {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-        {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-        {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-        {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-        {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
-      </ul>
-    {% endif %}
-
+    {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+    {% if member.project_title %}<p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
+    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
     {% if member.papers and member.papers.size > 0 %}
       <strong>Selected papers</strong>
       <ul class="team-papers">
@@ -356,23 +268,12 @@ permalink: /team/
   {% assign photo_path = '/images/teampic/' | append: member.photo %}
   <div class="team-card">
     {% if member.photo %}
-      <img
-        class="team-photo"
-        src="{{ photo_path | relative_url }}"
-        alt="{{ member.name }}"
-        onerror="this.style.display='none';">
+      <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
-
     <h4>{{ member.name }}</h4>
     <div class="team-role">{{ member.info }}</div>
-
-    {% if member.project_title %}
-      <p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>
-    {% endif %}
-
-    {% if member.email != "" %}
-      <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
+    {% if member.project_title %}<p class="team-project"><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
+    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
 </div>
@@ -384,27 +285,13 @@ permalink: /team/
   {% assign photo_path = '/images/teampic/' | append: member.photo %}
   <div class="team-card">
     {% if member.photo %}
-      <img
-        class="team-photo"
-        src="{{ photo_path | relative_url }}"
-        alt="{{ member.name }}"
-        onerror="this.style.display='none';">
+      <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
-
     <h4>{{ member.name }}</h4>
     <div class="team-role">{{ member.info }}</div>
-
-    {% if member.description %}
-      <p>{{ member.description }}</p>
-    {% endif %}
-
-    {% if member.project_title %}
-      <p class="team-project"><strong>Role:</strong> {{ member.project_title }}</p>
-    {% endif %}
-
-    {% if member.email != "" %}
-      <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
+    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+    {% if member.project_title %}<p class="team-project"><strong>Role:</strong> {{ member.project_title }}</p>{% endif %}
+    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 {% endfor %}
 </div>
@@ -412,7 +299,6 @@ permalink: /team/
 ## Alumni
 
 <div class="alumni-columns">
-
   <div class="alumni-column">
     <h3>PhD Graduates, Postdocs & Fraunhofer PhDs</h3>
     {% for member in alumni_phd_postdoc %}
@@ -448,5 +334,4 @@ permalink: /team/
       </div>
     {% endfor %}
   </div>
-
 </div>
