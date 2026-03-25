@@ -1,0 +1,263 @@
+# ============================================================
+# _data/alumni.yml  –  Schäberle Lab, JLU Giessen
+# ============================================================
+# THREE COLUMNS displayed on the Alumni page:
+#
+#   column: phd_postdoc   → PhD graduates, Postdocs, Fraunhofer PhDs
+#   column: visiting      → Visiting Professors, Visiting Scientists,
+#                           Research Fellows, Internships, Fellowships
+#   column: master        → Master students, Hiwi/Bachelor students
+#
+# FIELDS (all columns):
+#   name      : Full name (with title if applicable)
+#   column    : phd_postdoc | visiting | master
+#   position  : Role held in the group
+#   years     : Time in the group (string, e.g. "2018–2025")
+#   whereabouts: Last known position / institution (leave "" if unknown)
+# ============================================================
+
+# ── Column 1: PhD graduates, Postdocs & Fraunhofer PhDs ──────
+
+- name: "Dr. Ute Mettal"
+  column: phd_postdoc
+  position: "Postdoctoral Researcher"
+  years: "2018–2025"
+  whereabouts: "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit, Braunschweig"
+
+- name: "Lei Wang"
+  column: phd_postdoc
+  position: "PhD Student"
+  years: "2019–2024"
+  whereabouts: ""
+
+- name: "Sandra Semmler"
+  column: phd_postdoc
+  position: "PhD at Fraunhofer IME-BR"
+  years: "2018–2021"
+  whereabouts: "Lab Head, Fidelio Healthcare Limburg GmbH"
+
+- name: "Stephan Brinkmann"
+  column: phd_postdoc
+  position: "PhD at Fraunhofer IME-BR"
+  years: "2017–2021"
+  whereabouts: "Project Manager Cell Culture, Evonik Nutrition & Care GmbH"
+
+- name: "Markus Oberpaul"
+  column: phd_postdoc
+  position: "PhD at Fraunhofer IME-BR"
+  years: "2016–2021"
+  whereabouts: "PostDoc, BMBF-Nachwuchsgruppe ASCRIBE, Fraunhofer Giessen"
+
+- name: "I Dewa Made Kresna"
+  column: phd_postdoc
+  position: "PhD Student"
+  years: "2018–2022"
+  whereabouts: "Remofarm GmbH & Co. KG"
+
+- name: "Riyanti"
+  column: phd_postdoc
+  position: "PhD Student"
+  years: "2016–2021"
+  whereabouts: "Biotechnology, Gadjah Mada University, Indonesia"
+
+- name: "Luis J. Linares Otoya"
+  column: phd_postdoc
+  position: "PhD and Postdoctoral Researcher"
+  years: "2015–2020"
+  whereabouts: "Universidad Nacional de Trujillo, Peru (Fondecyt)"
+
+- name: "Dr. Katja M. Fisch"
+  column: phd_postdoc
+  position: "Postdoctoral Researcher"
+  years: "2017–2018"
+  whereabouts: "Bristol, UK"
+
+- name: "Dr. Henrik Harms"
+  column: phd_postdoc
+  position: "Postdoctoral Researcher"
+  years: "2017–2018"
+  whereabouts: "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)"
+
+# ── Column 2: Visiting Scientists, Fellows & Internships ──────
+
+- name: "M.Sc. Mach Paul Achuoth"
+  column: visiting
+  position: "Bayer Foundation Fellowship"
+  years: "Oct 2024–Mar 2025"
+  whereabouts: "PhD in Chemistry, University of Pretoria"
+
+- name: "M.Sc. Jorge Roas López-Menchero"
+  column: visiting
+  position: "Internship"
+  years: "Sep–Dec 2024"
+  whereabouts: "PhD in Biotechnology and Genetic Resources of Plants, Universidad Politécnica de Madrid"
+
+- name: "Prof. Séverin Nguemezi Tchameni"
+  column: visiting
+  position: "Visiting Scientist"
+  years: "Sep–Dec 2024"
+  whereabouts: "University of Douala, Cameroon – Faculty of Science, Dept. of Biochemistry"
+
+- name: "Dr. Harwoko"
+  column: visiting
+  position: "Visiting Scientist"
+  years: "Sep–Oct 2022"
+  whereabouts: "Universitas Jenderal Soedirman, Purwokerto, Indonesia"
+
+- name: "Dr. Wael Abdel-Mageed"
+  column: visiting
+  position: "Visiting Professor"
+  years: "2021–2022"
+  whereabouts: "Associate Professor, Beni-Suef University, Egypt"
+
+- name: "Prof. Ruiyun Yang"
+  column: visiting
+  position: "Visiting Professor"
+  years: "Feb 2020–Feb 2021"
+  whereabouts: "Professor, Guangxi Normal University, P.R. China"
+
+- name: "Teresita Carrión Zavaleta"
+  column: visiting
+  position: "Trainee"
+  years: "Jun–Jul 2019"
+  whereabouts: "Student, Universidad Nacional de Trujillo, Peru"
+
+- name: "Apisada Jiso"
+  column: visiting
+  position: "Research Fellow"
+  years: "Feb–Jul 2019"
+  whereabouts: "PhD student, Prince of Songkla University, Thailand"
+
+- name: "Lizbeth Nohely Armas Mantilla"
+  column: visiting
+  position: "Research Fellow"
+  years: "Oct 2018–May 2019"
+  whereabouts: "Student, Universidad Nacional de Trujillo, Peru"
+
+- name: "Aninditia Sabdaningsih"
+  column: visiting
+  position: "Research Fellow"
+  years: "Dec 2018–May 2019"
+  whereabouts: "PhD student, Diponegoro University, Semarang, Indonesia"
+
+- name: "Dr. Walter Balansa"
+  column: visiting
+  position: "DAAD Fellow"
+  years: "Aug 2017–Jan 2018 & Jun–Sep 2018"
+  whereabouts: "Lecturer, Politeknik Negeri Nusa Utara (POLNUSTAR)"
+
+- name: "Zina Nasfi"
+  column: visiting
+  position: "Research Fellow"
+  years: "Mar–Aug 2018"
+  whereabouts: "PhD student, University of Gabès, Tunisia"
+
+- name: "Diah Ayuningrum"
+  column: visiting
+  position: "Research Fellow"
+  years: "Nov 2017–Jun 2018"
+  whereabouts: "PhD student, Diponegoro University, Semarang, Indonesia"
+
+# ── Column 3: Master Students & Hiwi ─────────────────────────
+
+- name: "Naveen Sastry Chapalli Subramani"
+  column: master
+  position: "Master Student"
+  years: "2022–2024"
+  whereabouts: ""
+
+- name: "Eric Kwaku Gyan"
+  column: master
+  position: "Master Student"
+  years: ""
+  whereabouts: ""
+
+- name: "Bharath Kethina"
+  column: master
+  position: "Master Student"
+  years: "2022–2023"
+  whereabouts: ""
+
+- name: "Komal Savaliya"
+  column: master
+  position: "Master Student"
+  years: "2022–2023"
+  whereabouts: ""
+
+- name: "Gowthami Kolluru Venkataswamy Reddy"
+  column: master
+  position: "Master Student"
+  years: "2022–2023"
+  whereabouts: ""
+
+- name: "Anna-Lena Nuding"
+  column: master
+  position: "Master Student"
+  years: "2022–2023"
+  whereabouts: ""
+
+- name: "Hongyi Fan"
+  column: master
+  position: "Master Student"
+  years: "2020–2023"
+  whereabouts: ""
+
+- name: "Friscasaria Gurusinga"
+  column: master
+  position: "Master Student"
+  years: "–2022"
+  whereabouts: "PhD student, BMBF Junior Research Group SymBioÖkonomie (Fraunhofer IME-BR)"
+
+- name: "Tobias Koch"
+  column: master
+  position: "Master Student"
+  years: "–2022"
+  whereabouts: "Specialist Testing Technical Operations, Abbott, Wiesbaden"
+
+- name: "Linxuan Wen"
+  column: master
+  position: "Master Student"
+  years: "2020–2021"
+  whereabouts: "PhD student, Dresden University of Technology (Bioprocess Engineering)"
+
+- name: "Hanine Ahmad"
+  column: master
+  position: "Master Student"
+  years: "2020–2021"
+  whereabouts: ""
+
+- name: "Jun-Hui Cho"
+  column: master
+  position: "Master Student"
+  years: "2020–2021"
+  whereabouts: ""
+
+- name: "Sanjata Joshi"
+  column: master
+  position: "Master Student"
+  years: "May 2020–Mar 2021"
+  whereabouts: "Research Assistant, Universität zu Lübeck"
+
+- name: "Leo Padva"
+  column: master
+  position: "Hiwi and Master Student"
+  years: "2018–2020"
+  whereabouts: "PhD student, University of Bonn, Pharmaceutical Biology"
+
+- name: "Mohamed Abdeldayem"
+  column: master
+  position: "Master Student"
+  years: "Nov 2019–Feb 2020"
+  whereabouts: "Justus-Liebig-University, Giessen"
+
+- name: "Abha Sharma"
+  column: master
+  position: "Researcher & Master Student"
+  years: "Dec 2017–Nov 2020"
+  whereabouts: "CENTOGENE GmbH, Frankfurt"
+
+- name: "Kevin Obodoechina"
+  column: master
+  position: "Master Student"
+  years: "2018–2019"
+  whereabouts: "Bioscientia, Ingelheim am Rhein"
