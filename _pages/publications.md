@@ -61,9 +61,9 @@ permalink: /publications/
 <ul style="list-style: none; padding-left: 0;">
   {% for publi in year.items %}
     <li style="margin-bottom: 1rem;">
-      <strong>{{ counter }}. {{ publi.title }}</strong><br>
-      {{ publi.authors }}<br>
-      <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+      <span style="font-weight:700;">[{{ counter }}]</span> {{ publi.authors }}<br>
+      <strong><a href="{{ publi.link.url }}">{{ publi.title }}</a></strong><br>
+      {{ publi.link.display }}
     </li>
     {% assign counter = counter | minus: 1 %}
   {% endfor %}
