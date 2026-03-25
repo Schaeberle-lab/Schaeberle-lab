@@ -13,8 +13,9 @@ permalink: /team/
 
 Jump to [Group Leader](#group-leader), [Postdoctoral Researchers](#postdoctoral-researchers), [PhD Students](#phd-students), [Master Students](#master-students), [Administrative Support](#administrative-support), [Alumni](#alumni).
 
-{% assign leader = site.data.team_members | where: "group", "leadership" %}
+{% assign leader = site.data.team_members | where: "group", "pi" %}
 {% assign postdocs = site.data.team_members | where: "group", "postdoc" %}
+{% assign project_scientists = site.data.team_members | where: "group", "project_scientist" %}
 {% assign phds = site.data.team_members | where: "group", "phd" %}
 {% assign masters = site.data.team_members | where: "group", "master" %}
 {% assign admin = site.data.team_members | where: "group", "admin" %}
