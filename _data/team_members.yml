@@ -1,0 +1,343 @@
+# ============================================================
+# _data/team.yml  –  Schäberle Lab, JLU Giessen
+# ============================================================
+# STRUCTURE BY GROUP:
+#
+# PI:
+#   name, photo, info, description, email, group,
+#   project_title, number_educ, education1, highlight
+#
+# postdoc:
+#   name, photo, info, description, email, group,
+#   project_title, joined, role_in_group,
+#   number_educ (3), education1 (BSc), education2 (MSc), education3 (PhD),
+#   highlight
+#
+# phd:
+#   name, photo, info, description, email, group,
+#   project_title, joined,
+#   number_educ (1), education1 (BSc or MSc),
+#   papers (list of publist.yml titles),
+#   highlight
+#
+# master / admin:
+#   name, photo, info, email, group, project_title, highlight
+# ============================================================
+
+# ── Principal Investigator ────────────────────────────────────
+
+- name: Prof. Dr. Till F. Schäberle
+  photo: till.jpg
+  info: "Principal Investigator"
+  description: "Head of the Natural Product Research group at JLU Giessen and Fraunhofer IME. Research focuses on discovery of new natural products, biosynthesis of antibiotics, and synthetic biology."
+  email: Till.Schaeberle@agrar.uni-giessen.de
+  group: PI
+  project_title: "Natural product discovery & antibiotic biosynthesis"
+  number_educ: 1
+  education1: "Professor of Natural Product Research, Justus-Liebig-Universität Giessen, since 2017"
+  highlight: 1
+
+# ── Postdoctoral Research Associates ──────────────────────────
+
+- name: Dr. Yang Liu
+  photo: yang.jpg
+  info: "Postdoctoral Researcher"
+  description: "Natural products from marine-derived bacteria and fungi, with a focus on Bacteroidota and Pedobacter strains. Molecular networking and metabolomics."
+  email: ""
+  group: postdoc
+  project_title: "Bacteroidota natural products & Pedobacter"
+  joined: "2017"
+  role_in_group: "Independent researcher and co-supervisor of PhD and Master students in the natural product chemistry branch of the group."
+  number_educ: 3
+  education1: "B.Sc. in Marine Biology, Ocean University of China"
+  education2: "M.Sc. in Marine Biology, Ocean University of China"
+  education3: "Ph.D. in Natural Product Chemistry, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Nils Böhringer
+  photo: nils.jpg
+  info: "Postdoctoral Researcher"
+  description: "Biosynthesis and engineering of darobactin and related BamA inhibitors. Heterologous expression and genome mining for novel antibiotics."
+  email: ""
+  group: postdoc
+  project_title: "Darobactin biosynthesis & BamA inhibitors (BAMA)"
+  joined: "2016"
+  role_in_group: "Lead researcher on the darobactin programme. Responsible for heterologous expression and mutasynthesis strategies. Co-supervisor of PhD students."
+  number_educ: 3
+  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Zerlina G. Wuisan
+  photo: zerlina.jpg
+  info: "Postdoctoral Researcher"
+  description: "Heterologous expression of biosynthetic gene clusters and genetic engineering of darobactin producers. Biochemistry of RiPP biosynthesis."
+  email: ""
+  group: postdoc
+  project_title: "Heterologous expression & darobactin engineering (BAMA)"
+  joined: "2016"
+  role_in_group: "Responsible for the heterologous expression and genetic engineering platform of the group. Key contributor to the darobactin BAMA project."
+  number_educ: 3
+  education1: "B.Sc. in Biology, Institut Pertanian Bogor, Indonesia"
+  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Michael Marner
+  photo: michael.jpg
+  info: "Postdoctoral Researcher – Assay Development & Screening, Fraunhofer IME"
+  description: "Antimicrobial activity screening and assay development for novel antibiotics. Evaluation of darobactin analogs against clinical MDR isolates at Fraunhofer IME."
+  email: ""
+  group: postdoc
+  project_title: "Antimicrobial assay development (BAMA, Fraunhofer IME)"
+  joined: "2019"
+  role_in_group: "Leads the biological evaluation and assay development pipeline at Fraunhofer IME. Main contact for biological activity screening collaborations."
+  number_educ: 3
+  education1: "B.Sc. in Biochemistry, Philipps-Universität Marburg"
+  education2: "M.Sc. in Biochemistry, Philipps-Universität Marburg"
+  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Maria A. Patras
+  photo: maria.jpg
+  info: "Postdoctoral Researcher – Chemical Analytics, Fraunhofer IME"
+  description: "Chemical analytics and structure elucidation of novel natural products using LC-HRMS, MALDI imaging, and NMR. Metabolomics and dereplication strategies."
+  email: ""
+  group: postdoc
+  project_title: "Chemical analytics & metabolomics (Fraunhofer IME)"
+  joined: "2018"
+  role_in_group: "Heads the chemical analytics unit at Fraunhofer IME. Responsible for LC-HRMS metabolomics workflows and structural dereplication of new compounds."
+  number_educ: 3
+  education1: "B.Sc. in Chemistry, University of Athens, Greece"
+  education2: "M.Sc. in Analytical Chemistry, University of Athens, Greece"
+  education3: "Ph.D. in Natural Product Chemistry, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Connor B. Smieja
+  photo: connor.jpg
+  info: "Postdoctoral Researcher"
+  description: "Natural product chemistry and biological activity profiling of compounds from bacterial and fungal sources."
+  email: ""
+  group: postdoc
+  project_title: "Natural product chemistry & bioactivity profiling"
+  joined: "2023"
+  role_in_group: "Researcher responsible for isolation, structural elucidation, and bioactivity profiling of new natural product scaffolds."
+  number_educ: 3
+  education1: "B.Sc. in Chemistry, University of Wisconsin–Madison, USA"
+  education2: "M.Sc. in Chemistry, University of Wisconsin–Madison, USA"
+  education3: "Ph.D. in Natural Product Chemistry, University of Wisconsin–Madison, USA"
+  highlight: 0
+
+- name: Dr. Celine Mara Zumkeller
+  photo: celine.jpg
+  info: "Postdoctoral Researcher"
+  description: "Genome mining and natural product discovery from Bacteroidota strains, with a focus on Pedobacter and Acidobacteria from diverse environmental habitats."
+  email: ""
+  group: postdoc
+  project_title: "Bacteroidota & Pedobacter genome mining"
+  joined: "2018"
+  role_in_group: "Lead researcher on the Bacteroidota natural product programme. Responsible for genome sequencing, bioinformatic mining, and genetic tractability studies."
+  number_educ: 3
+  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  highlight: 0
+
+- name: Dr. Marius S. Spohn
+  photo: marius.jpg
+  info: "Group Leader – Natural Product Department, Fraunhofer IME"
+  description: "Leads the natural product discovery pipeline at Fraunhofer IME. Focus on Bacteroideta biosynthetic diversity, genomics, and high-throughput screening platforms."
+  email: ""
+  group: postdoc
+  project_title: "Natural product pipeline leadership (Fraunhofer IME)"
+  joined: "2017"
+  role_in_group: "Group leader at Fraunhofer IME leading the natural product screening and discovery pipeline. Co-PI on several funded projects and co-supervisor of PhD students."
+  number_educ: 3
+  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
+  highlight: 0
+
+# ── Project Scientist ─────────────────────────────────────────
+
+- name: M.Sc. Winda A. Soerjawinata
+  photo: winda.jpg
+  info: "Project Scientist"
+  description: "Natural product research and biological evaluation of bacterial metabolites."
+  email: ""
+  group: phd
+  project_title: "Bacterial natural products"
+  joined: "2021"
+  number_educ: 1
+  education1: "M.Sc. in Biology, Institut Pertanian Bogor, Indonesia"
+  papers: []
+  highlight: 0
+
+# ── Graduate Students (PhDs) ──────────────────────────────────
+
+- name: M.Sc. Flaviana C. Susanto
+  photo: flaviana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Marine metabolomics and antibacterial activity of seaweeds and marine-derived fungi against multidrug-resistant pathogens."
+  email: ""
+  group: phd
+  project_title: "Marine metabolomics & MDR pathogens"
+  joined: "2021"
+  number_educ: 1
+  education1: "M.Sc. in Biology, Universitas Diponegoro, Indonesia"
+  papers:
+    - "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
+    - "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
+  highlight: 0
+
+- name: M.Sc. Pascal-Marcel Geisler
+  photo: pascal.jpg
+  info: "Graduate Student (PhD)"
+  description: "Design of RNAi-based pest control strategies using dsRNA lipid nanoparticle formulations. Project in collaboration with Dr. Christoph Hellmann at Fraunhofer IME."
+  email: ""
+  group: phd
+  project_title: "RNAi-based pest control (dsRNA nanoparticles)"
+  joined: "2021"
+  number_educ: 1
+  education1: "M.Sc. in Agricultural Sciences, Justus-Liebig-Universität Giessen"
+  papers:
+    - "Design of dsRNA lipid nanoparticle formulations for RNAi-mediated pest control"
+  highlight: 0
+
+- name: M.Sc. Nicolas Reyes Castillo
+  photo: nicolas.jpg
+  info: "Graduate Student (PhD)"
+  description: "Mechanistic profiling and biosynthesis of fungal natural products, including tyrosinase inhibitors from carboxy-biphenyl scaffolds."
+  email: ""
+  group: phd
+  project_title: "Fungal natural products & tyrosinase inhibition"
+  joined: "2021"
+  number_educ: 1
+  education1: "M.Sc. in Biochemistry, Universidad Nacional de Trujillo, Peru"
+  papers:
+    - "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
+  highlight: 0
+
+- name: M.Sc. Felix Mühlemeyer
+  photo: felix.jpg
+  info: "Graduate Student (PhD)"
+  description: "Natural product discovery and biosynthetic gene cluster characterisation from environmental bacteria."
+  email: ""
+  group: phd
+  project_title: "Biosynthetic gene cluster characterisation"
+  joined: "2022"
+  number_educ: 1
+  education1: "M.Sc. in Molecular Biotechnology, Justus-Liebig-Universität Giessen"
+  papers: []
+  highlight: 0
+
+- name: M.Sc. Joana A. Bauer-Klotz
+  photo: joana.jpg
+  info: "Graduate Student (PhD)"
+  description: "Biological control strategies using natural compounds from insect-associated bacteria. Project: ProBioControl (Fraunhofer IME)."
+  email: ""
+  group: phd
+  project_title: "Biological control – ProBioControl (Fraunhofer IME)"
+  joined: "2022"
+  number_educ: 1
+  education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  papers: []
+  highlight: 0
+
+- name: M.Sc. Xufan Lian
+  photo: xufan.jpg
+  info: "Graduate Student (PhD)"
+  description: "Isolation and characterisation of bioactive natural products from bacterial sources."
+  email: ""
+  group: phd
+  project_title: "Bacterial natural product isolation"
+  joined: "2022"
+  number_educ: 1
+  education1: "M.Sc. in Pharmacy, Sun Yat-sen University, China"
+  papers: []
+  highlight: 0
+
+- name: M.Sc. Chaoyi Hu
+  photo: chaoyi.jpg
+  info: "Graduate Student (PhD)"
+  description: "Biosynthesis and activity profiling of novel bacterial metabolites."
+  email: ""
+  group: phd
+  project_title: "Bacterial metabolite biosynthesis"
+  joined: "2022"
+  number_educ: 1
+  education1: "M.Sc. in Biochemistry, Sun Yat-sen University, China"
+  papers: []
+  highlight: 0
+
+- name: M.Sc. Alexander C. Kinner
+  photo: alex.jpg
+  info: "Graduate Student (PhD)"
+  description: "Natural product discovery from environmental bacteria using genome mining and metabolomics."
+  email: ""
+  group: phd
+  project_title: "Genome mining & environmental bacteria"
+  joined: "2023"
+  number_educ: 1
+  education1: "M.Sc. in Molecular Biotechnology, Justus-Liebig-Universität Giessen"
+  papers: []
+  highlight: 0
+
+- name: M.Sc. Annabel Metje
+  photo: annabel.jpg
+  info: "Graduate Student (PhD)"
+  description: "Natural product research with focus on under-investigated bacterial habitats."
+  email: ""
+  group: phd
+  project_title: "Natural products from under-investigated habitats"
+  joined: "2023"
+  number_educ: 1
+  education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  papers: []
+  highlight: 0
+
+# ── Master Students ───────────────────────────────────────────
+
+- name: B.Sc. Najmul Alam
+  photo: dummy.jpg
+  info: "Master Student"
+  email: ""
+  group: master
+  project_title: "Master thesis project"
+  highlight: 0
+
+- name: B.Sc. Ribina Mundeth Abdul Kareem
+  photo: dummy.jpg
+  info: "Master Student"
+  email: ""
+  group: master
+  project_title: "Master thesis project"
+  highlight: 0
+
+- name: B.Sc. Jomol Jose
+  photo: dummy.jpg
+  info: "Master Student"
+  email: ""
+  group: master
+  project_title: "Master thesis project"
+  highlight: 0
+
+- name: B.Sc. Roshni Chetri
+  photo: dummy.jpg
+  info: "Master Student"
+  email: ""
+  group: master
+  project_title: "Master thesis project"
+  highlight: 0
+
+# ── Administration ────────────────────────────────────────────
+
+- name: Alexandra Bender
+  photo: alexandra.jpg
+  info: "Office Management"
+  description: "Administrative support for the Natural Product Research group. Contact for general enquiries and visitor coordination."
+  email: sekretariat.iib@agrar.uni-giessen.de
+  group: admin
+  project_title: "Group administration"
+  highlight: 0
