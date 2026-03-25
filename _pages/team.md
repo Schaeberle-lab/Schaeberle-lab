@@ -20,7 +20,7 @@ permalink: /team/
 }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 24px;
   margin: 18px 0 36px 0;
 }
@@ -69,6 +69,51 @@ permalink: /team/
 .team-jump a {
   white-space: nowrap;
 }
+.alumni-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  margin: 20px 0 30px 0;
+}
+.alumni-column {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 20px;
+  background: #fff;
+}
+.alumni-column h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.alumni-entry {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #efefef;
+}
+.alumni-entry:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.alumni-name {
+  font-weight: 700;
+}
+.alumni-role {
+  font-weight: 600;
+}
+.alumni-years {
+  color: #555;
+  font-size: 0.95em;
+}
+.alumni-where {
+  margin-top: 4px;
+  font-size: 0.95em;
+}
+@media (max-width: 1100px) {
+  .alumni-columns {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 780px) {
   .team-lead {
     grid-template-columns: 1fr;
@@ -79,13 +124,16 @@ permalink: /team/
 }
 </style>
 
-{% assign pi_members = site.data.team_members | where_exp: "m", "m.group == 'PI' or m.group == 'pi' or m.group == 'leadership' or m.highlight == 1" %}
+{% assign pi_members = site.data.team_members | where_exp: "m", "m.group == 'PI' or m.group == 'pi'" %}
 {% assign postdocs = site.data.team_members | where: "group", "postdoc" %}
-{% assign project_scientists = site.data.team_members | where_exp: "m", "m.group == 'project_scientist' or m.info == 'Project Scientist' or m.info contains 'Project Scientist'" %}
-{% assign phds = site.data.team_members | where_exp: "m", "m.group == 'phd' and m.info != 'Project Scientist' and m.info != 'Project Scientist '" %}
+{% assign project_scientists = site.data.team_members | where: "group", "project_scientist" %}
+{% assign phds = site.data.team_members | where: "group", "phd" %}
 {% assign masters = site.data.team_members | where: "group", "master" %}
 {% assign admin = site.data.team_members | where: "group", "admin" %}
-{% assign show_alumni = false %}
+
+{% assign alumni_phd_postdoc = site.data.alumni | where: "column", "phd_postdoc" %}
+{% assign alumni_visiting = site.data.alumni | where: "column", "visiting" %}
+{% assign alumni_master = site.data.alumni | where: "column", "master" %}
 
 # Team
 
@@ -96,10 +144,11 @@ permalink: /team/
   Jump to
   <a href="#group-leader">Group Leader</a>,
   <a href="#postdoctoral-researchers">Postdoctoral Researchers</a>,
-  <a href="#project-scientist">Project Scientist</a>,
+  <a href="#project-scientists">Project Scientists</a>,
   <a href="#phd-students">PhD Students</a>,
   <a href="#master-students">Master Students</a>,
-  <a href="#administration">Administration</a>.
+  <a href="#administration">Administration</a>,
+  <a href="#alumni">Alumni</a>.
 </div>
 
 ## Group Leader
@@ -197,7 +246,7 @@ permalink: /team/
 {% endfor %}
 </div>
 
-## Project Scientist
+## Project Scientists
 
 <div class="team-grid">
 {% for member in project_scientists %}
@@ -360,28 +409,44 @@ permalink: /team/
 {% endfor %}
 </div>
 
-{% if show_alumni and site.data.alumni_members and site.data.alumni_members.size > 0 %}
 ## Alumni
 
-{% for member in site.data.alumni_members %}
-### {{ member.name }}
+<div class="alumni-columns">
 
-{% if member.duration %}{{ member.duration }}{% endif %}  
-{% if member.info %}<strong>Role:</strong> {{ member.info }}{% endif %}
+  <div class="alumni-column">
+    <h3>PhD Graduates, Postdocs & Fraunhofer PhDs</h3>
+    {% for member in alumni_phd_postdoc %}
+      <div class="alumni-entry">
+        <div class="alumni-name">{{ member.name }}</div>
+        {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
+        {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+        {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
 
-{% if member.number_educ and member.number_educ > 0 %}
-<ul class="team-edu">
-  {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-  {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-  {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-  {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-  {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
-</ul>
-{% endif %}
+  <div class="alumni-column">
+    <h3>Visiting Scientists, Fellows & Internships</h3>
+    {% for member in alumni_visiting %}
+      <div class="alumni-entry">
+        <div class="alumni-name">{{ member.name }}</div>
+        {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
+        {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+        {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
 
-{% if member.email != "" %}
-<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-{% endif %}
+  <div class="alumni-column">
+    <h3>Master Students & Hiwi</h3>
+    {% for member in alumni_master %}
+      <div class="alumni-entry">
+        <div class="alumni-name">{{ member.name }}</div>
+        {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
+        {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+        {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
 
-{% endfor %}
-{% endif %}
+</div>
