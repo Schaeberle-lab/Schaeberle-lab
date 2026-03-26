@@ -39,6 +39,21 @@
 
 # ── Postdoctoral Research Associates ──────────────────────────
 
+- name: Dr. Marius S. Spohn
+  photo: marius.jpeg
+  info: "Group Leader – Natural Product Department, Fraunhofer IME"
+  description: "Leads the natural product discovery pipeline at Fraunhofer IME. Focus on Bacteroideta biosynthetic diversity, genomics, and high-throughput screening platforms."
+  email: ""
+  group: postdoc
+  project_title: "Natural product pipeline leadership (Fraunhofer IME)"
+  joined: "2017"
+  role_in_group: "Group leader at Fraunhofer IME leading the natural product screening and discovery pipeline. Co-PI on several funded projects and co-supervisor of PhD students."
+  number_educ: 3
+  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
+  highlight: 0
+  
 - name: Dr. Yang Liu
   photo: yang.jpeg
   info: "Postdoctoral Researcher"
@@ -54,7 +69,7 @@
   highlight: 0
 
 - name: Dr. Nils Böhringer
-  photo: nils.jpg
+  photo: nils.jpeg
   info: "Postdoctoral Researcher"
   description: "Biosynthesis and engineering of darobactin and related BamA inhibitors. Heterologous expression and genome mining for novel antibiotics."
   email: ""
@@ -69,7 +84,7 @@
   highlight: 0
 
 - name: Dr. Zerlina G. Wuisan
-  photo: zerlina.jpg
+  photo: zerlina.jpeg
   info: "Postdoctoral Researcher"
   description: "Heterologous expression of biosynthetic gene clusters and genetic engineering of darobactin producers. Biochemistry of RiPP biosynthesis."
   email: ""
@@ -84,7 +99,7 @@
   highlight: 0
 
 - name: Dr. Michael Marner
-  photo: michael.jpg
+  photo: michael.jpeg
   info: "Postdoctoral Researcher – Assay Development & Screening, Fraunhofer IME"
   description: "Antimicrobial activity screening and assay development for novel antibiotics. Evaluation of darobactin analogs against clinical MDR isolates at Fraunhofer IME."
   email: ""
@@ -99,7 +114,7 @@
   highlight: 0
 
 - name: Dr. Maria A. Patras
-  photo: maria.jpg
+  photo: maria.jpeg
   info: "Postdoctoral Researcher – Chemical Analytics, Fraunhofer IME"
   description: "Chemical analytics and structure elucidation of novel natural products using LC-HRMS, MALDI imaging, and NMR. Metabolomics and dereplication strategies."
   email: ""
@@ -114,7 +129,7 @@
   highlight: 0
 
 - name: Dr. Connor B. Smieja
-  photo: connor.jpg
+  photo: connor.jpeg
   info: "Postdoctoral Researcher"
   description: "Natural product chemistry and biological activity profiling of compounds from bacterial and fungal sources."
   email: ""
@@ -129,7 +144,7 @@
   highlight: 0
 
 - name: Dr. Celine Mara Zumkeller
-  photo: celine.jpg
+  photo: celine.jpeg
   info: "Postdoctoral Researcher"
   description: "Genome mining and natural product discovery from Bacteroidota strains, with a focus on Pedobacter and Acidobacteria from diverse environmental habitats."
   email: ""
@@ -141,21 +156,6 @@
   education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
   education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
   education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
-  highlight: 0
-
-- name: Dr. Marius S. Spohn
-  photo: marius.jpg
-  info: "Group Leader – Natural Product Department, Fraunhofer IME"
-  description: "Leads the natural product discovery pipeline at Fraunhofer IME. Focus on Bacteroideta biosynthetic diversity, genomics, and high-throughput screening platforms."
-  email: ""
-  group: postdoc
-  project_title: "Natural product pipeline leadership (Fraunhofer IME)"
-  joined: "2017"
-  role_in_group: "Group leader at Fraunhofer IME leading the natural product screening and discovery pipeline. Co-PI on several funded projects and co-supervisor of PhD students."
-  number_educ: 3
-  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
   highlight: 0
 
 # ── Project Scientist ─────────────────────────────────────────
