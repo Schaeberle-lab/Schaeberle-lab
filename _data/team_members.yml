@@ -29,12 +29,15 @@
 - name: Prof. Dr. Till F. Schäberle
   photo: till.jpeg
   info: "Principal Investigator"
-  description: "Head of the Natural Product Research group at JLU Giessen and Fraunhofer IME. Research focuses on discovery of new natural products, biosynthesis of antibiotics, and synthetic biology."
+  description: " Till F. Schäberle is a professor in natural products research at the Justus-Liebig-University. He studied biology and received his PhD from the University of Tübingen at the Institute of Microbiology/Biotechnology at the age of 29. In 2009, he moved to the University of Bonn as a postdoctoral researcher, where he then established his own junior research group at the Institute of Pharmaceutical Biology. In 2014, he completed a research stay in the group of Prof. Dorrestein (University of California, San Diego). The research group of Till Schäberle focuses on structure elucidation and analysis of new natural products, and in particular on the study of the corresponding biosynthetic gene clusters. For this purpose, they apply and further develop genetic, biochemical, bioinformatic and chemical analytical methods. He is also directly involved in translational, application-oriented scientific projects through projects on promising antibiotically active natural products. In 2017, he accepted the call to the newly founded Institute for Insect Biotechnology and Bioresources in Giessen as Professor of Natural Products Research. In addition to his university professorship, he heads the same named department at the Fraunhofer Institute for Molecular Biology and Applied Ecology (IME) Bioresources Division in Giessen. In public-private partnerships, his department develops natural products for a wide range of indications in the fields of agriculture, pharmaceuticals (anti-infectives), veterinary medicine and the food sector. Thus, Mr. Schäberle is interested in translating molecules that nature provides us with into products and solutions that promote human and environmental health. In addition to science, he was a member of the German National Karate Team in his mid-twenties to thirties, winning medals in national and international individual and team competitions."
   email: Till.Schaeberle@agrar.uni-giessen.de
   group: PI
   project_title: "Natural product discovery & antibiotic biosynthesis"
   number_educ: 1
-  education1: "Professor of Natural Product Research, Justus-Liebig-Universität Giessen, since 2017"
+  role_in_group: "Professor of Natural Product Research, Justus-Liebig-Universität Giessen, since 2017"
+  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
+  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
   highlight: 1
 
 # ── Postdoctoral Research Associates ──────────────────────────
