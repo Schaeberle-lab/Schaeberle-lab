@@ -95,6 +95,37 @@ permalink: /team/
   .team-lead { grid-template-columns:1fr; }
   .team-lead .team-photo { margin:0 auto 16px auto; }
 }
+.member-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 22px;
+  align-items: start;
+  margin: 18px 0 28px 0;
+}
+
+.member-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.member-info h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 780px) {
+  .member-row {
+    grid-template-columns: 1fr;
+  }
+
+  .member-photo {
+    margin: 0 auto 14px auto;
+  }
+}
+
 </style>
 
 {% assign pi_members = site.data.team_members | where: "group", "PI" %}
@@ -133,33 +164,46 @@ permalink: /team/
 ## Postdoctoral Researchers
 {% for member in postdocs %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
+<div class="member-row">
+  <div>
+    {% if member.photo %}
+    <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+  </div>
 
-{% if member.photo %}
-<img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="max-width:180px; border-radius:12px; margin-bottom:12px;" onerror="this.style.display='none';">
-{% endif %}
+  <div class="member-info">
+    <h4>{{ member.name }}</h4>
 
-#### {{ member.name }}
+    <div class="team-role">{{ member.info }}</div>
 
-{{ member.info }}
+    {% if member.joined %}
+    <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
+    {% endif %}
 
-{% if member.joined %}
-Joined: {{ member.joined }}
-{% endif %}
+    {% if member.description %}
+    <p>{{ member.description }}</p>
+    {% endif %}
 
-{% if member.description %}
-{{ member.description }}
-{% endif %}
+    {% if member.project_title %}
+    <p><strong>Project:</strong> {{ member.project_title }}</p>
+    {% endif %}
 
-{% if member.number_educ and member.number_educ > 0 %}
-**Education**
-<ul>
-  {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-  {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-  {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-  {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-  {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
-</ul>
-{% endif %}
+    {% if member.role_in_group %}
+    <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
+    {% endif %}
+
+    {% if member.number_educ and member.number_educ > 0 %}
+    <p><strong>Education</strong></p>
+    <ul>
+      {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
+      {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
+      {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
+      {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
+      {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+    </ul>
+    {% endif %}
+  </div>
+</div>
 
 ---
 {% endfor %}
