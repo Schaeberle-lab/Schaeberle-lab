@@ -7,23 +7,94 @@ permalink: /team/
 ---
 
 <style>
-.team-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:24px; margin:18px 0 36px 0; }
-.team-card { border:1px solid #e3e3e3; border-radius:16px; padding:18px; background:#fff; }
-.team-photo { width:100%; max-width:220px; aspect-ratio:1/1; object-fit:cover; border-radius:12px; display:block; margin:0 auto 14px auto; }
-.team-lead { display:grid; grid-template-columns:minmax(220px,280px) 1fr; gap:28px; align-items:start; border:1px solid #d9d9d9; border-radius:18px; padding:28px; margin:24px 0 36px 0; background:#f8f9fb; }
-.team-lead .team-photo { max-width:260px; margin:0; }
-.team-role { font-weight:700; margin-bottom:8px; }
-.team-meta { color:#666; font-size:.95em; margin-bottom:8px; }
-.alumni-columns { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin:18px 0 36px 0; }
-.alumni-column { border:1px solid #e3e3e3; border-radius:16px; padding:18px; background:#fff; }
-.alumni-entry { margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid #efefef; }
-.alumni-entry:last-child { margin-bottom:0; padding-bottom:0; border-bottom:none; }
-.alumni-name { font-weight:700; }
-.alumni-role { font-weight:600; }
-.alumni-years { color:#666; font-size:.95em; }
-.alumni-where { margin-top:4px; font-size:.95em; }
-@media (max-width:1100px){ .alumni-columns { grid-template-columns:1fr; } }
-@media (max-width:780px){ .team-lead { grid-template-columns:1fr; } .team-lead .team-photo { margin:0 auto 16px auto; } }
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 24px;
+  margin: 18px 0 36px 0;
+}
+.team-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+}
+.team-photo {
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 14px auto;
+}
+.team-lead {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) 1fr;
+  gap: 28px;
+  align-items: start;
+  border: 1px solid #d9d9d9;
+  border-radius: 18px;
+  padding: 28px;
+  margin: 24px 0 36px 0;
+  background: #f8f9fb;
+}
+.team-lead .team-photo {
+  max-width: 260px;
+  margin: 0;
+}
+.team-role {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.team-meta {
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 8px;
+}
+.alumni-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 18px 0 36px 0;
+}
+.alumni-column {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+}
+.alumni-entry {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #efefef;
+}
+.alumni-entry:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.alumni-name {
+  font-weight: 700;
+}
+.alumni-role {
+  font-weight: 600;
+}
+.alumni-years {
+  color: #666;
+  font-size: 0.95em;
+}
+.alumni-where {
+  margin-top: 4px;
+  font-size: 0.95em;
+}
+@media (max-width:1100px){
+  .alumni-columns { grid-template-columns:1fr; }
+}
+@media (max-width:780px){
+  .team-lead { grid-template-columns:1fr; }
+  .team-lead .team-photo { margin:0 auto 16px auto; }
+}
 </style>
 
 {% assign pi_members = site.data.team_members | where: "group", "PI" %}
@@ -45,7 +116,9 @@ permalink: /team/
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-lead">
   <div>
-    {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+    {% if member.photo %}
+    <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
   </div>
   <div>
     <h3 style="margin-top:0;">{{ member.name }}</h3>
@@ -63,7 +136,9 @@ permalink: /team/
 {% for member in postdocs %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card">
-  {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+  {% if member.photo %}
+  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
   {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
@@ -80,7 +155,9 @@ permalink: /team/
 {% for member in project_scientists %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card">
-  {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+  {% if member.photo %}
+  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
   {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
@@ -96,7 +173,9 @@ permalink: /team/
 {% for member in phds %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card">
-  {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+  {% if member.photo %}
+  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
   {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
@@ -112,7 +191,9 @@ permalink: /team/
 {% for member in masters %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card">
-  {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+  {% if member.photo %}
+  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
   {% if member.project_title %}<p><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
@@ -126,7 +207,9 @@ permalink: /team/
 {% for member in admin %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card">
-  {% if member.photo %}<img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">{% endif %}
+  {% if member.photo %}
+  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
   {% if member.description %}<p>{{ member.description }}</p>{% endif %}
