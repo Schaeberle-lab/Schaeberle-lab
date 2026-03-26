@@ -42,19 +42,19 @@
 
 # ── Postdoctoral Research Associates ──────────────────────────
 
-- name: Dr. Marius S. Spohn
+- name: Dr. Marius Spohn
   photo: marius.jpeg
   info: "Group Leader – Natural Product Department, Fraunhofer IME"
-  description: "Leads the natural product discovery pipeline at Fraunhofer IME. Focus on Bacteroideta biosynthetic diversity, genomics, and high-throughput screening platforms."
+  description: " Molecular microbiologist with research focus on applied biotechnology. Devoted to investigations of metabolic regulatory pathways of industrial relevant natural products. Expertise in metabolic engineering, molecular genetics and biochemistry of natural products."
   email: ""
   group: postdoc
   project_title: "Natural product pipeline leadership (Fraunhofer IME)"
-  joined: "2017"
-  role_in_group: "Group leader at Fraunhofer IME leading the natural product screening and discovery pipeline. Co-PI on several funded projects and co-supervisor of PhD students."
+  joined: "2016"
+  role_in_group: "Deputy Head of Department Natural Products and Group leader at Fraunhofer IME"
   number_educ: 3
-  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
+  education1: "B.Sc. in Biology, Eberhard Karls Universität Tübingen"
+  education2: "M.Sc. in Biology/Microbiology, Eberhard Karls Universität Tübingen"
+  education3: "Ph.D. in Microbiology and Infection Medicine, Eberhard Karls Universität Tübingen"
   highlight: 0
   
 - name: Dr. Yang Liu
