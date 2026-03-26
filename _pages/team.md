@@ -131,23 +131,38 @@ permalink: /team/
 {% endfor %}
 
 ## Postdoctoral Researchers
-
-<div class="team-grid">
 {% for member in postdocs %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
-<div class="team-card">
-  {% if member.photo %}
-  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
-  {% endif %}
-  <h4>{{ member.name }}</h4>
-  <div class="team-role">{{ member.info }}</div>
-  {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
-  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-  {% if member.project_title %}<p><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
-  {% if member.role_in_group %}<p><strong>Role in group:</strong> {{ member.role_in_group }}</p>{% endif %}
-</div>
+
+{% if member.photo %}
+<img src="{{ photo_path | relative_url }}" alt="{{ member.name }}" style="max-width:180px; border-radius:12px; margin-bottom:12px;" onerror="this.style.display='none';">
+{% endif %}
+
+#### {{ member.name }}
+
+{{ member.info }}
+
+{% if member.joined %}
+Joined: {{ member.joined }}
+{% endif %}
+
+{% if member.description %}
+{{ member.description }}
+{% endif %}
+
+{% if member.number_educ and member.number_educ > 0 %}
+**Education**
+<ul>
+  {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
+  {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
+  {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
+  {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
+  {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+</ul>
+{% endif %}
+
+---
 {% endfor %}
-</div>
 
 ## Project Scientists
 
