@@ -26,7 +26,7 @@ permalink: /team/
 
 .team-photo {
   width: 200px;
-  height: 230px;
+  height: 250px;
   object-fit: cover;
   border-radius: 12px;
   display: block;
@@ -75,7 +75,7 @@ permalink: /team/
 
 .member-photo {
   width: 200px;
-  height: 230px;
+  height: 250px;
   object-fit: cover;
   display: block;
   border-radius: 10px;
