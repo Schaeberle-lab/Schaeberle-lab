@@ -193,7 +193,7 @@
   highlight: 0
   
 - name: M.Sc. Felix Mühlemeyer
-  photo: felix.jpg
+  photo: felix.jpeg
   info: "Graduate Student (PhD)"
   description: "Natural product discovery and biosynthetic gene cluster characterisation from environmental bacteria."
   email: ""
@@ -206,7 +206,7 @@
   highlight: 0
 
 - name: M.Sc. Joana A. Bauer-Klotz
-  photo: joana.jpg
+  photo: joana.jpeg
   info: "Graduate Student (PhD)"
   description: "Biological control strategies using natural compounds from insect-associated bacteria. Project: ProBioControl (Fraunhofer IME)."
   email: ""
@@ -233,7 +233,7 @@
   highlight: 0
 
 - name: M.Sc. Xufan Lian
-  photo: xufan.jpg
+  photo: xufan.jpeg
   info: "Graduate Student (PhD)"
   description: "Isolation and characterisation of bioactive natural products from bacterial sources."
   email: ""
@@ -251,8 +251,8 @@
   description: " "
   email: "Chaoyi.Hu@ag.uni-giessen.de"
   orcid: https://orcid.org/0009-0006-1347-1196
-  researchgate: hhttps://www.researchgate.net/profile/Chaoyi-Hu-2
-  linkedin: https://www.linkedin.com/in/john-doe/
+  researchgate: https://www.researchgate.net/profile/Chaoyi-Hu-2
+  linkedin: https://www.linkedin.com/in/chaoyi-hu-6144a62b9/
   group: phd
   project_title: "Biosynthesis and Antimicrobial Activity Investigation of Sulfonated Monobactams and Derivatives from Bacteroidetes"
   joined: "2024"
@@ -268,11 +268,11 @@
   description: " "
   email: "alexander.c.kinner@uni.giessen.de"
   orcid: https://orcid.org/0009-0001-1221-4060
-  researchgate: 
-  linkedin: 
+  researchgate: https://www.researchgate.net/profile/Alexander-Kinner
+  linkedin: https://www.linkedin.com/in/alexander-christian-kinner-b02469325/
   group: phd
   project_title: "Genome mining & environmental bacteria"
-  joined: "2023"
+  joined: "2025"
   number_educ: 2
   education1: "B.Sc. in Chemistry, Goethe University Frankfurt "
   education2: "M.Sc. in Chemistry, Goethe University Frankfurt"
@@ -286,7 +286,7 @@
   email: ""
   group: phd
   project_title: "Natural products from under-investigated habitats"
-  joined: "2023"
+  joined: "2025"
   number_educ: 2
   education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
   papers: []
