@@ -104,12 +104,11 @@
 - name: Dr. Maria A. Patras
   photo: maria.jpeg
   info: "Postdoctoral Researcher – Chemical Analytics, Fraunhofer IME"
-  description: "Chemical analytics and structure elucidation of novel natural products using LC-HRMS, MALDI imaging, and NMR. Metabolomics and dereplication strategies."
-  email: ""
+  description: " "
   group: postdoc
-  project_title: "Chemical analytics & metabolomics (Fraunhofer IME)"
-  joined: "2018"
-  role_in_group: "Heads the chemical analytics unit at Fraunhofer IME. Responsible for LC-HRMS metabolomics workflows and structural dereplication of new compounds."
+  project_title: " "
+  joined: "201X"
+  role_in_group: "Analytical Chemistry"
   number_educ: 3
   education1: "B.Sc. in Chemistry, Jacobs University Bremen"
   education2: " "
@@ -119,12 +118,15 @@
 - name: Dr. Connor B. Smieja
   photo: connor.jpeg
   info: "Postdoctoral Researcher"
-  description: "Natural product chemistry and biological activity profiling of compounds from bacterial and fungal sources."
-  email: ""
+  description: " "
+  email: " Connor.B.Smieja@uni-giessen.de "
+  orcid: https://orcid.org/0000-0002-6662-6570
+  researchgate: https://www.researchgate.net/profile/Connor-Smieja
+  linkedin: https://www.linkedin.com/in/connor-smieja/
   group: postdoc
-  project_title: "Natural product chemistry & bioactivity profiling"
-  joined: "2023"
-  role_in_group: "Researcher responsible for isolation, structural elucidation, and bioactivity profiling of new natural product scaffolds."
+  project_title: " "
+  joined: "2025"
+  role_in_group: "Chemistry"
   number_educ: 3
   education1: "B.Sc. in Chemistry, University of Bath, UK"
   education2: "M.Sc. in Chemistry, University of Bath, UK"
@@ -134,12 +136,15 @@
 - name: Dr. Celine Mara Zumkeller
   photo: celine.jpeg
   info: "Postdoctoral Researcher"
-  description: "Genome mining and natural product discovery from Bacteroidota strains, with a focus on Pedobacter and Acidobacteria from diverse environmental habitats."
-  email: ""
+  description: " "
+  email: "Celine.Zumkeller@ime.fraunhofer.de"
+  orcid: https://orcid.org/0000-0002-7906-575X
+  researchgate: https://www.researchgate.net/profile/Celine-Zumkeller
+  linkedin: https://www.linkedin.com/in/celine-zumkeller/
   group: postdoc
-  project_title: "Bacteroidota & Pedobacter genome mining"
-  joined: "2018"
-  role_in_group: "Lead researcher on the Bacteroidota natural product programme. Responsible for genome sequencing, bioinformatic mining, and genetic tractability studies."
+  project_title: " "
+  joined: "201X"
+  role_in_group: "Genomics"
   number_educ: 3
   education1: "B.Sc. in Biology, Marburg University"
   education2: "M.Sc. in Biotechnology, The University of Edinburgh, UK"
@@ -166,13 +171,17 @@
 - name: M.Sc. Flaviana C. Susanto
   photo: flaviana.jpg
   info: "Graduate Student (PhD)"
-  description: "Marine metabolomics and antibacterial activity of seaweeds and marine-derived fungi against multidrug-resistant pathogens."
-  email: ""
+  description: " "
+  email: "flaviana.susanto@uni-giessen.de "
+  orcid: 
+  researchgate: 
+  linkedin: https://www.linkedin.com/in/flavianasusanto/
   group: phd
-  project_title: "Marine metabolomics & MDR pathogens"
+  project_title: " "
   joined: "2021"
   number_educ: 2
-  education1: "M.Sc. in Biology, Universitas Diponegoro, Indonesia"
+  education1: "B.Sc. in Biotechnology, Hochschule Mannheim"
+  education2: "M.Sc. in Agrobiotechnology, Justus Liebig University Giessen"
   papers:
     - "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
     - "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
@@ -181,13 +190,17 @@
 - name: M.Sc. Pascal-Marcel Geisler
   photo: pascal.jpg
   info: "Graduate Student (PhD)"
-  description: "Design of RNAi-based pest control strategies using dsRNA lipid nanoparticle formulations. Project in collaboration with Dr. Christoph Hellmann at Fraunhofer IME."
-  email: ""
+  description: " "
+  email: "pascal.geisler@ime.fraunhofer.de"
+  orcid: 
+  researchgate: 
+  linkedin: hhttps://www.linkedin.com/in/pascal-geisler-946764218/
   group: phd
-  project_title: "RNAi-based pest control (dsRNA nanoparticles)"
+  project_title: "Design of RNAi-based pest control strategies using dsRNA lipid nanoparticle formulations. Project in collaboration with Dr. Christoph Hellmann at Fraunhofer IME."
   joined: "2021"
   number_educ: 2
-  education1: "M.Sc. in Agricultural Sciences, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Chemistry, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Chemistry, Justus-Liebig-Universität Giessen"
   papers:
     - "Design of dsRNA lipid nanoparticle formulations for RNAi-mediated pest control"
   highlight: 0
@@ -205,7 +218,7 @@
   joined: "2022"
   number_educ: 2
   education1: "B.Sc. in Nutrition Sciences, Justus-Liebig-Universität Giessen" 
-  education1: "M.Sc. in nutrition Sciences, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in nutrition Sciences, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
@@ -222,7 +235,7 @@
   joined: "2022"
   number_educ: 2
   education1: "B.Sc. in Biology, The University of Bonn"
-  education1: "M.Sc. in Insect Biotechnology and Bioresources, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
@@ -249,11 +262,15 @@
   info: "Graduate Student (PhD)"
   description: "Isolation and characterisation of bioactive natural products from bacterial sources."
   email: ""
+  orcid: https://orcid.org/0000-0003-2751-213X
+  researchgate: https://www.researchgate.net/profile/Nicolas-Reyes-Castillo
+  linkedin: https://www.linkedin.com/in/nireyesca/
   group: phd
-  project_title: "Bacterial natural product isolation"
+  project_title: "XXX Darobactin"
   joined: "2023"
   number_educ: 2
-  education1: "M.Sc. in Pharmacy, Sun Yat-sen University, China"
+  education1: "B.Sc. in Pharmacy, Sun Yat-sen University, China"
+  education2: "M.Sc. in Pharmacy, Sun Yat-sen University, China"
   papers: []
   highlight: 0
 
@@ -294,13 +311,17 @@
 - name: M.Sc. Annabel Metje
   photo: annabel.jpg
   info: "Graduate Student (PhD)"
-  description: "Natural product research with focus on under-investigated bacterial habitats."
-  email: ""
+  description: " "
+  email: "annabel.metje@uni-giessen.de"
+  orcid: 
+  researchgate: 
+  linkedin: 
   group: phd
-  project_title: "Natural products from under-investigated habitats"
+  project_title: "Biosynthesis of bicyclic peptides with antibiotic properties"
   joined: "2025"
   number_educ: 2
-  education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  education1: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
