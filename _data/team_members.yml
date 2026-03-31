@@ -171,7 +171,7 @@
   group: phd
   project_title: "Marine metabolomics & MDR pathogens"
   joined: "2021"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Biology, Universitas Diponegoro, Indonesia"
   papers:
     - "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
@@ -186,26 +186,12 @@
   group: phd
   project_title: "RNAi-based pest control (dsRNA nanoparticles)"
   joined: "2021"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Agricultural Sciences, Justus-Liebig-Universität Giessen"
   papers:
     - "Design of dsRNA lipid nanoparticle formulations for RNAi-mediated pest control"
   highlight: 0
-
-- name: M.Sc. Nicolas Reyes Castillo
-  photo: nicolas.jpg
-  info: "Graduate Student (PhD)"
-  description: "Mechanistic profiling and biosynthesis of fungal natural products, including tyrosinase inhibitors from carboxy-biphenyl scaffolds."
-  email: ""
-  group: phd
-  project_title: "Fungal natural products & tyrosinase inhibition"
-  joined: "2021"
-  number_educ: 1
-  education1: "M.Sc. in Biochemistry, Universidad Nacional de Trujillo, Peru"
-  papers:
-    - "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
-  highlight: 0
-
+  
 - name: M.Sc. Felix Mühlemeyer
   photo: felix.jpg
   info: "Graduate Student (PhD)"
@@ -214,7 +200,7 @@
   group: phd
   project_title: "Biosynthetic gene cluster characterisation"
   joined: "2022"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Molecular Biotechnology, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
@@ -227,9 +213,23 @@
   group: phd
   project_title: "Biological control – ProBioControl (Fraunhofer IME)"
   joined: "2022"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
   papers: []
+  highlight: 0
+
+- name: M.Sc. Nicolas Reyes Castillo
+  photo: nicolas.jpg
+  info: "Graduate Student (PhD)"
+  description: "Mechanistic profiling and biosynthesis of fungal natural products, including tyrosinase inhibitors from carboxy-biphenyl scaffolds."
+  email: ""
+  group: phd
+  project_title: "Fungal natural products & tyrosinase inhibition"
+  joined: "2021"
+  number_educ: 2
+  education1: "M.Sc. in Biochemistry, Universidad Nacional de Trujillo, Peru"
+  papers:
+    - "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
   highlight: 0
 
 - name: M.Sc. Xufan Lian
@@ -240,7 +240,7 @@
   group: phd
   project_title: "Bacterial natural product isolation"
   joined: "2022"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Pharmacy, Sun Yat-sen University, China"
   papers: []
   highlight: 0
@@ -250,8 +250,8 @@
   info: "Graduate Student (PhD)"
   description: " "
   email: "Chaoyi.Hu@ag.uni-giessen.de"
-  orcid: https://orcid.org/0000-0000-0000-0000
-  researchgate: https://www.researchgate.net/profile/John_Doe
+  orcid: https://orcid.org/0009-0006-1347-1196
+  researchgate: hhttps://www.researchgate.net/profile/Chaoyi-Hu-2
   linkedin: https://www.linkedin.com/in/john-doe/
   group: phd
   project_title: "Biosynthesis and Antimicrobial Activity Investigation of Sulfonated Monobactams and Derivatives from Bacteroidetes"
@@ -270,7 +270,7 @@
   group: phd
   project_title: "Genome mining & environmental bacteria"
   joined: "2023"
-  number_educ: 1
+  number_educ: 2
   education1: "B.Sc. in Chemistry, Goethe University Frankfurt "
   education2: "M.Sc. in Chemistry, Goethe University Frankfurt"
   papers: []
@@ -284,7 +284,7 @@
   group: phd
   project_title: "Natural products from under-investigated habitats"
   joined: "2023"
-  number_educ: 1
+  number_educ: 2
   education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
