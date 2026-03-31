@@ -1,5 +1,5 @@
 ---
-title: "Schäberle - Vacancies"
+title: "Schäberle Lab - Join"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
