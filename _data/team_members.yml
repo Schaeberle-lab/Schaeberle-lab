@@ -195,39 +195,47 @@
 - name: M.Sc. Felix Mühlemeyer
   photo: felix.jpeg
   info: "Graduate Student (PhD)"
-  description: "Natural product discovery and biosynthetic gene cluster characterisation from environmental bacteria."
-  email: ""
+  description: " "
+  email: "Felix.Muehlemeyer@ernaehrung.uni-giessen.de"
+  orcid: 
+  researchgate: 
+  linkedin: https://www.linkedin.com/in/felix-mühlemeyer-5a2853248/
   group: phd
-  project_title: "Biosynthetic gene cluster characterisation"
+  project_title: "Exploring Microbial Natural Products for Antihelmintic Discovery through C. elegans and S. mansoni Screenings"
   joined: "2022"
   number_educ: 2
-  education1: "M.Sc. in Molecular Biotechnology, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Nutrition Sciences, Justus-Liebig-Universität Giessen" 
+  education1: "M.Sc. in nutrition Sciences, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
 - name: M.Sc. Joana A. Bauer-Klotz
   photo: joana.jpeg
   info: "Graduate Student (PhD)"
-  description: "Biological control strategies using natural compounds from insect-associated bacteria. Project: ProBioControl (Fraunhofer IME)."
-  email: ""
+  description: ""
+  email: "Joana.Bauer-Klotz@en.uni-giessen.de"
+  orcid: 
+  researchgate: 
+  linkedin: https://www.linkedin.com/in/felix-mühlemeyer-5a2853248/
   group: phd
-  project_title: "Biological control – ProBioControl (Fraunhofer IME)"
+  project_title: "Metabolic profiling of antifungal active bacteria, for potential use as biocontrol agents – ProBioControl (Fraunhofer IME)"
   joined: "2022"
   number_educ: 2
-  education1: "M.Sc. in Biology, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, The University of Bonn"
+  education1: "M.Sc. in Insect Biotechnology and Bioresources, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
 - name: M.Sc. Nicolas Reyes Castillo
-  photo: nicolas.jpg
+  photo: nicolas.jpeg
   info: "Graduate Student (PhD)"
-  description: "Mechanistic profiling and biosynthesis of fungal natural products, including tyrosinase inhibitors from carboxy-biphenyl scaffolds."
-  email: "Chaoyi.Hu@ag.uni-giessen.de"
+  description: " "
+  email: "nicolas.reyes-castillo@ag.uni-giessen.de"
   orcid: https://orcid.org/0000-0003-2751-213X
   researchgate: https://www.researchgate.net/profile/Nicolas-Reyes-Castillo
   linkedin: https://www.linkedin.com/in/nireyesca/
   group: phd
-  project_title: "Fungal natural products & tyrosinase inhibition"
+  project_title: "Natural Products: A Bio-Based Approach to Mitigate Post-Mortem Melanosis in Shrimp Aquaculture - MbioShrimp (Fraunhofer IME)"
   joined: "2023"
   number_educ: 2
   education1: "B.Sc. in Chemical Engineering, Universidad de America, Colombia"
