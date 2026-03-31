@@ -222,12 +222,16 @@
   photo: nicolas.jpg
   info: "Graduate Student (PhD)"
   description: "Mechanistic profiling and biosynthesis of fungal natural products, including tyrosinase inhibitors from carboxy-biphenyl scaffolds."
-  email: ""
+  email: "Chaoyi.Hu@ag.uni-giessen.de"
+  orcid: https://orcid.org/0000-0003-2751-213X
+  researchgate: https://www.researchgate.net/profile/Nicolas-Reyes-Castillo
+  linkedin: https://www.linkedin.com/in/nireyesca/
   group: phd
   project_title: "Fungal natural products & tyrosinase inhibition"
-  joined: "2021"
+  joined: "2023"
   number_educ: 2
-  education1: "M.Sc. in Biochemistry, Universidad Nacional de Trujillo, Peru"
+  education1: "B.Sc. in Chemical Engineering, Universidad de America, Colombia"
+  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus Liebig University Giessen"
   papers:
     - "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
   highlight: 0
@@ -271,7 +275,7 @@
   researchgate: https://www.researchgate.net/profile/Alexander-Kinner
   linkedin: https://www.linkedin.com/in/alexander-christian-kinner-b02469325/
   group: phd
-  project_title: "Genome mining & environmental bacteria"
+  project_title: "Fermentation, Semisynthetic Diversification, and Biosynthetic Engineering of Microbial Antiparasitic Natural Products"
   joined: "2025"
   number_educ: 2
   education1: "B.Sc. in Chemistry, Goethe University Frankfurt "
