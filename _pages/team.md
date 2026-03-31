@@ -25,9 +25,8 @@ permalink: /team/
 }
 
 .team-photo {
-  width: 100%;
-  max-width: 220px;
-  aspect-ratio: 1 / 1;
+  width: 200px;
+  height: 230px;
   object-fit: cover;
   border-radius: 12px;
   display: block;
@@ -75,11 +74,9 @@ permalink: /team/
 }
 
 .member-photo {
-  width: 100%;
-  max-width: 220px;
-  aspect-ratio: 1 / 1;
+  width: 200px;
+  height: 230px;
   object-fit: cover;
-  height: auto;
   display: block;
   border-radius: 10px;
 }
