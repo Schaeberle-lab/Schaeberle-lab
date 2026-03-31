@@ -344,7 +344,7 @@
   highlight: 0
 
 - name: M.Sc. Annabel Metje
-  photo: annabel.jpeg
+  photo: annabel.jpg
   info: "Graduate Student (PhD)"
   description: " "
   email: "annabel.metje@uni-giessen.de"
@@ -365,33 +365,33 @@
 - name: B.Sc. Najmul Alam
   photo: dummy.jpg
   info: "Master Student"
-  email: ""
+  email: "najmul.alam@ib.uni-giessen.de"
   group: master
-  project_title: "Master thesis project"
+  project_title: " "
   highlight: 0
 
 - name: B.Sc. Ribina Mundeth Abdul Kareem
   photo: dummy.jpg
   info: "Master Student"
-  email: ""
+  email: " Ribina.Mundeth.Abdul.Kareem@ib.uni-giessen.de"
   group: master
-  project_title: "Master thesis project"
+  project_title: " "
   highlight: 0
 
 - name: B.Sc. Jomol Jose
   photo: dummy.jpg
   info: "Master Student"
-  email: ""
+  email: " "
   group: master
-  project_title: "Master thesis project"
+  project_title: " "
   highlight: 0
 
 - name: B.Sc. Roshni Chetri
   photo: dummy.jpg
   info: "Master Student"
-  email: ""
+  email: " "
   group: master
-  project_title: "Master thesis project"
+  project_title: " "
   highlight: 0
 
 # ── Administration ────────────────────────────────────────────
