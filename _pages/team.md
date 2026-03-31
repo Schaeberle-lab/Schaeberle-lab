@@ -97,9 +97,13 @@ permalink: /team/
 .member-links.icons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
   flex-wrap: wrap;
   font-size: 18px;
+  margin-top: 10px;
+  width: 100%;
+  
 }
 
 .member-links a {
@@ -238,13 +242,8 @@ permalink: /team/
     <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
 
-    {% if member.email or member.orcid or member.researchgate or member.linkedin %}
+    {% if member.orcid or member.researchgate or member.linkedin %}
     <div class="member-links icons">
-      {% if member.email %}
-      <a href="mailto:{{ member.email }}" title="Email">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-      {% endif %}
       {% if member.orcid %}
       <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
         <i class="ai ai-orcid"></i>
@@ -268,6 +267,10 @@ permalink: /team/
     <h4>{{ member.name }}</h4>
 
     <div class="team-role">{{ member.info }}</div>
+
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
 
     {% if member.joined %}
     <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
@@ -312,13 +315,8 @@ permalink: /team/
     <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
     {% endif %}
 
-    {% if member.email or member.orcid or member.researchgate or member.linkedin %}
+    {% if member.orcid or member.researchgate or member.linkedin %}
     <div class="member-links icons">
-      {% if member.email %}
-      <a href="mailto:{{ member.email }}" title="Email">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-      {% endif %}
       {% if member.orcid %}
       <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
         <i class="ai ai-orcid"></i>
@@ -342,6 +340,10 @@ permalink: /team/
     <h4>{{ member.name }}</h4>
 
     <div class="team-role">{{ member.info }}</div>
+
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
 
     {% if member.joined %}
     <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
@@ -375,7 +377,6 @@ permalink: /team/
 <hr class="member-divider">
 {% endunless %}
 {% endfor %}
-
 ## Project Scientists
 
 <div class="team-grid">
