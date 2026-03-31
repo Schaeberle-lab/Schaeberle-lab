@@ -6,6 +6,9 @@ sitemap: false
 permalink: /team/
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 <style>
 .team-grid {
   display: grid;
@@ -13,12 +16,14 @@ permalink: /team/
   gap: 24px;
   margin: 18px 0 36px 0;
 }
+
 .team-card {
   border: 1px solid #e3e3e3;
   border-radius: 16px;
   padding: 18px;
   background: #fff;
 }
+
 .team-photo {
   width: 100%;
   max-width: 220px;
@@ -28,6 +33,7 @@ permalink: /team/
   display: block;
   margin: 0 auto 14px auto;
 }
+
 .team-lead {
   display: grid;
   grid-template-columns: minmax(220px, 280px) 1fr;
@@ -39,94 +45,64 @@ permalink: /team/
   margin: 24px 0 36px 0;
   background: #f8f9fb;
 }
+
 .team-lead .team-photo {
   max-width: 260px;
   margin: 0;
 }
+
 .team-role {
   font-weight: 700;
   margin-bottom: 8px;
 }
+
 .team-meta {
   color: #666;
   font-size: 0.95em;
   margin-bottom: 8px;
 }
-.alumni-columns {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  margin: 18px 0 36px 0;
-}
-.alumni-column {
-  border: 1px solid #e3e3e3;
-  border-radius: 16px;
-  padding: 18px;
-  background: #fff;
-}
-.alumni-entry {
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #efefef;
-}
-.alumni-entry:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
-}
-.alumni-name {
-  font-weight: 700;
-}
-.alumni-role {
-  font-weight: 600;
-}
-.alumni-years {
-  color: #666;
-  font-size: 0.95em;
-}
-.alumni-where {
-  margin-top: 4px;
-  font-size: 0.95em;
-}
-@media (max-width:1100px){
-  .alumni-columns { grid-template-columns:1fr; }
-}
-@media (max-width:780px){
-  .team-lead { grid-template-columns:1fr; }
-  .team-lead .team-photo { margin:0 auto 16px auto; }
-}
+
 .member-row {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 22px;
   align-items: start;
-  margin: 18px 0 28px 0;
+  margin: 18px 0 10px 0;
 }
 
 .member-photo-block {
   width: 220px;
-  flex-shrink: 0;
 }
 
 .member-photo {
   width: 100%;
   max-width: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   height: auto;
   display: block;
-  border-radius: 6px;
+  border-radius: 10px;
+}
+
+.member-info h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .member-links {
   width: 100%;
   max-width: 220px;
   margin-top: 8px;
-  font-size: 12px;
   line-height: 1.35;
   word-break: break-word;
 }
 
-.member-links div {
-  margin-bottom: 4px;
+.member-links.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 18px;
 }
 
 .member-links a {
@@ -134,28 +110,92 @@ permalink: /team/
 }
 
 .member-links a:hover {
-  text-decoration: underline;
+  opacity: 0.75;
 }
 
-.member-info h4 {
-  margin-top: 0;
-  margin-bottom: 8px;
+.member-divider {
+  border: 0;
+  border-top: 1px solid #e9e9e9;
+  margin: 18px 0 28px 0;
 }
-.member-links.icons {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+
+.alumni-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 18px 0 36px 0;
 }
+
+.alumni-column {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+}
+
+.alumni-entry {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #efefef;
+}
+
+.alumni-entry:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.alumni-name {
+  font-weight: 700;
+}
+
+.alumni-role {
+  font-weight: 600;
+}
+
+.alumni-years {
+  color: #666;
+  font-size: 0.95em;
+}
+
+.alumni-where {
+  margin-top: 4px;
+  font-size: 0.95em;
+}
+
+@media (max-width: 1100px) {
+  .alumni-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 780px) {
+  .team-lead {
+    grid-template-columns: 1fr;
+  }
+
+  .team-lead .team-photo {
+    margin: 0 auto 16px auto;
+  }
+
   .member-row {
     grid-template-columns: 1fr;
+  }
+
+  .member-photo-block {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
   }
 
   .member-photo {
     margin: 0 auto 14px auto;
   }
-}
 
+  .member-links {
+    text-align: center;
+  }
+}
 </style>
 
 {% assign pi_members = site.data.team_members | where: "group", "PI" %}
@@ -186,18 +226,44 @@ permalink: /team/
     <div class="team-role">{{ member.info }}</div>
     {% if member.description %}<p>{{ member.description }}</p>{% endif %}
     {% if member.project_title %}<p><strong>Research focus:</strong> {{ member.project_title }}</p>{% endif %}
-    {% if member.email != "" %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
+    {% if member.email %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
   </div>
 </div>
 {% endfor %}
 
 ## Postdoctoral Researchers
+
 {% for member in postdocs %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="member-row">
-  <div>
+  <div class="member-photo-block">
     {% if member.photo %}
     <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+
+    {% if member.email or member.orcid or member.researchgate or member.linkedin %}
+    <div class="member-links icons">
+      {% if member.email %}
+      <a href="mailto:{{ member.email }}" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      {% endif %}
+      {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+      {% endif %}
+      {% if member.researchgate %}
+      <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
 
@@ -222,29 +288,56 @@ permalink: /team/
     <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
     {% endif %}
 
-    {% if member.number_educ and member.number_educ > 0 %}
+    {% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
     <p><strong>Education</strong></p>
     <ul>
-      {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-      {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-      {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-      {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-      {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+      {% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
+      {% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
+      {% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
+      {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
+      {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
     </ul>
     {% endif %}
   </div>
 </div>
-
----
+{% unless forloop.last %}
+<hr class="member-divider">
+{% endunless %}
 {% endfor %}
 
 ## PhD Students
+
 {% for member in phds %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="member-row">
-  <div>
+  <div class="member-photo-block">
     {% if member.photo %}
     <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+
+    {% if member.email or member.orcid or member.researchgate or member.linkedin %}
+    <div class="member-links icons">
+      {% if member.email %}
+      <a href="mailto:{{ member.email }}" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      {% endif %}
+      {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+      {% endif %}
+      {% if member.researchgate %}
+      <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
 
@@ -260,11 +353,7 @@ permalink: /team/
     {% if member.description %}
     <p>{{ member.description }}</p>
     {% endif %}
-    
-    {% if member.email %}
-    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-    {% endif %}
-    
+
     {% if member.project_title %}
     <p><strong>Project:</strong> {{ member.project_title }}</p>
     {% endif %}
@@ -273,34 +362,21 @@ permalink: /team/
     <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
     {% endif %}
 
-    {% if member.number_educ and member.number_educ > 0 %}
+    {% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
     <p><strong>Education</strong></p>
     <ul>
-      {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
-      {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
-      {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
-      {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
-      {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+      {% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
+      {% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
+      {% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
+      {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
+      {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
     </ul>
     {% endif %}
-    {% if member.orcid or member.researchgate or member.linkedin %}
-    <div class="member-links icons">
-    {% if member.orcid %}
-    <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
-    {% endif %}
-    {% if member.researchgate %}
-    <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-    {% endif %}
-    {% if member.linkedin %}
-    <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    {% endif %}
-    </div>
-    {% endif %}
-    
   </div>
 </div>
-
----
+{% unless forloop.last %}
+<hr class="member-divider">
+{% endunless %}
 {% endfor %}
 
 ## Project Scientists
@@ -362,30 +438,32 @@ permalink: /team/
     <div class="alumni-entry">
       <div class="alumni-name">{{ member.name }}</div>
       {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
-      {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
-      {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      {% if member.years %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+      {% if member.whereabouts %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
     </div>
     {% endfor %}
   </div>
+
   <div class="alumni-column">
     <h3>Visiting Scientists, Fellows &amp; Internships</h3>
     {% for member in alumni_visiting %}
     <div class="alumni-entry">
       <div class="alumni-name">{{ member.name }}</div>
       {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
-      {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
-      {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      {% if member.years %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+      {% if member.whereabouts %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
     </div>
     {% endfor %}
   </div>
+
   <div class="alumni-column">
     <h3>Master Students &amp; Hiwi</h3>
     {% for member in alumni_master %}
     <div class="alumni-entry">
       <div class="alumni-name">{{ member.name }}</div>
       {% if member.position %}<div class="alumni-role">{{ member.position }}</div>{% endif %}
-      {% if member.years != "" %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
-      {% if member.whereabouts != "" %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
+      {% if member.years %}<div class="alumni-years">{{ member.years }}</div>{% endif %}
+      {% if member.whereabouts %}<div class="alumni-where"><strong>Now:</strong> {{ member.whereabouts }}</div>{% endif %}
     </div>
     {% endfor %}
   </div>
