@@ -296,7 +296,7 @@
   photo: xufan.jpeg
   info: "Graduate Student (PhD)"
   description: " "
-  email: ""
+  email: " Xufan.Lian@ag.uni-giessen.de"
   orcid: 
   researchgate: 
   linkedin: 
@@ -367,7 +367,6 @@
   info: "Master Student"
   email: "najmul.alam@ib.uni-giessen.de"
   group: master
-  project_title: " "
   highlight: 0
 
 - name: B.Sc. Ribina Mundeth Abdul Kareem
@@ -375,7 +374,6 @@
   info: "Master Student"
   email: " Ribina.Mundeth.Abdul.Kareem@ib.uni-giessen.de"
   group: master
-  project_title: " "
   highlight: 0
 
 - name: B.Sc. Jomol Jose
@@ -383,7 +381,6 @@
   info: "Master Student"
   email: " "
   group: master
-  project_title: " "
   highlight: 0
 
 - name: B.Sc. Roshni Chetri
@@ -391,7 +388,6 @@
   info: "Master Student"
   email: " "
   group: master
-  project_title: " "
   highlight: 0
 
 # ── Administration ────────────────────────────────────────────
