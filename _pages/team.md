@@ -103,19 +103,49 @@ permalink: /team/
   margin: 18px 0 28px 0;
 }
 
+.member-photo-block {
+  width: 220px;
+  flex-shrink: 0;
+}
+
 .member-photo {
-  width: 180px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
   display: block;
+  border-radius: 6px;
+}
+
+.member-links {
+  width: 100%;
+  max-width: 220px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.member-links div {
+  margin-bottom: 4px;
+}
+
+.member-links a {
+  text-decoration: none;
+}
+
+.member-links a:hover {
+  text-decoration: underline;
 }
 
 .member-info h4 {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
+.member-links.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 @media (max-width: 780px) {
   .member-row {
     grid-template-columns: 1fr;
@@ -253,9 +283,18 @@ permalink: /team/
       {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
     </ul>
     {% endif %}
-    
+    {% if member.orcid or member.researchgate or member.linkedin %}
+    <div class="member-links icons">
     {% if member.orcid %}
-    <p><strong>ORCID:</strong> <a href="{{ member.orcid }}" target="_blank">{{ member.orcid }}</a></p>
+    <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
+    {% endif %}
+    {% if member.researchgate %}
+    <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    {% endif %}
+    {% if member.linkedin %}
+    <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    {% endif %}
+    </div>
     {% endif %}
     
   </div>
