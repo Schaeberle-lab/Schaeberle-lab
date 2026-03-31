@@ -63,9 +63,20 @@ firstp {
 
 /* Team & Publications */
 #gridid img {
-  margin: 16px 22px 6px 0;
-  border-radius: 10%;
+  display: block;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  margin: 12px auto 8px auto;
+  border-radius: 10px;
   box-shadow: 2px 2px 5px #888888;
+}
+
+#gridid .row,
+#gridid .col-sm-4,
+#gridid .col-sm-6,
+#gridid .col-sm-12 {
+  overflow: hidden;
 }
 
 #homeid img {
