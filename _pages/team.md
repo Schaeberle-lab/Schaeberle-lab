@@ -105,7 +105,7 @@ permalink: /team/
 
 .member-photo {
   width: 180px;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   border-radius: 12px;
   display: block;
