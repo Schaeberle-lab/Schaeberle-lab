@@ -59,12 +59,15 @@
 - name: Dr. Nils Böhringer
   photo: nils.jpeg
   info: "Postdoctoral Researcher"
-  description: "Biosynthesis and engineering of darobactin and related BamA inhibitors. Heterologous expression and genome mining for novel antibiotics."
-  email: ""
+  description: " "
+  email: " Nils.Boehringer@agrar.uni-giessen.de "
+  orcid: https://orcid.org/0009-0000-0673-4820
+  researchgate: https://www.researchgate.net/profile/Nils-Boehringer-3
+  linkedin: https://www.linkedin.com/in/nils-böhringer-3aa89022b/
   group: postdoc
-  project_title: "Darobactin biosynthesis & BamA inhibitors (BAMA)"
+  project_title: " "
   joined: "2016"
-  role_in_group: "Lead researcher on the darobactin programme. Responsible for heterologous expression and mutasynthesis strategies. Co-supervisor of PhD students."
+  role_in_group: "Molecular Biology"
   number_educ: 3
   education1: "B.Sc. in Biology, The University of Bonn"
   education2: "M.Sc. in Microbiology, The University of Bonn"
@@ -74,12 +77,15 @@
 - name: Dr. Zerlina G. Wuisan
   photo: zerlina.jpeg
   info: "Postdoctoral Researcher"
-  description: "Heterologous expression of biosynthetic gene clusters and genetic engineering of darobactin producers. Biochemistry of RiPP biosynthesis."
-  email: ""
+  description: " "
+  email: " zerlina.wuisan@bio.uni-giessen.de "
+  orcid: https://orcid.org/0000-0001-7792-3047
+  researchgate: https://www.researchgate.net/profile/Zerlina-Wuisan-2?ev=brs_overview
+  linkedin: https://www.linkedin.com/in/zerlina-wuisan/
   group: postdoc
-  project_title: "Heterologous expression & darobactin engineering (BAMA)"
+  project_title: " "
   joined: "2016"
-  role_in_group: "Responsible for the heterologous expression and genetic engineering platform of the group. Key contributor to the darobactin BAMA project."
+  role_in_group: "Molecular Biology"
   number_educ: 3
   education1: "B.Sc. in Biotechnology, Universitas Surabaya (UBAYA), Indonesia"
   education2: "M.Sc. in Molecular Biology and Biotechnology, The University of Bonn"
@@ -89,12 +95,15 @@
 - name: Dr. Michael Marner
   photo: michael.jpeg
   info: "Postdoctoral Researcher – Assay Development & Screening, Fraunhofer IME"
-  description: "Antimicrobial activity screening and assay development for novel antibiotics. Evaluation of darobactin analogs against clinical MDR isolates at Fraunhofer IME."
-  email: ""
+  description: " "
+  email: " michael.marner@agrar.uni-giessen.de "
+  orcid: https://orcid.org/0000-0002-1024-1567
+  researchgate: https://www.researchgate.net/scientific-contributions/Michael-Marner-2173960392
+  linkedin: https://www.linkedin.com/in/michael-marner-b8b1a3142/
   group: postdoc
-  project_title: "Antimicrobial assay development (BAMA, Fraunhofer IME)"
+  project_title: " "
   joined: "2019"
-  role_in_group: "Leads the biological evaluation and assay development pipeline at Fraunhofer IME. Main contact for biological activity screening collaborations."
+  role_in_group: "Screening"
   number_educ: 3
   education1: "B.Sc. in Biology, University of Hamburg"
   education2: "M.Sc. in Marine Biology and Biological Oceanography, Kiel University"
@@ -105,9 +114,13 @@
   photo: maria.jpeg
   info: "Postdoctoral Researcher – Chemical Analytics, Fraunhofer IME"
   description: " "
+  email: " maria.alexandra.patras@uni-giessen.de "
+  orcid: 
+  researchgate: https://www.researchgate.net/profile/Maria-Patras
+  linkedin: https://www.linkedin.com/in/maria-alexandra-patras-75486010b/
   group: postdoc
   project_title: " "
-  joined: "201X"
+  joined: "2018"
   role_in_group: "Analytical Chemistry"
   number_educ: 3
   education1: "B.Sc. in Chemistry, Jacobs University Bremen"
@@ -169,7 +182,7 @@
 # ── Graduate Students (PhDs) ──────────────────────────────────
 
 - name: M.Sc. Flaviana C. Susanto
-  photo: flaviana.jpg
+  photo: flaviana.jpeg
   info: "Graduate Student (PhD)"
   description: " "
   email: "flaviana.susanto@uni-giessen.de "
@@ -260,11 +273,11 @@
 - name: M.Sc. Xufan Lian
   photo: xufan.jpeg
   info: "Graduate Student (PhD)"
-  description: "Isolation and characterisation of bioactive natural products from bacterial sources."
+  description: " "
   email: ""
-  orcid: https://orcid.org/0000-0003-2751-213X
-  researchgate: https://www.researchgate.net/profile/Nicolas-Reyes-Castillo
-  linkedin: https://www.linkedin.com/in/nireyesca/
+  orcid: 
+  researchgate: 
+  linkedin: 
   group: phd
   project_title: "XXX Darobactin"
   joined: "2023"
@@ -309,7 +322,7 @@
   highlight: 0
 
 - name: M.Sc. Annabel Metje
-  photo: annabel.jpg
+  photo: annabel.jpeg
   info: "Graduate Student (PhD)"
   description: " "
   email: "annabel.metje@uni-giessen.de"
@@ -321,7 +334,7 @@
   joined: "2025"
   number_educ: 2
   education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
-  education1: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
   papers: []
   highlight: 0
 
