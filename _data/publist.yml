@@ -52,11 +52,11 @@
 - title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
   year: 2026
   image: dummy.png
-  description: "Characterised the mechanism of action of Altenusin and developed optimised production for this promising fungal tyrosinase inhibitor scaffold."
+  description: " "
   authors: "Reyes Castillo N, Spohn M*, Zumkeller CM, Marner M, Liu Y, Patras MA, Kersten C, Magari F, Grünweller A, Schäberle TF*"
   link:
-    url: "#"
-    display: "RSC Advances (2026, accepted)"
+    url: "https://doi.org/10.1039/D5RA09904H"
+    display: "RSC Advances, 2026,16, 9834-9850"
   highlight: 0
 
 - title: "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
@@ -277,7 +277,7 @@
 
 - title: "Genome- and Metabolome-Guided Discovery of Marine BamA Inhibitors Revealed a Dedicated Darobactin Halogenase Involved in their Biosynthesis"
   year: 2023
-  image: cell2023.jpg
+  image: cellchem2023.jpg
   description: " "
   authors: "Böhringer N, Kramer JC, de la Mora E, Padva L, Wuisan ZG, Liu Y, Kurz M, Marner M, Nguyen H, Amara P, Yokoyama K, Nicolet Y, Mettal U*, Schäberle TF*"
   link:
