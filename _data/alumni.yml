@@ -17,7 +17,7 @@
 # ============================================================
 
 # ── Column 1: PhD graduates, Postdocs & Fraunhofer PhDs ──────
-name: "Dr. Yang Liu"
+- name: "Dr. Yang Liu"
   column: phd_postdoc
   position: "Postdoctoral Researcher"
   years: "2017–2026"
