@@ -292,6 +292,17 @@ h2 {
     text-align: center;
   }
 }
+  .team-lead-info p,
+.member-info p,
+.team-card p,
+.alumni-where,
+.alumni-role,
+.alumni-years,
+.team-lead-education li,
+.member-info li {
+  text-align: justify;
+  text-justify: inter-word;
+}
 </style>
 
 {% assign pi_members = site.data.team_members | where: "group", "PI" %}
