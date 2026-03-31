@@ -209,7 +209,7 @@ permalink: /team/
 {% endfor %}
 
 ## PhD Students
-{% for member in postdocs %}
+{% for member in phds %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="member-row">
   <div>
