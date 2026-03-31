@@ -105,7 +105,7 @@ permalink: /team/
 
 .member-photo {
   width: 180px;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 12px;
   display: block;
@@ -230,7 +230,11 @@ permalink: /team/
     {% if member.description %}
     <p>{{ member.description }}</p>
     {% endif %}
-
+    
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
+    
     {% if member.project_title %}
     <p><strong>Project:</strong> {{ member.project_title }}</p>
     {% endif %}
@@ -249,6 +253,11 @@ permalink: /team/
       {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
     </ul>
     {% endif %}
+    
+    {% if member.orcid %}
+    <p><strong>ORCID:</strong> <a href="{{ member.orcid }}" target="_blank">{{ member.orcid }}</a></p>
+    {% endif %}
+    
   </div>
 </div>
 
