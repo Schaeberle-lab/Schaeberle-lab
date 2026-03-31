@@ -17,6 +17,11 @@
 # ============================================================
 
 # ── Column 1: PhD graduates, Postdocs & Fraunhofer PhDs ──────
+name: "Dr. Yang Liu"
+  column: phd_postdoc
+  position: "Postdoctoral Researcher"
+  years: "2017–2026"
+  whereabouts: "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit, Braunschweig"
 
 - name: "Dr. Ute Mettal"
   column: phd_postdoc
