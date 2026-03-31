@@ -46,14 +46,36 @@
   photo: marius.jpeg
   info: "Deputy Head of Department Natural Products and Group leader at Fraunhofer IME"
   description: " Molecular microbiologist with research focus on applied biotechnology. Devoted to investigations of metabolic regulatory pathways of industrial relevant natural products. Expertise in metabolic engineering, molecular genetics and biochemistry of natural products."
-  email: ""
+  email: "marius.spohn@ime.fraunhofer.de"
+  orcid: https://orcid.org/0000-0002-1772-3614
+  researchgate: https://www.researchgate.net/profile/Marius-Spohn
+  linkedin: https://www.linkedin.com/in/marius-spohn-8673ba118/
   group: postdoc
-  project_title: "Antiparasitics and MBioshrimp"
+  project_title: " "
   joined: "2016"
+  role_in_group: "Microbiology"
   number_educ: 3
   education1: "B.Sc. in Biology, Eberhard Karls Universität Tübingen"
   education2: "M.Sc. in Biology/Microbiology, Eberhard Karls Universität Tübingen"
   education3: "Ph.D. in Microbiology and Infection Medicine, Eberhard Karls Universität Tübingen"
+  highlight: 0
+
+- name: Dr. Sanja Mihajlovic
+  photo: sanja.jpeg
+  info: "Postdoctoral Researcher"
+  description: " "
+  email: " Nils.Boehringer@agrar.uni-giessen.de "
+  orcid: https://orcid.org/0000-0002-6347-0312
+  researchgate: https://www.researchgate.net/profile/Sanja-Mihajlovic-2
+  linkedin: https://www.linkedin.com/in/sanja-mihajlovic-a2a84225/
+  group: postdoc
+  project_title: " "
+  joined: "2016"
+  role_in_group: "Biobank"
+  number_educ: 3
+  education1: " "
+  education2: "M.Sc. in Molecular Biology and Physiology, University of Belgrade, Serbia"
+  education3: "Ph.D. in Molecular Microbiology, University of Graz, Austria"
   highlight: 0
   
 - name: Dr. Nils Böhringer
@@ -98,7 +120,7 @@
   description: " "
   email: " michael.marner@agrar.uni-giessen.de "
   orcid: https://orcid.org/0000-0002-1024-1567
-  researchgate: https://www.researchgate.net/scientific-contributions/Michael-Marner-2173960392
+  researchgate: 
   linkedin: https://www.linkedin.com/in/michael-marner-b8b1a3142/
   group: postdoc
   project_title: " "
@@ -305,7 +327,7 @@
   highlight: 0
 
 - name: M.Sc. Alexander C. Kinner
-  photo: alex.jpeg
+  photo: alex.jpg
   info: "Graduate Student (PhD)"
   description: " "
   email: "alexander.c.kinner@uni.giessen.de"
