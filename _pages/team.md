@@ -86,9 +86,18 @@ h2 {
 .team-lead-info {
   min-width: 0;
 }
-
+  
 .team-lead-badge {
-  display: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border: 1px solid #222;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #222;
+  background: transparent;
 }
 
 .team-lead-name {
@@ -100,9 +109,9 @@ h2 {
 }
 
 .team-lead-info .team-role {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #555;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
   margin-bottom: 16px;
 }
 
