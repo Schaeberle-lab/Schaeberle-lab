@@ -31,10 +31,13 @@
   info: "Principal Investigator"
   description: "The research group of Till Schäberle focuses on structure elucidation and analysis of new natural products, and in particular on the study of the corresponding biosynthetic gene clusters. For this purpose, they apply and further develop genetic, biochemical, bioinformatic and chemical analytical methods. He is also directly involved in translational, application-oriented scientific projects through projects on promising antibiotically active natural products. In 2017, he accepted the call to the newly founded Institute for Insect Biotechnology and Bioresources in Giessen as Professor of Natural Products Research. In addition to his university professorship, he heads the same named department at the Fraunhofer Institute for Molecular Biology and Applied Ecology (IME) Bioresources Division in Giessen. In public-private partnerships, his department develops natural products for a wide range of indications in the fields of agriculture, pharmaceuticals (anti-infectives), veterinary medicine and the food sector. Thus, Mr. Schäberle is interested in translating molecules that nature provides us with into products and solutions that promote human and environmental health. In addition to science, he was a member of the German National Karate Team in his mid-twenties to thirties, winning medals in national and international individual and team competitions."
   email: Till.Schaeberle@agrar.uni-giessen.de
+  orcid: https://orcid.org/0000-0001-9947-8079
+  researchgate: https://www.researchgate.net/profile/Till-Schaeberle
+  linkedin: https://www.linkedin.com/in/till-schäberle-52ba9224/
   group: PI
   project_title: "Natural product discovery & antibiotic biosynthesis"
-  number_educ: 1
   role_in_group: "Professor of Natural Product Research, Justus-Liebig-Universität Giessen, since 2017"
+  number_educ: 3
   education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
   education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
   education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
