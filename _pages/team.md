@@ -312,6 +312,16 @@ h2 {
   text-align: justify;
   text-justify: inter-word;
 }
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 52px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 </style>
 
 {% assign pi_members = site.data.team_members | where: "group", "PI" %}
