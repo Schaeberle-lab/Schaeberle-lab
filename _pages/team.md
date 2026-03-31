@@ -55,8 +55,8 @@ h2 {
 }
 
 .team-lead-photo {
-  width: 220px;
-  height: 270px;
+  width: 260px;
+  height: 280px;
   object-fit: cover;
   border-radius: 0;
   display: block;
