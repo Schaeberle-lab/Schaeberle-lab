@@ -64,18 +64,38 @@ firstp {
 /* Team & Publications */
 #gridid img {
   display: block;
-  max-width: 220px;
   width: 100%;
-  height: auto;
+  max-width: 220px;
+  height: 280px;
+  object-fit: cover;
   margin: 12px auto 8px auto;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #888888;
 }
 
-#gridid .row,
+#gridid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #gridid .col-sm-4,
 #gridid .col-sm-6,
 #gridid .col-sm-12 {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+#gridid .team-card,
+#gridid .pub-card,
+#gridid .highlight-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
   overflow: hidden;
 }
 
