@@ -17,39 +17,125 @@ permalink: /team/
   margin: 18px 0 36px 0;
 }
 
-.team-card {
-  border: 1px solid #e3e3e3;
-  border-radius: 16px;
-  padding: 18px;
+.team-lead-nature {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 34px;
+  align-items: start;
+  margin: 28px 0 44px 0;
+  padding: 30px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   background: #fff;
 }
 
-.team-photo {
-  width: 200px;
-  height: 250px;
+.team-lead-photo-block {
+  text-align: center;
+}
+
+.team-lead-photo {
+  width: 220px;
+  height: 270px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0;
   display: block;
-  margin: 0 auto 14px auto;
+  margin: 0 auto;
 }
 
-.team-lead {
-  display: grid;
-  grid-template-columns: minmax(220px, 280px) 1fr;
-  gap: 28px;
-  align-items: start;
-  border: 1px solid #d9d9d9;
-  border-radius: 18px;
-  padding: 28px;
-  margin: 24px 0 36px 0;
-  background: #f8f9fb;
+.team-lead-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-top: 12px;
 }
 
-.team-lead .team-photo {
-  max-width: 260px;
+.team-lead-links a {
+  text-decoration: none;
+  color: #444;
+  transition: opacity 0.2s ease;
+}
+
+.team-lead-links a:hover {
+  opacity: 0.65;
+}
+
+.team-lead-info {
+  min-width: 0;
+}
+
+.team-lead-badge {
+  display: none;
+}
+
+.team-lead-name {
+  margin: 0 0 8px 0;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.team-lead-info .team-role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.team-lead-info p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.team-lead-info a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.team-lead-info a:hover {
+  border-bottom-color: #111;
+}
+
+.team-lead-education {
+  margin-top: 18px;
+}
+
+.team-lead-education p {
+  margin-bottom: 6px;
+}
+
+.team-lead-education ul {
   margin: 0;
+  padding-left: 20px;
 }
 
+.team-lead-education li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+@media (max-width: 780px) {
+  .team-lead-nature {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .team-lead-name {
+    font-size: 1.65rem;
+  }
+
+  .team-lead-photo {
+    margin: 0 auto;
+  }
+}
+
+
+
+  
 .team-role {
   font-weight: 700;
   margin-bottom: 8px;
@@ -216,18 +302,61 @@ permalink: /team/
 
 {% for member in pi_members %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
-<div class="team-lead">
-  <div>
+<div class="team-lead team-lead-nature">
+  <div class="team-lead-photo-block">
     {% if member.photo %}
-    <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    <img class="team-photo team-lead-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+
+    {% if member.orcid or member.researchgate or member.linkedin %}
+    <div class="team-lead-links">
+      {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+      {% endif %}
+      {% if member.researchgate %}
+      <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
-  <div>
-    <h3 style="margin-top:0;">{{ member.name }}</h3>
+
+  <div class="team-lead-info">
+    <h3 class="team-lead-name">{{ member.name }}</h3>
     <div class="team-role">{{ member.info }}</div>
-    {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-    {% if member.project_title %}<p><strong>Research focus:</strong> {{ member.project_title }}</p>{% endif %}
-    {% if member.email %}<p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
+
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
+
+    {% if member.description %}
+    <p>{{ member.description }}</p>
+    {% endif %}
+
+    {% if member.project_title %}
+    <p><strong>Research focus:</strong> {{ member.project_title }}</p>
+    {% endif %}
+
+    {% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+    <div class="team-lead-education">
+      <p><strong>Education</strong></p>
+      <ul>
+        {% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
+        {% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
+        {% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
+        {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
+        {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
