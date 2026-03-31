@@ -10,11 +10,32 @@ permalink: /team/
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
+h2 {
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 24px;
   margin: 18px 0 36px 0;
+}
+
+.team-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+}
+
+.team-photo {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 14px auto;
+  border-radius: 10px;
 }
 
 .team-lead-nature {
@@ -118,24 +139,6 @@ permalink: /team/
   line-height: 1.5;
 }
 
-@media (max-width: 780px) {
-  .team-lead-nature {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .team-lead-name {
-    font-size: 1.65rem;
-  }
-
-  .team-lead-photo {
-    margin: 0 auto;
-  }
-}
-
-
-
-  
 .team-role {
   font-weight: 700;
   margin-bottom: 8px;
@@ -157,6 +160,7 @@ permalink: /team/
 
 .member-photo-block {
   width: 220px;
+  text-align: center;
 }
 
 .member-photo {
@@ -165,6 +169,7 @@ permalink: /team/
   object-fit: cover;
   display: block;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .member-info h4 {
@@ -189,7 +194,6 @@ permalink: /team/
   font-size: 18px;
   margin-top: 10px;
   width: 100%;
-  
 }
 
 .member-links a {
@@ -257,12 +261,17 @@ permalink: /team/
 }
 
 @media (max-width: 780px) {
-  .team-lead {
+  .team-lead-nature {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .team-lead .team-photo {
-    margin: 0 auto 16px auto;
+  .team-lead-photo {
+    margin: 0 auto;
+  }
+
+  .team-lead-name {
+    font-size: 1.65rem;
   }
 
   .member-row {
@@ -506,6 +515,7 @@ permalink: /team/
 <hr class="member-divider">
 {% endunless %}
 {% endfor %}
+
 ## Project Scientists
 
 <div class="team-grid">
