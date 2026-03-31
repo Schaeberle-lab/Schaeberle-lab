@@ -56,20 +56,6 @@
   education3: "Ph.D. in Microbiology and Infection Medicine, Eberhard Karls Universität Tübingen"
   highlight: 0
   
-- name: Dr. Yang Liu
-  photo: yang.jpeg
-  info: "Postdoctoral Researcher"
-  description: "Natural products from marine-derived bacteria and fungi, with a focus on Bacteroidota and Pedobacter strains. Molecular networking and metabolomics."
-  email: ""
-  group: postdoc
-  joined: "2017"
-  role_in_group: "Independent researcher and co-supervisor of PhD and Master students in the natural product chemistry branch of the group."
-  number_educ: 3
-  education1: "B.Sc. in Marine Biology, Ocean University of China"
-  education2: "M.Sc. in Marine Biology, Ocean University of China"
-  education3: "Ph.D. in Natural Product Chemistry, Justus-Liebig-Universität Giessen"
-  highlight: 0
-
 - name: Dr. Nils Böhringer
   photo: nils.jpeg
   info: "Postdoctoral Researcher"
@@ -80,9 +66,9 @@
   joined: "2016"
   role_in_group: "Lead researcher on the darobactin programme. Responsible for heterologous expression and mutasynthesis strategies. Co-supervisor of PhD students."
   number_educ: 3
-  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
-  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
-  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, The University of Bonn"
+  education2: "M.Sc. in Microbiology, The University of Bonn"
+  education3: "Ph.D. in Pharmacy (Dr. rer. nat.), The University of Bonn"
   highlight: 0
 
 - name: Dr. Zerlina G. Wuisan
@@ -110,9 +96,9 @@
   joined: "2019"
   role_in_group: "Leads the biological evaluation and assay development pipeline at Fraunhofer IME. Main contact for biological activity screening collaborations."
   number_educ: 3
-  education1: "B.Sc. in Biochemistry, Philipps-Universität Marburg"
-  education2: "M.Sc. in Biochemistry, Philipps-Universität Marburg"
-  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, University of Hamburg"
+  education2: "M.Sc. in Marine Biology and Biological Oceanography, Kiel University"
+  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus-Liebig-Universität Giessen"
   highlight: 0
 
 - name: Dr. Maria A. Patras
@@ -125,9 +111,9 @@
   joined: "2018"
   role_in_group: "Heads the chemical analytics unit at Fraunhofer IME. Responsible for LC-HRMS metabolomics workflows and structural dereplication of new compounds."
   number_educ: 3
-  education1: "B.Sc. in Chemistry, University of Athens, Greece"
-  education2: "M.Sc. in Analytical Chemistry, University of Athens, Greece"
-  education3: "Ph.D. in Natural Product Chemistry, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Chemistry, Jacobs University Bremen"
+  education2: " "
+  education3: "Ph.D. in Analytical Chemistry, Jacobs University Bremen"
   highlight: 0
 
 - name: Dr. Connor B. Smieja
@@ -140,9 +126,9 @@
   joined: "2023"
   role_in_group: "Researcher responsible for isolation, structural elucidation, and bioactivity profiling of new natural product scaffolds."
   number_educ: 3
-  education1: "B.Sc. in Chemistry, University of Wisconsin–Madison, USA"
-  education2: "M.Sc. in Chemistry, University of Wisconsin–Madison, USA"
-  education3: "Ph.D. in Natural Product Chemistry, University of Wisconsin–Madison, USA"
+  education1: "B.Sc. in Chemistry, University of Bath, UK"
+  education2: "M.Sc. in Chemistry, University of Bath, UK"
+  education3: "Ph.D. in Chemistry, The University of Edinburgh, UK"
   highlight: 0
 
 - name: Dr. Celine Mara Zumkeller
@@ -155,9 +141,9 @@
   joined: "2018"
   role_in_group: "Lead researcher on the Bacteroidota natural product programme. Responsible for genome sequencing, bioinformatic mining, and genetic tractability studies."
   number_educ: 3
-  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
-  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
-  education3: "Ph.D. in Natural Product Research, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, Marburg University"
+  education2: "M.Sc. in Biotechnology, The University of Edinburgh, UK"
+  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus-Liebig-Universität Giessen"
   highlight: 0
 
 # ── Project Scientist ─────────────────────────────────────────
