@@ -407,8 +407,7 @@
 - name: Alexandra Bender
   photo: alexandra.jpg
   info: "Office Management"
-  description: "Administrative support for the Natural Product Research group. Contact for general enquiries and visitor coordination."
-  email: sekretariat.iib@agrar.uni-giessen.de
+  description: "Administrative support for the Natural Product Research group. Contact for general enquiries and visitor coordination. Office days: Tuesday, Wednesday and Friday"
+  email: Alexandra.Bender@agrar.uni-giessen.de
   group: admin
-  project_title: "Group administration"
   highlight: 0
