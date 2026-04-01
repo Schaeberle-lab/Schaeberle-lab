@@ -21,7 +21,7 @@
   column: phd_postdoc
   position: "Postdoctoral Researcher"
   years: "2017–2026"
-  whereabouts: "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit, Braunschweig"
+  
 
 - name: "Dr. Ute Mettal"
   column: phd_postdoc
@@ -33,7 +33,7 @@
   column: phd_postdoc
   position: "PhD Student"
   years: "2019–2024"
-  whereabouts: ""
+  
 
 - name: "Sandra Semmler"
   column: phd_postdoc
@@ -169,43 +169,43 @@
   column: master
   position: "Master Student"
   years: "2022–2024"
-  whereabouts: ""
+  
 
 - name: "Eric Kwaku Gyan"
   column: master
   position: "Master Student"
-  years: ""
-  whereabouts: ""
+  years: "2022"
+  
 
 - name: "Bharath Kethina"
   column: master
   position: "Master Student"
   years: "2022–2023"
-  whereabouts: ""
+  
 
 - name: "Komal Savaliya"
   column: master
   position: "Master Student"
   years: "2022–2023"
-  whereabouts: ""
+  
 
 - name: "Gowthami Kolluru Venkataswamy Reddy"
   column: master
   position: "Master Student"
   years: "2022–2023"
-  whereabouts: ""
+  
 
 - name: "Anna-Lena Nuding"
   column: master
   position: "Master Student"
   years: "2022–2023"
-  whereabouts: ""
+  
 
 - name: "Hongyi Fan"
   column: master
   position: "Master Student"
   years: "2020–2023"
-  whereabouts: ""
+  
 
 - name: "Friscasaria Gurusinga"
   column: master
@@ -229,13 +229,13 @@
   column: master
   position: "Master Student"
   years: "2020–2021"
-  whereabouts: ""
+  
 
 - name: "Jun-Hui Cho"
   column: master
   position: "Master Student"
   years: "2020–2021"
-  whereabouts: ""
+  
 
 - name: "Sanjata Joshi"
   column: master
