@@ -41,7 +41,7 @@ The natural product group has two branches that work hand in hand – the Univer
         </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_4.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_4.JPG" alt="Slide 3" />
         </div>
         </div>
         <div class="item">
