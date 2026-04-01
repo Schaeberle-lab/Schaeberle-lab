@@ -38,9 +38,9 @@
   project_title: "Natural product discovery & antibiotic biosynthesis"
   role_in_group: "Professor of Natural Product Research, Justus-Liebig-Universität Giessen, since 2017"
   number_educ: 3
-  education1: "B.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education2: "M.Sc. in Biochemistry, Eberhard Karls Universität Tübingen"
-  education3: "Ph.D. in Microbiology and Natural Products, Eberhard Karls Universität Tübingen"
+  education1: "B.Sc. in Biochemistry, University of Tübingen"
+  education2: "M.Sc. in Biochemistry, University of Tübingen"
+  education3: "Ph.D. in Microbiology and Natural Products, University of Tübingen"
   highlight: 1
 
 # ── Postdoctoral Research Associates ──────────────────────────
@@ -58,9 +58,9 @@
   joined: "2016"
   role_in_group: "Microbiology"
   number_educ: 3
-  education1: "B.Sc. in Biology, Eberhard Karls Universität Tübingen"
-  education2: "M.Sc. in Biology/Microbiology, Eberhard Karls Universität Tübingen"
-  education3: "Ph.D. in Microbiology and Infection Medicine, Eberhard Karls Universität Tübingen"
+  education1: "B.Sc. in Biology, University of Tübingen"
+  education2: "M.Sc. in Biology/Microbiology, University of Tübingen"
+  education3: "Ph.D. in Microbiology and Infection Medicine, University of Tübingen"
   highlight: 0
 
 - name: Dr. Sanja Mihajlovic
@@ -114,7 +114,7 @@
   number_educ: 3
   education1: "B.Sc. in Biotechnology, Universitas Surabaya (UBAYA), Indonesia"
   education2: "M.Sc. in Molecular Biology and Biotechnology, The University of Bonn"
-  education3: "Dr. rer. nat., Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus Liebig University of Giessen"
   highlight: 0
 
 - name: Dr. Michael Marner
@@ -132,7 +132,7 @@
   number_educ: 3
   education1: "B.Sc. in Biology, University of Hamburg"
   education2: "M.Sc. in Marine Biology and Biological Oceanography, Kiel University"
-  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus Liebig University of Giessen"
   highlight: 0
 
 - name: Dr. Maria A. Patras
@@ -186,7 +186,7 @@
   number_educ: 3
   education1: "B.Sc. in Biology, Marburg University"
   education2: "M.Sc. in Biotechnology, The University of Edinburgh, UK"
-  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus-Liebig-Universität Giessen"
+  education3: "Ph.D. in Natural Product Research (Dr. rer. nat.), Justus Liebig University of Giessen"
   highlight: 0
 
 # ── Project Scientist ─────────────────────────────────────────
@@ -194,14 +194,18 @@
 - name: M.Sc. Winda A. Soerjawinata
   photo: winda.jpg
   info: "Project Scientist"
-  description: "Natural product research and biological evaluation of bacterial metabolites."
-  email: ""
+  description: " "
+  email: "Winda.A.Soerjawinata@uni-giessen.de"
+  orcid: https://orcid.org/0009-0009-7796-5808
+  researchgate: https://www.researchgate.net/profile/Winda-Soerjawinata-2
+  linkedin: https://www.linkedin.com/in/winda-soerjawinata-70b68444/
   group: project_scientist
-  project_title: "Bacterial natural products"
-  joined: "2021"
-  number_educ: 1
-  education1: "M.Sc. in Biology, Institut Pertanian Bogor, Indonesia"
-  papers: []
+  project_title: "XXX Darobactin"
+  joined: "2025"
+  number_educ: 3
+  education1: "M.Sc. in Biotechnology, University Surabaya (UBAYA), Indonesia"
+  education2: "M.Sc. in Food Microbiology and Biotechnology, University of Hohenheim"
+  education3: "Ph.D. (Currently), Trier University of Applied Sciences - TU Kaiserslautern"
   highlight: 0
 
 # ── Graduate Students (PhDs) ──────────────────────────────────
@@ -218,8 +222,8 @@
   project_title: " "
   joined: "2021"
   number_educ: 2
-  education1: "B.Sc. in Biotechnology, Hochschule Mannheim"
-  education2: "M.Sc. in Agrobiotechnology, Justus Liebig University Giessen"
+  education1: "B.Sc. in Biotechnology, Mannheim University of Applied Sciences"
+  education2: "M.Sc. in Agrobiotechnology, Justus Liebig University of Giessen"
   papers:
         - title: "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
           journal: "Microbiology Spectrum, 2026, 14, e02868-25."
@@ -258,8 +262,8 @@
   project_title: "Exploring Microbial Natural Products for Antihelmintic Discovery through C. elegans and S. mansoni Screenings"
   joined: "2022"
   number_educ: 2
-  education1: "B.Sc. in Nutrition Sciences, Justus-Liebig-Universität Giessen" 
-  education2: "M.Sc. in nutrition Sciences, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Nutrition Sciences, Justus Liebig University of Giessen" 
+  education2: "M.Sc. in nutrition Sciences, Justus Liebig University of Giessen"
   papers: []
   highlight: 0
 
@@ -276,7 +280,7 @@
   joined: "2022"
   number_educ: 2
   education1: "B.Sc. in Biology, The University of Bonn"
-  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus-Liebig-Universität Giessen"
+  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus Liebig University of Giessen"
   papers: []
   highlight: 0
 
@@ -293,7 +297,7 @@
   joined: "2023"
   number_educ: 2
   education1: "B.Sc. in Chemical Engineering, Universidad de America, Colombia"
-  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus Liebig University Giessen"
+  education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus Liebig University of Giessen"
   papers:
         - title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
           journal: "RSC Advances, 2026, 16, 9834-9850"
@@ -363,8 +367,8 @@
   project_title: "Biosynthesis of bicyclic peptides with antibiotic properties"
   joined: "2025"
   number_educ: 2
-  education1: "B.Sc. in Biology, Justus-Liebig-Universität Giessen"
-  education2: "M.Sc. in Molecular Biology, Justus-Liebig-Universität Giessen"
+  education1: "B.Sc. in Biology, Justus Liebig University of Giessen"
+  education2: "M.Sc. in Molecular Biology, Justus Liebig University of Giessen"
   papers: []
   highlight: 0
 
