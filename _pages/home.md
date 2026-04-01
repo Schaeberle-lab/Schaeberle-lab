@@ -16,43 +16,44 @@ In our group, one focus of the search for new natural products is on bacterial s
 
 The natural product group has two branches that work hand in hand – the University and the Fraunhofer people. Together we are running a discovery pipeline and are happy and motivated to offer our expertise for challenging new research projects.
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
+Usa exactamente esta estructura:
 
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_1.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_2.jpeg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_3.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_4.JPG" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_5.jpg" alt="Slide 5" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Till_6.jpg" alt="Slide 6" />
-        </div>
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+    <li data-target="#carousel" data-slide-to="3"></li>
+    <li data-target="#carousel" data-slide-to="4"></li>
+    <li data-target="#carousel" data-slide-to="5"></li>
+  </ol>
+
+  <div class="carousel-inner" markdown="0">
+    <div class="item active">
+      <img src="{{ '/images/slider7001400/Till_1.jpg' | relative_url }}" alt="Slide 1">
     </div>
+    <div class="item">
+      <img src="{{ '/images/slider7001400/Till_2.jpeg' | relative_url }}" alt="Slide 2">
+    </div>
+    <div class="item">
+      <img src="{{ '/images/slider7001400/Till_3.jpg' | relative_url }}" alt="Slide 3">
+    </div>
+    <div class="item">
+      <img src="{{ '/images/slider7001400/Till_4.JPG' | relative_url }}" alt="Slide 4">
+    </div>
+    <div class="item">
+      <img src="{{ '/images/slider7001400/Till_5.jpg' | relative_url }}" alt="Slide 5">
+    </div>
+    <div class="item">
+      <img src="{{ '/images/slider7001400/Till_6.jpg' | relative_url }}" alt="Slide 6">
+    </div>
+  </div>
+
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
+
   <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
