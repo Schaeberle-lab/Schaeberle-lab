@@ -540,7 +540,7 @@ h2 {
     </ul>
     {% endif %}
     {% if member.papers and member.papers.size > 0 %}
-    <p><strong>Selected papers</strong></p>
+    <p><strong>Papers</strong></p>
     <ul>
     {% for paper in member.papers %}
     <li>
