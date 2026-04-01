@@ -11,7 +11,7 @@ email: schaberlelab@gmail.com
 description: Website of the Schäberle Lab.
 
 url: "https://schaeberle-lab.github.io"
-baseurl: "Schaeberle-lab "
+baseurl: ""
 
 include:
   - .htaccess
