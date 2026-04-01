@@ -51,6 +51,13 @@ firstp {
 #newsid p {
   text-align: left;
 }
+main p,
+main li,
+main figcaption {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 
 #homeidtmp h1 {
   text-align: center;
@@ -180,6 +187,9 @@ firstp {
     margin-right: 16px;
   }
 }
+
+
+
 
 @media (max-width: 780px) {
   .container,
