@@ -221,8 +221,9 @@
   education1: "B.Sc. in Biotechnology, Hochschule Mannheim"
   education2: "M.Sc. in Agrobiotechnology, Justus Liebig University Giessen"
   papers:
-    - "Untargeted LC-HRMS-based Metabolomic and Antibacterial Potential of Sargassum duplicatum against Multidrug-Resistant Bacteria"
-    - "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
+        - title: "Exploring the anti-biofilm effect of darobactin B and colistin in static and dynamic environments"
+          journal: "Microbiology Spectrum, 2026, 14, e02868-25."
+          url: "https://doi.org/10.1128/spectrum.02868-25"
   highlight: 0
 
 - name: M.Sc. Pascal-Marcel Geisler
