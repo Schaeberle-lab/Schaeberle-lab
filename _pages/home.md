@@ -51,7 +51,7 @@ The natural product group has two branches that work hand in hand – the Univer
 </div>
 
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
+**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://schaeberle-lab.github.io/vacancies)**!**
 
 
 
