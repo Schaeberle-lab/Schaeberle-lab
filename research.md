@@ -76,7 +76,7 @@ Beyond antibacterials, we investigate natural products active against:
 Our research is funded by the **German Research Foundation (DFG)**, **DZIF** (German Centre for Infection Research), **BMBF**, and the **Fraunhofer Society**. We maintain active collaborations with groups at the University of Leeds, UCLouvain, MIT, Northeastern University (Boston), Max Planck Institute for Plant Breeding Research, and partner universities in Indonesia, Peru, and Tunisia.
 
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_dzif.png" style="width:90px; margin-right:20px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_fraunhofer.png" style="width:120px; margin-right:20px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_dfg.png" style="width:90px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_dzif.jpg" style="width:90px; margin-right:20px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_fraunhofer.jpg" style="width:120px; margin-right:20px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_dfg.jpg" style="width:90px">
 </figure>
