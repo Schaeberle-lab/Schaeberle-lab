@@ -16,8 +16,6 @@ In our group, one focus of the search for new natural products is on bacterial s
 
 The natural product group has two branches that work hand in hand – the University and the Fraunhofer people. Together we are running a discovery pipeline and are happy and motivated to offer our expertise for challenging new research projects.
 
-Usa exactamente esta estructura:
-
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
