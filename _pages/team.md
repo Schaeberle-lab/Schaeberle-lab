@@ -539,6 +539,21 @@ h2 {
       {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
     </ul>
     {% endif %}
+    {% if member.papers and member.papers.size > 0 %}
+    <p><strong>Selected papers</strong></p>
+    <ul>
+    {% for paper in member.papers %}
+    <li>
+      {% if paper.url %}
+        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>
+      {% else %}
+        {{ paper.title }}
+      {% endif %}
+      {% if paper.journal %}<br><em>{{ paper.journal }}</em>{% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </div>
 {% unless forloop.last %}
