@@ -99,20 +99,13 @@ firstp {
   overflow: hidden;
 }
 .master-grid {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
   justify-content: start;
   gap: 16px;
 }
 
 .master-card {
-  padding: 12px;
-}
-
-.master-photo {
-  width: 140px;
-  height: 180px;
-  object-fit: cover;
-  margin: 0 auto 8px auto;
+  padding: 10px;
 }
 
 
