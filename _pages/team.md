@@ -667,19 +667,57 @@ h2 {
 
 ## Administration
 
-<div class="team-grid">
 {% for member in admin %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
-<div class="team-card">
-  {% if member.photo %}
-  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
-  {% endif %}
-  <h4>{{ member.name }}</h4>
-  <div class="team-role">{{ member.info }}</div>
-  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
+<div class="member-row">
+  <div class="member-photo-block">
+    {% if member.photo %}
+    <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+  </div>
+
+  <div class="member-info">
+    <h4>{{ member.name }}</h4>
+
+    <div class="team-role">{{ member.info }}</div>
+
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
+
+    {% if member.joined %}
+    <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
+    {% endif %}
+
+    {% if member.description %}
+    <p>{{ member.description }}</p>
+    {% endif %}
+
+    {% if member.project_title %}
+    <p><strong>Project:</strong> {{ member.project_title }}</p>
+    {% endif %}
+
+    {% if member.role_in_group %}
+    <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
+    {% endif %}
+
+    {% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+    <p><strong>Education</strong></p>
+    <ul>
+      {% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
+      {% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
+      {% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
+      {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
+      {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
+    </ul>
+    {% endif %}
+
+  </div>
 </div>
+{% unless forloop.last %}
+<hr class="member-divider">
+{% endunless %}
 {% endfor %}
-</div>
 
 ## Alumni
 
