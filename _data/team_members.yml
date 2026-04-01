@@ -165,10 +165,9 @@
   project_title: " "
   joined: "2025"
   role_in_group: "Chemistry"
-  number_educ: 3
-  education1: "B.Sc. in Chemistry, University of Bath, UK"
-  education2: "M.Sc. in Chemistry, University of Bath, UK"
-  education3: "Ph.D. in Chemistry, The University of Edinburgh, UK"
+  number_educ: 2
+  education1: "MChem, University of Bath, UK"
+  education2: "Ph.D. in Chemistry, The University of Edinburgh, UK"
   highlight: 0
 
 - name: Dr. Celine Mara Zumkeller
