@@ -67,6 +67,7 @@ The natural product group has two branches that work hand in hand – the Univer
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_fraunhofer.jpg" style="width: 150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_JLU.jpg" style="width: 150px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_dzif.jpg" style="width: 150px">
 
 </figure>
