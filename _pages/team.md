@@ -563,21 +563,91 @@ h2 {
 
 ## Project Scientists
 
-<div class="team-grid">
 {% for member in project_scientists %}
 {% assign photo_path = '/images/teampic/' | append: member.photo %}
-<div class="team-card">
-  {% if member.photo %}
-  <img class="team-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
-  {% endif %}
-  <h4>{{ member.name }}</h4>
-  <div class="team-role">{{ member.info }}</div>
-  {% if member.joined %}<div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>{% endif %}
-  {% if member.description %}<p>{{ member.description }}</p>{% endif %}
-  {% if member.project_title %}<p><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
+<div class="member-row">
+  <div class="member-photo-block">
+    {% if member.photo %}
+    <img class="member-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
+    {% endif %}
+
+    {% if member.orcid or member.researchgate or member.linkedin %}
+    <div class="member-links icons">
+      {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+      {% endif %}
+      {% if member.researchgate %}
+      <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="member-info">
+    <h4>{{ member.name }}</h4>
+
+    <div class="team-role">{{ member.info }}</div>
+
+    {% if member.email %}
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    {% endif %}
+
+    {% if member.joined %}
+    <div class="team-meta"><strong>Joined:</strong> {{ member.joined }}</div>
+    {% endif %}
+
+    {% if member.description %}
+    <p>{{ member.description }}</p>
+    {% endif %}
+
+    {% if member.project_title %}
+    <p><strong>Project:</strong> {{ member.project_title }}</p>
+    {% endif %}
+
+    {% if member.role_in_group %}
+    <p><strong>Role in group:</strong> {{ member.role_in_group }}</p>
+    {% endif %}
+
+    {% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+    <p><strong>Education</strong></p>
+    <ul>
+      {% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
+      {% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
+      {% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
+      {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
+      {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
+    </ul>
+    {% endif %}
+    {% if member.papers and member.papers.size > 0 %}
+    <p><strong>Papers</strong></p>
+    <ul>
+    {% for paper in member.papers %}
+    <li>
+      {% if paper.url %}
+        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>
+      {% else %}
+        {{ paper.title }}
+      {% endif %}
+      {% if paper.journal %}<br><em>{{ paper.journal }}</em>{% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </div>
+{% unless forloop.last %}
+<hr class="member-divider">
+{% endunless %}
 {% endfor %}
-</div>
 
 ## Master Students
 
