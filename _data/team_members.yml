@@ -241,9 +241,9 @@
   education1: "B.Sc. in Chemistry, Justus-Liebig-Universität Giessen"
   education2: "M.Sc. in Chemistry, Justus-Liebig-Universität Giessen"
   papers:
-      - title: "Microfluidic process-property correlations of dsRNA lipid nanoparticle formulations"
-      journal: "Scientific Reports, 2026, 16, 9653"
-      url: "https://doi.org/10.1038/s41598-026-44095-2"
+        - title: "Microfluidic process-property correlations of dsRNA lipid nanoparticle formulations"
+          journal: "Scientific Reports, 2026, 16, 9653"
+          url: "https://doi.org/10.1038/s41598-026-44095-2"
   highlight: 0
   
 - name: M.Sc. Felix Mühlemeyer
@@ -295,9 +295,9 @@
   education1: "B.Sc. in Chemical Engineering, Universidad de America, Colombia"
   education2: "M.Sc. in Insect Biotechnology and Bioresources, Justus Liebig University Giessen"
   papers:
-      - title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
-      journal: "RSC Advances, 2026, 16, 9834-9850"
-      url: "https://doi.org/10.1039/D5RA09904H"
+        - title: "Mechanistic profiling and optimized production of Altenusin, a fungal carboxy-biphenyl scaffold for tyrosinase inhibition"
+          journal: "RSC Advances, 2026, 16, 9834-9850"
+          url: "https://doi.org/10.1039/D5RA09904H"
   highlight: 0
 
 - name: M.Sc. Xufan Lian
