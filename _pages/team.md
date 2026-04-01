@@ -653,14 +653,9 @@ h2 {
 
 <div class="team-grid master-grid">
 {% for member in masters %}
-{% assign photo_path = '/images/teampic/' | append: member.photo %}
 <div class="team-card master-card">
-  {% if member.photo %}
-  <img class="team-photo master-photo" src="{{ photo_path | relative_url }}" alt="{{ member.name }}" onerror="this.style.display='none';">
-  {% endif %}
   <h4>{{ member.name }}</h4>
   <div class="team-role">{{ member.info }}</div>
-  {% if member.project_title %}<p><strong>Project:</strong> {{ member.project_title }}</p>{% endif %}
 </div>
 {% endfor %}
 </div>
